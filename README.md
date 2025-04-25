@@ -260,15 +260,17 @@ En conclusión, mediante el análisis con las 5W's y 2H's, se ha identificado cl
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-En GloveTalk, reconocemos que en el Perú existe una importante población con discapacidad auditiva y del habla, para quienes la comunicación representa una barrera significativa en su vida diaria, limitando su integración social, educativa y laboral.
+En GloveTalk somos conscientes de que en el Perú existe una considerable población con dificultades auditivas y del habla, para quienes la comunicación es un desafío constante que afecta negativamente su desarrollo social, educativo y profesional.
 
 **Problema:**
 
-Muchas personas con discapacidad auditiva o del habla enfrentan dificultades en su comunicación diaria debido a que el entorno social generalmente no domina la lengua de señas, lo que ocasiona exclusión social, aislamiento y dificultades en el aprendizaje.
+Una gran cantidad de personas con discapacidad auditiva o del habla enfrentan limitaciones frecuentes en su comunicación cotidiana debido a que la mayoría de las personas en su entorno desconoce o no maneja adecuadamente la lengua de señas. Esta situación suele provocar aislamiento, exclusión social y dificultades en su proceso de aprendizaje.
 
-**Impacto:** 
+**Impacto:**
 
-Esta solución genera un impacto social altamente positivo al facilitar la inclusión social, educativa y laboral, permitiendo que las personas con discapacidad auditiva y del habla puedan comunicarse de manera efectiva y autónoma en diversos contextos.
+Nuestra propuesta genera un impacto social significativo al promover la integración social, educativa y laboral. De esta manera, permite que las personas con discapacidad auditiva y del habla se comuniquen con mayor autonomía y eficacia en diferentes ámbitos.
+
+
 #### 1.2.2.2. Lean UX Assumptions
 
 #### 1.2.2.3. Lean UX Hypothesis Statements

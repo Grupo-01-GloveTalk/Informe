@@ -273,6 +273,94 @@ Nuestra propuesta genera un impacto social significativo al promover la integrac
 
 #### 1.2.2.2. Lean UX Assumptions
 
+###### Bussiness Outcomes:
+
+- Mejora del 40% en la capacidad de comunicación de los usuarios durante sus actividades diarias.
+
+
+- Disminución del 50% en el tiempo necesario para lograr una comunicación efectiva en ambientes laborales y educativos.
+
+
+- Incremento del 30% en la integración laboral de personas con discapacidad auditiva y del habla en instituciones que adopten el uso de GloveTalk.
+
+
+- Reducción del 40% en la necesidad de intérpretes especializados en situaciones comunes.
+
+
+- Aumento del 60% en el nivel de satisfacción de los usuarios en sus interacciones sociales.
+
+
+
+###### Users:
+
+- Individuos con discapacidad auditiva o del habla.
+
+- Familiares y personas a cargo de su cuidado.
+
+- Escuelas e instituciones educativas especializadas.
+
+- Centros de salud y rehabilitación.
+
+###### User Outcomes & Benefits
+
+- Para las personas con discapacidad auditiva o del habla: mayor independencia para comunicarse, inclusión efectiva en la sociedad y acceso ampliado a oportunidades educativas y de empleo.
+
+- Para centros educativos y de salud: disponibilidad de una herramienta tecnológica útil para mejorar procesos de enseñanza, comunicación y terapia.
+
+###### Feature Assumptions:
+
+- Capacidad de traducir lenguaje de señas en tiempo real a voz.
+
+- Interfaz de uso amigable y accesible para todos.
+
+- Herramientas adicionales como registro y análisis de datos para seguir el progreso en la comunicación.
+
+- Alertas inteligentes que informan sobre la claridad y precisión de la traducción.
+
+###### Business Assumptions:
+
+Asumimos que nuestros usuarios requieren una solución tecnológica avanzada que les permita comunicarse de forma efectiva y autónoma en diferentes contextos, como el hogar, el trabajo o el estudio.
+
+Nuestros clientes serán principalmente personas con discapacidad auditiva o del habla, sus familias y centros educativos o de salud interesados en fomentar la inclusión.
+
+El principal valor que ofrecemos es la posibilidad de comunicarse sin barreras, promoviendo la autonomía.
+
+Planeamos atraer a nuestros clientes mediante campañas en plataformas digitales, alianzas estratégicas con instituciones educativas y centros de rehabilitación, y presencia en eventos de inclusión social.
+
+Obtendremos ingresos a través de la venta directa del dispositivo y planes de suscripción para soporte técnico y mantenimiento.
+
+Nuestra propuesta se diferencia por su precisión en la traducción del lenguaje de señas, su facilidad de uso y el soporte permanente.
+
+El mayor desafío será la aceptación inicial del producto; esto se abordará mediante demostraciones reales, historias de éxito y atención personalizada constante.
+
+###### User Assumptions:
+
+¿Quién utiliza el producto? 
+
+Las personas con discapacidad auditiva o del habla, así como centros educativos y de rehabilitación.
+
+¿Qué problema resuelve? 
+
+Elimina las barreras de comunicación entre quienes usan lenguaje de señas y quienes no lo conocen.
+
+¿Qué características son fundamentales? 
+
+Precisión en tiempo real, interfaz sencilla, facilidad de transporte, alertas de precisión en movimientos y soporte técnico.
+
+¿Cómo se integra el producto en su vida diaria? 
+
+Se adapta fácilmente a cualquier entorno en donde se requiera comunicarse de manera fluida, ya sea en casa, el trabajo o el aula.
+
+¿Cuándo y cómo se utiliza? 
+
+Su uso será frecuente durante interacciones sociales, laborales o educativas.
+
+¿Cómo debe ser el diseño del producto? 
+
+Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida, siendo además liviano y fácil de llevar.
+
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### 1.2.2.4. Lean UX Canvas

@@ -28,8 +28,8 @@
             <td>u202317002</td>
         </tr>
         <tr>
-            <td></td>
-            <td> </td>
+            <td>Salazar Saldarriaga, Frank Junior</td>
+            <td>U20181H103</td>
         </tr>
         <tr>
             <td></td>

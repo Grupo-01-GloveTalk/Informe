@@ -99,28 +99,37 @@
     - [3.2. User Stories](#32-user-stories)
     - [3.3. Impact Mapping](#33-impact-mapping)
     - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-        - [4.1.1. EventStorming](#411-eventstorming)
-            - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-            - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-            - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-        - [4.1.2. Context Mapping](#412-context-mapping)
-        - [4.1.3. Software Architecture](#413-software-architecture)
-            - [4.1.3.1. System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-            - [4.1.3.2. Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-            - [4.1.3.3. Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
-            - [4.1.3.4. Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
-    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-        - [4.2.X. Bounded Context](#42x-bounded-context-bounded-context-name)
-            - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-            - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-            - [4.2.X.3. Application Layer](#42x3-application-layer)
-            - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-            - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
-            - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
-                - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
-                - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+    - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+        - [4.1.1. Design Purpose](#411-design-purpose)
+        - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+            - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+            - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+            - [4.1.2.3. Constraints](#4123-constraints)
+        - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+        - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+        - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+    - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+        - [4.2.1. EventStorming](#421-eventstorming)
+        - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+        - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+        - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+        - [4.2.5. Context Mapping](#425-context-mapping)
+    - [4.3. Software Architecture](#43-software-architecture)
+        - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+        - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+        - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+        - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+    - [4.4. Tactical-Level Domain-Driven Design](#44-tactical-level-domain-driven-design)
+        - [4.4.X. Bounded Context](#44x-bounded-context-bounded-context-name)
+            - [4.4.X.1. Domain Layer](#44x1-domain-layer)
+            - [4.4.X.2. Interface Layer](#44x2-interface-layer)
+            - [4.4.X.3. Application Layer](#44x3-application-layer)
+            - [4.4.X.4. Infrastructure Layer](#44x4-infrastructure-layer)
+            - [4.4.X.5. Component Level Diagrams](#44x5-component-level-diagrams)
+            - [4.4.X.6. Code Level Diagrams](#44x6-code-level-diagrams)
+                - [4.4.X.6.1. Domain Layer Class Diagrams](#44x61-domain-layer-class-diagrams)
+                - [4.4.X.6.2. Database Design Diagram](#44x62-database-design-diagram)
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
     - [5.1. Style Guidelines](#51-style-guidelines)
         - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
@@ -454,49 +463,67 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 ---
 
-# Capítulo IV: Solution Software Design
+# Capítulo IV: Strategic-Level Software Design
 
-## 4.1. Strategic-Level Domain-Driven Design
+## 4.1. Strategic-Level Attribute-Driven Design
 
-### 4.1.1. EventStorming
+### 4.1.1. Design Purpose
 
-#### 4.1.1.1. Candidate Context Discovery
+### 4.1.2. Attribute-Driven Design Inputs
 
-#### 4.1.1.2. Domain Message Flows Modeling
+#### 4.1.2.1. Primary Functionality (Primary User Stories)
 
-#### 4.1.1.3. Bounded Context Canvases
+#### 4.1.2.2. Quality attribute Scenarios
 
-### 4.1.2. Context Mapping
+#### 4.1.2.3. Constraints
 
-### 4.1.3. Software Architecture
+### 4.1.3. Architectural Drivers Backlog
 
-#### 4.1.3.1. Software Architecture System Landscape Diagram
+### 4.1.4. Architectural Design Decisions
 
-#### 4.1.3.2. Software Architecture Context Level Diagrams
+### 4.1.5. Quality Attribute Scenario Refinements
 
-#### 4.1.3.3. Software Architecture Container Level Diagrams
+## 4.2. Strategic-Level Domain-Driven Design
 
-#### 4.1.3.4. Software Architecture Deployment Diagrams
+### 4.2.1. EventStorming
 
-## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.2. Candidate Context Discovery
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.3. Domain Message Flows Modeling
 
-#### 4.2.X.1. Domain Layer
+### 4.2.4. Bounded Context Canvases
 
-#### 4.2.X.2. Interface Layer
+### 4.2.5. Context Mapping
 
-#### 4.2.X.3. Application Layer
+## 4.3. Software Architecture
 
-#### 4.2.X.4. Infrastructure Layer
+### 4.3.1. Software Architecture System Landscape Diagram
 
-#### 4.2.X.5. Component Level Diagrams
+### 4.3.2. Software Architecture Context Level Diagrams
 
-#### 4.2.X.6. Code Level Diagrams
+### 4.3.3. Software Architecture Container Level Diagrams
 
-##### 4.2.X.6.1. Domain Layer Class Diagrams
+### 4.3.4. Software Architecture Deployment Diagrams
 
-##### 4.2.X.6.2. Database Design Diagram
+## 4.4. Tactical-Level Domain-Driven Design
+
+### 4.4.X. Bounded Context: <Bounded Context Name>
+
+#### 4.4.X.1. Domain Layer
+
+#### 4.4.X.2. Interface Layer
+
+#### 4.4.X.3. Application Layer
+
+#### 4.4.X.4. Infrastructure Layer
+
+#### 4.4.X.5. Component Level Diagrams
+
+#### 4.4.X.6. Code Level Diagrams
+
+##### 4.4.X.6.1. Domain Layer Class Diagrams
+
+##### 4.4.X.6.2. Database Design Diagram
 
 ---
 

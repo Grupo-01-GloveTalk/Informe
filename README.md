@@ -239,6 +239,9 @@
 
 ## 3.3. Impact Mapping
 
+<img src="./assets/scenario-mapping/impact-mapping.png" alt="impact-mapping">
+
+
 ## 3.4. Product Backlog
 
 ---

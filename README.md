@@ -478,6 +478,12 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 ### 2.3.1. User Personas
 
+**SEGMENTO CUIDADORES:**
+/assets/userpersona/CamilaPerez.png
+
+**SEGMENTO EDUCADORES:**
+/assets/userpersona/DiegoFernandez.png
+
 ### 2.3.2. User Task Matrix
 
 | **Tareas Identificadas**                    | **Cuidadores Importancia** | **Cuidadores Frecuencia** | **Educadores Importancia** | **Educadores Frecuencia** |

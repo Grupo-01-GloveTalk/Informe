@@ -497,9 +497,13 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 | Coordinar con instituciones                 | Media                       | Media                      | Alta                        | Alta                       |
 | Recibir capacitación                        | Alta                        | Baja                       | Alta                        | Media                      |
 
-### 2.3.3. User Journey Mapping
-
 ### 2.3.4. Empathy Mapping
+
+**SEGMENTO CUIDADORES**  
+![Empathy Map - Camila](./assets/empathy-mapping/EmpathyMap1.png)
+
+**SEGMENTO EDUCADORES**  
+![Empathy Map - Diego](./assets/empathy-mapping/EmpathyMap2.png)
 
 ### 2.3.5. As-is Scenario Mapping
 

@@ -546,6 +546,48 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 ### 4.2.1. EventStorming
 
+Empleando la metodología de EventStorming con enfoque en la técnica "start-with-simple", realizamos una sesión colaborativa donde identificamos los siguientes contextos candidatos para nuestro sistema GloveTalk:
+
+**Proceso de identificación:**
+
+**Identificación de Valores del Negocio:**  
+   Analizamos los valores clave que nuestro sistema debe proporcionar:
+   - Inclusión efectiva para personas con discapacidad auditiva
+   - Comunicación bidireccional fluida entre personas sordas y oyentes
+   - Autonomía para personas con discapacidad auditiva en diversas situaciones cotidianas
+   - Mejora en oportunidades educativas, sociales y laborales
+
+**Identificación de Funcionalidades Clave:**  
+   Determinamos las capacidades esenciales que el sistema debe ofrecer:
+   - Reconocimiento preciso de gestos en lenguaje de señas
+   - Traducción en tiempo real de señas a voz/texto
+   - Traducción inversa de voz a representación visual para el usuario sordo
+   - Sistema de aprendizaje continuo para mejorar la precisión
+
+1. **Gesture Recognition & Processing**  
+   <img src="./assets/images/cap_4/gesture_recognition.png" alt="Gesture Recognition & Processing">  
+   Este contexto es responsable de capturar y procesar los movimientos de las manos y dedos a través de los sensores del guante, interpretando estos datos para identificar los gestos correspondientes en el lenguaje de señas.
+
+2. **Translation Engine**  
+   <img src="./assets/images/cap_4/translation_engine.png" alt="Translation Engine">  
+   
+   Gestiona la conversión de los gestos reconocidos a palabras o frases en lenguaje hablado, incluyendo el procesamiento de contexto y la interpretación semántica para lograr traducciones precisas y naturales.
+
+3. **User Profile & Learning Management**  
+   <img src="./assets/images/cap_4/user_profile_management.png" alt="User Profile & Learning Management">  
+
+   Maneja la información de los usuarios, sus preferencias de idioma, ajustes de voz y datos de aprendizaje personalizado para mejorar la precisión del reconocimiento de gestos específicos de cada usuario.
+
+4. **Audio Output Management**  
+   <img src="./assets/images/cap_4/audio_management.png" alt="Audio Output Management">  
+
+   Coordina la producción de audio a partir del texto traducido, gestionando aspectos como la entonación, volumen, velocidad y características de la voz sintetizada según las preferencias del usuario.
+
+5. **Usage Analytics**  
+   <img src="./assets/images/cap_4/analytics.png" alt="Usage Analytics">  
+
+   Procesa los datos de uso del sistema para proporcionar información sobre patrones de comunicación, vocabulario frecuente y mejoras en la precisión del reconocimiento, ayudando tanto al usuario como al sistema a optimizar la experiencia.
+
 ### 4.2.2. Candidate Context Discovery
 
 ### 4.2.3. Domain Message Flows Modeling

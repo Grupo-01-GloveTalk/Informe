@@ -19,8 +19,8 @@
             <th style="text-align:center;">Code</th>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>Mendez Rosales, Marco Aurelio</td>
+            <td>u202018273</td>
         </tr>
 	<tr>
             <td>Llacchua Peralta, Joseph Ulysses</td>

@@ -175,9 +175,11 @@
 
 # Student Outcome
 
-| Student Name | Contribution Summary |
-|--------------|----------------------|
-|              |                      |
+|Criterio Especifico| Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                  |
+|-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1:** <br> Frank Salazar: <br> Se trabajó con el equipo la estructura del proyecto para poder delegar funciones en el desarrollo del proyecto y mejorar el trabajo en equipo                                    |  **TB1:** <br> Frank Salazar <br>Se logró desarrollar la primera parte del proyecto, hablando del documentado, de manera satisfactoria, gracias a la correcta delegación de funciones que se realizó.                                                                                                                                         |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**TB1:** <br> Frank Salazar: <br> En trabajo con mis compañeros, pudimos establecer funciones, plazos y reuniones a realizar para el desarrollo del proyecto. |**TB1:** <br> Frank Salazar <br> La correcta delegación del proyecto, junto a las reuniones, plazos y funciones permitieron llevar un orden en el desarrollo del proyecto. |
+
 
 ---
 
@@ -198,6 +200,59 @@ Contribuir a mejorar la comunicación e inclusión social de las personas con di
 Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecnológicas dedicadas a la inclusión social, siendo un referente nacional en la implementación de soluciones inteligentes y accesibles que eliminen barreras comunicativas para personas con discapacidad auditiva y del habla, fomentando así una sociedad más justa, inclusiva e interconectada.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td rowspan="3"><img src="Assets/FrankProfile.png" alt="Descripción" width="800"></td>
+    <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Frank Salazar, tengo 24 años y tengo una gran devoción por la programación, desde los 8 años me gustó programar, iniciando por algoritmos sencillos, hasta la recreación de videojuegos. Hace unos años decidí centrarme mucho en el desarrollo Backend y frontend, pero también le he agarrado mucho gusto a la data science. Actualmente soy programador en Yape, BCP. Soy asistente desde el año pasado, pero comencé como practicando desde agosto del 2023.</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><img src="Assets/.png" alt="Descripción" width="800"></td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Descripción.</td>
+  </tr>
+<tr>
+    <td rowspan="3"><img src="Assets/.png" alt="Descripción" width="800"></td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Descripcion.</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato2</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato 3</td>
+  </tr>
+</table>
 
 ## 1.2. Solution Profile
 

@@ -558,6 +558,22 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 ### 2.2.2. Registro de entrevistas
 
+**Entrevistas a personas con discapacidad auditiva y del habla**
+
+| Nombre de entrevistado  | Isaac Burgos |
+|-----------------|-----------------|
+| Edad   | 22  |
+| Departamento   | Breña, Lima |
+| ![Entrevista GloveTalk Isaac](./assets/interview/Entrevista-GloveTalk-Isaac.png) | La entrevista fue realizada a Isaac burgos, un comerciante de 22 años que nos cuenta el cómo es la vida de su hermano, el cual sufre de la discapacidad del habla. Él nos comenta que pasa por muchas dificultades, ya sean en la escuela o incluso en la comunicación diaria; sin embargo, en cuanto al entorno familiar, han logrado sobrellevarlo y han podido establecer una forma de comunicarse un tanto fluida. Isaac nos comenta que tuvo que aprender lenguaje de señas para poder comunicarse con su hermano, pero que lamentablemente la sociedad no está lista para poder fomentar la inclusión totalitaria para este tipo de personas. Nos menciona que un dispositivo inteligente que facilite la vida diaria a las personas con esta discapacidad ayudaría muchísimo a la sociedad, fomentando la inclusión. |
+| Duracion de entrevista: 0:00 - 5:20 | https://youtu.be/oU4ckNnNtoU |
+
+| Nombre de entrevistado  | Yasmin Diaz |
+|-----------------|-----------------|
+| Edad   | 20  |
+| Departamento   | San martin de porres, Lima |
+| ![Entrevista GloveTalk Yasmin](./assets/interview/Entrevista-GloveTalk-Yasmin.png) | La entrevista fue realizada a Yasmin Diaz, quien es una estudiante de la carrera de Publicidad de la UPC. Nos comenta que ella cuenta con su hermano, el cual cuenta con la discapacidad del habla, pero no de nacimiento, sino esto a causa de una enfermedad. Nos comenta que tuvo que aprender el lenguaje de señas; sin embargo, esto al no ser lo más viable, ya que notoda su familia logró aprenderlo de la mejor manera, tuvieron que comenzar a comunicarse via mensaje de texto, haciendo uso de aplicaciones con whatsapp, facebook o instagram. Nos comenta que a pesar de la discapacidad y clara desventaja en la sociedad, su hermano ha logrado conseguir trabajo en un almacen, pudiendo desempeñar sus actividades de la mejor manera. Nos comenta que le encantaría que existiera una tecnología o dispositivo que permita facilitar la comunicación para estar personas, especialmente en citas, ya sean médicas, de trabajo, etc. |
+| Duracion de entrevista: 0:00 - 6:44 | https://youtu.be/WRmBH8R3Po0 |
+
 **Entrevistas a representantes de Instituciones Educativas**
 
 | Nombre de entrevistado  | Alexis Patazca  |

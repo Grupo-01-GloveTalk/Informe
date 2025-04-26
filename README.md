@@ -243,14 +243,14 @@ Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecno
     <td>Soy un estudiante de la carrera de ingeniería de software que le encanta desarrollar y aprender nuevas tecnologías, sobretodo crear soluciones que puedan ayudar a los demás.</td>
   </tr>
 <tr>
-    <td rowspan="3">Foto</td>
-    <td>Nombre</td>
+    <td rowspan="3"><img src="assets/profile/Anderson-Macedo" alt = "Descripción"width "800"></td>
+    <td>Anderson Walter Macedo Calsina</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
   </tr>
     <tr>
-    <td>Dato 3</td>
+    <td>Soy Anderson Walter Macedo Calsina, tengo 22 años y actualmente estoy estudiando Ingeniería de Software en la UPC. Me gusta colaborar con mis compañeros y contribuir en proyectos conjuntos. Estoy dispuesto a contribuir a mi equipo en el desarrollo del proyecto con los conocimientos que he ido adquiriendo.</td>
   </tr>
 </table>
 

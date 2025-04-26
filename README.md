@@ -1,4 +1,3 @@
-# Project-report
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
@@ -36,8 +35,8 @@
             <td>U202020328</td>
         </tr>
          <tr>
-            <td></td>
-            <td></td>
+            <td>Macedo Calsina, Anderson Walter</td>
+            <td>U20201C179</td>
         </tr>
     </table>
 </div>
@@ -176,9 +175,11 @@
 
 # Student Outcome
 
-| Student Name | Contribution Summary |
-|--------------|----------------------|
-|              |                      |
+|Criterio Especifico| Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                                                                                  |
+|-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1:** <br> Frank Salazar: <br> Se trabajó con el equipo la estructura del proyecto para poder delegar funciones en el desarrollo del proyecto y mejorar el trabajo en equipo <br> Anderson Macedo <br>En esta entrega se trabajo en equipo, realizando las partes del trabajo de forma colaborativa, tuvimos coordinaciones en reuniones para las actividades realizadas. <br> Joseph Llacchua: <br> En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo.|  **TB1:** <br> Se logró desarrollar la primera parte del proyecto, hablando del documentado, de manera satisfactoria, gracias a la correcta delegación de funciones que se realizó.                                                                                                                                      |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**TB1:** <br> Frank Salazar: <br> En trabajo con mis compañeros, pudimos establecer funciones, plazos y reuniones a realizar para el desarrollo del proyecto. <br> Anderson Macedo: En este trabajo, nos pusimos la meta de cumplir con la entrega del trabajo, cada uno puso de su parte para avanzar el proyecto y colaboro de forma activa, por mi parte cumpli con la meta de la finalizacion de esta entrega exitosamente. <br> Joseph Llacchua: <br> Durante esta fase, prioricé la creación de un espacio de trabajo en equipo, integrando diversas perspectivas y fortaleciendo la comunicación. Realizamos una revisión conjunta de la literatura existente, analizamos los segmentos objetivos de manera participativa y exploramos metodologías de resolución de problemas en conjunto. |**TB1:** <br> La correcta delegación del proyecto, junto a las reuniones, plazos y funciones permitieron llevar un orden en el desarrollo del proyecto. |
+
 
 ---
 
@@ -199,6 +200,59 @@ Contribuir a mejorar la comunicación e inclusión social de las personas con di
 Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecnológicas dedicadas a la inclusión social, siendo un referente nacional en la implementación de soluciones inteligentes y accesibles que eliminen barreras comunicativas para personas con discapacidad auditiva y del habla, fomentando así una sociedad más justa, inclusiva e interconectada.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td rowspan="3"><img src="assets/profile/FrankProfile.jpg" alt="Descripción" width="800"></td>
+    <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy Frank Salazar, tengo 24 años y tengo una gran devoción por la programación, desde los 8 años me gustó programar, iniciando por algoritmos sencillos, hasta la recreación de videojuegos. Hace unos años decidí centrarme mucho en el desarrollo Backend y frontend, pero también le he agarrado mucho gusto a la data science. Actualmente soy programador en Yape, BCP. Soy asistente desde el año pasado, pero comencé como practicando desde agosto del 2023.</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><img src="https://media.licdn.com/dms/image/v2/D4E03AQESEoiwSF0wVg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711066191126?e=1750291200&v=beta&t=MjZOYpRFS9wjwe28DYvAkiGW4LOsiI8pupY9ohTLhbM" alt="Descripción" width="800"></td>
+    <td>Joseph Ulysses Llacchua Peralta (u202317002) </td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Soy un estudiante de la carrera de Ingeniería de Software, con experiencia en lenguajes de programación como Java, TypeScript y C#. Soy una persona comprometida con lo que me propongo, puntual, responsable y con habilidades para trabajar en equipo.</td>
+  </tr>
+<tr>
+    <td rowspan="3"><img src="Assets/.png" alt="Descripción" width="800"></td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Descripcion.</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato2</td>
+  </tr>
+<tr>
+    <td rowspan="3">Foto</td>
+    <td>Nombre</td>
+  </tr>
+  <tr>
+        <td>Ingenieria de Software</td>
+  </tr>
+    <tr>
+    <td>Dato 3</td>
+  </tr>
+</table>
 
 ## 1.2. Solution Profile
 
@@ -372,9 +426,55 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Hypothesis Statement 1:**
+
+**Creemos** que las personas con discapacidad auditiva necesitan una solución que traduzca de manera rápida el lenguaje de señas a audio para facilitar su comunicación efectiva.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** el 90% de los usuarios manifieste un aumento en su independencia comunicativa y una mejora clara en sus interacciones sociales.
+
+**Hypothesis Statement 2:**
+
+**Creemos** que las instituciones educativas y los centros de rehabilitación necesitan una herramienta tecnológica que potencie la enseñanza y terapia del lenguaje de señas.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** las instituciones reporten un incremento del 40% en la eficiencia y efectividad de sus programas educativos y terapéuticos.
+
+**Hypothesis Statement 3:**
+
+**Creemos** que los usuarios necesitan recibir alertas y guías visuales que les permitan perfeccionar la precisión de sus movimientos en la traducción.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** el 85% de los usuarios mejore significativamente su comunicación gracias al uso continuo del dispositivo.
+
+**Hypothesis Statement 4:**
+
+**Creemos** que contar con una interfaz accesible y amigable será esencial para la adopción masiva de nuestra solución.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** el 95% de los usuarios realice tareas básicas de manera autónoma y exprese comodidad y satisfacción al utilizar el producto.
+
 #### 1.2.2.4. Lean UX Canvas
 
+![CanvaLeanUx](./assets/LeanUx/Canva.jpg)
+
 ## 1.3. Segmentos objetivo
+
+Según datos del Instituto Nacional de Estadística e Informática (INEI, 2017), en el Perú existen alrededor de 232,000 personas con discapacidad auditiva, enfrentando diariamente desafíos significativos en su comunicación e integración social debido a la falta de herramientas adecuadas para facilitar la interacción efectiva.
+
+Nuestros principales segmentos objetivo son:
+
+**Personas con discapacidad auditiva y del habla:**
+
+Este segmento es clave para nuestra solución, ya que representa a los usuarios directos del dispositivo SmartSign. Estas personas requieren soluciones innovadoras y accesibles que les permitan comunicarse de forma clara y efectiva en cualquier contexto, facilitando su inclusión social, educativa y laboral.
+
+**Instituciones educativas especializadas:**
+
+Las instituciones educativas especializadas constituyen otro segmento objetivo esencial, dado que necesitan herramientas tecnológicas eficientes para mejorar sus procesos educativos. La implementación del dispositivo SmartSign permitirá realizar evaluaciones en tiempo real, facilitar el aprendizaje del lenguaje de señas y mejorar significativamente la comunicación en entornos educativos.
 
 ---
 
@@ -471,6 +571,47 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 
 ### 2.2.2. Registro de entrevistas
+
+**Entrevistas a personas con discapacidad auditiva y del habla**
+
+| Nombre de entrevistado  | Isaac Burgos |
+|-----------------|-----------------|
+| Edad   | 22  |
+| Departamento   | Breña, Lima |
+| ![Entrevista GloveTalk Isaac](./assets/interview/Entrevista-GloveTalk-Isaac.png) | La entrevista fue realizada a Isaac burgos, un comerciante de 22 años que nos cuenta el cómo es la vida de su hermano, el cual sufre de la discapacidad del habla. Él nos comenta que pasa por muchas dificultades, ya sean en la escuela o incluso en la comunicación diaria; sin embargo, en cuanto al entorno familiar, han logrado sobrellevarlo y han podido establecer una forma de comunicarse un tanto fluida. Isaac nos comenta que tuvo que aprender lenguaje de señas para poder comunicarse con su hermano, pero que lamentablemente la sociedad no está lista para poder fomentar la inclusión totalitaria para este tipo de personas. Nos menciona que un dispositivo inteligente que facilite la vida diaria a las personas con esta discapacidad ayudaría muchísimo a la sociedad, fomentando la inclusión. |
+| Duracion de entrevista: 0:00 - 5:20 | https://youtu.be/oU4ckNnNtoU |
+
+| Nombre de entrevistado  | Yasmin Diaz |
+|-----------------|-----------------|
+| Edad   | 20  |
+| Departamento   | San martin de porres, Lima |
+| ![Entrevista GloveTalk Yasmin](./assets/interview/Entrevista-GloveTalk-Yasmin.png) | La entrevista fue realizada a Yasmin Diaz, quien es una estudiante de la carrera de Publicidad de la UPC. Nos comenta que ella cuenta con su hermano, el cual cuenta con la discapacidad del habla, pero no de nacimiento, sino esto a causa de una enfermedad. Nos comenta que tuvo que aprender el lenguaje de señas; sin embargo, esto al no ser lo más viable, ya que notoda su familia logró aprenderlo de la mejor manera, tuvieron que comenzar a comunicarse via mensaje de texto, haciendo uso de aplicaciones con whatsapp, facebook o instagram. Nos comenta que a pesar de la discapacidad y clara desventaja en la sociedad, su hermano ha logrado conseguir trabajo en un almacen, pudiendo desempeñar sus actividades de la mejor manera. Nos comenta que le encantaría que existiera una tecnología o dispositivo que permita facilitar la comunicación para estar personas, especialmente en citas, ya sean médicas, de trabajo, etc. |
+| Duracion de entrevista: 0:00 - 6:44 | https://youtu.be/WRmBH8R3Po0 |
+
+**Entrevistas a representantes de Instituciones Educativas**
+
+| Nombre de entrevistado  | Alexis Patazca  |
+|-----------------|-----------------|
+| Edad   | 26  |
+| Departamento   | Los Olivos, Lima |
+| ![Entrevista GloveTalk Alexis](./assets/interview/Entrevista-GloveTalk-Alexis.png) | El entrevistado es estudiante y tutor en una institucion educativa especializada en dicapacidad auditiva y del habla del estudiante, se encarga del acompañamiento de los estudiantes durante la clase y trata de ayudarlos desde el enfoque pedagogico. El combina el lenguaje de señas con materiales didacticos para reforzar mejor el aprendizaje en clase, usa aplicativos en las clases con vocabularios, videos y otros materiales para que esten en constante aprendizaje. El entrevistado se muestra perceptivo y señala que existe una falta de conocimiento de la sociedad hacia ellos porque existe estereotipos por prte de las personas, ademas en la sociedad hay muchas barreras para los estudiantes con estas capacidades. A ellos les hace falta mas dispositivos tecnologicos y una capacitacion para el docente, cree que los aplicativos y videos son de mucha ayuda para la enseñanza. Dice que una tecnologia que ayude en la comunicacion de los estudiantes con los demas, seria de mucha ayuda y mejoraria la comunicacion en el ambito edicativo, en incluso en lo social.|
+| Duracion de entrevista: 0:00 - 9:10 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EXO7g9TKViBNgRxl5OomyjkBJZ5SOpgnwoCvSU-T1VIdFA?e=iCHRQw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D   |
+
+
+| Nombre de entrevistado  | Andrea Garcia |
+|-----------------|-----------------|
+| Edad   | 25  |
+| Departamento   | San Martin de Porres, Lima |
+| ![Entrevista GloveTalk Andrea](./assets/interview/Entrevista-GloveTalk-Andrea.png) | La entrevistada es docente y coordinadora en una institucion educativa especializada en dicapacidad auditiva. Ellos en la institucion usan materiales visuales y juegos didacticos y apoyo de interpretes de señas, tambien han probado aplicaciones moviles y siente que ha sido una experiencia postiva, pero con sus limitaciones. Siente que las personas desconocen el lenguajes de señas y genera frustacion y limita su participacion social. Señala que la institucion cuenta con recursos tecnologicos como proyectores y tablets, pero no cuentan con herramientas especializadas para los estudiantes. Siente que una herramienta que mejore la comunicacion con los estudiantes seria de mucho apoyo dentro y fuera del aula para que los estudiantes tengan mayor autonomia. |
+| Duracion de entrevista: 0:00 - 6:51 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeTJmt03eVdBrhRXjZcq4-ABwScIHxWxS3r3k4sdbvv-Mw?e=z4nFPY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
+
+
+| Nombre de entrevistado  | Meliza Luque |
+|-----------------|-----------------|
+| Edad   | 24  |
+| Departamento   | Los Olivos, Lima |
+| ![Entrevista GloveTalk Meliza](./assets/interview/Entrevista-GloveTalk-Meliza.png) | Ella es asistente administrativa en una institucion educativa que esta especializada para niños con dificultades auditivas y del habla. Ella se considera un apoyo para los educadores, organiza la parte logistica y gestiona los recursos materiales y ayuda en las clases con los estudiantes cuando es necesario. Señala que utilizan apoyo visual y auditivo, con enseñanza presencial de lenguaje de señas por parte de los educadores. Ellos usan aplicaciones de lenguajes de señas y software educativos, aunque no todas las aplicaciones son intuitivas para los niños y no se adaptan a un ritmo de aprendizaje personalizado. Siente que los estudiantes estan limitados para comunicarse en situaciones cotidianas, ya que dependen de familiares o interpretes para comunicarse de manera efectiva. Cuenta que existe una falta de dispositivos especializados para los estudiantes, cree los estudiantes necesitan una aplicacion personalizadas que los ayude a aprender y mejorar su comunicacion. Espera que un dispositivo para mejorar la comunicacion facilite la comunicacion no solo para los educadores, sino para los padres y otras personas cercanas al estudiante. |
+| Duracion de entrevista: 0:00 - 7:37 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EYY5O9iM9KhDj68r2SrwNrsBcZ_Ky2AyxtRSlGLCyoyaMg?e=Yg54cv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
 
 ### 2.2.3. Análisis de entrevistas
 

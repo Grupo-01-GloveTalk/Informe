@@ -426,6 +426,38 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Hypothesis Statement 1:**
+
+**Creemos** que las personas con discapacidad auditiva necesitan una solución que traduzca de manera rápida el lenguaje de señas a audio para facilitar su comunicación efectiva.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** el 90% de los usuarios manifieste un aumento en su independencia comunicativa y una mejora clara en sus interacciones sociales.
+
+**Hypothesis Statement 2:**
+
+**Creemos** que las instituciones educativas y los centros de rehabilitación necesitan una herramienta tecnológica que potencie la enseñanza y terapia del lenguaje de señas.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** las instituciones reporten un incremento del 40% en la eficiencia y efectividad de sus programas educativos y terapéuticos.
+
+**Hypothesis Statement 3:**
+
+**Creemos** que los usuarios necesitan recibir alertas y guías visuales que les permitan perfeccionar la precisión de sus movimientos en la traducción.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** el 85% de los usuarios mejore significativamente su comunicación gracias al uso continuo del dispositivo.
+
+**Hypothesis Statement 4:**
+
+**Creemos** que contar con una interfaz accesible y amigable será esencial para la adopción masiva de nuestra solución.
+
+**Sabremos** que hemos tenido éxito:
+
+**Cuando** el 95% de los usuarios realice tareas básicas de manera autónoma y exprese comodidad y satisfacción al utilizar el producto.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo

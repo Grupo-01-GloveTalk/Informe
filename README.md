@@ -813,6 +813,15 @@ Además, el diseño se orienta a alcanzar los objetivos de negocio planteados en
 ### 4.1.2. Attribute-Driven Design Inputs
 
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
+| Epic / User Story ID | Título                            | Descripción                                                                                      | Criterios de Aceptación                                                     | Relacionado con (Epic ID) |
+|----------------------|-----------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------|
+| US01                 | Interacción cotidiana accesible   | Como persona con discapacidad auditiva, deseo interactuar sin dificultades con quienes no dominan lengua de señas, para sentirme incluida. | Se detecta la dificultad de comunicarse en contextos sociales diarios.     | EPIC-01                    |
+| US02                 | Claridad al comunicarse en público | Como persona con discapacidad del habla, necesito expresar mis ideas de forma clara en espacios públicos para evitar ser ignorado. | Se muestra la necesidad de comunicar sin trabas en ambientes comunes.      | EPIC-01                    |
+| US06                 | Asistencia efectiva en emergencias | Como persona con discapacidad auditiva, necesito poder solicitar auxilio de forma rápida en situaciones críticas, para sentirme resguardado. | Se destaca la urgencia de contar con medios de comunicación accesibles en emergencias. | EPIC-02                    |
+| US07                 | Comunicación médica accesible     | Como persona con discapacidad auditiva, requiero expresar mis síntomas de manera clara en centros médicos para recibir una atención adecuada. | Se evidencia la barrera de acceso a servicios de salud por falta de comprensión comunicativa. | EPIC-02                    |
+| US10                 | Comprensión docente inmediata      | Como docente, deseo captar rápidamente lo que un estudiante con discapacidad auditiva necesita expresar. | Se necesita una respuesta veloz y precisa a la comunicación del estudiante. | EPIC-03                    |
+| US11                 | Facilitación de participación académica | Como profesor, busco promover la participación equitativa de estudiantes con discapacidad auditiva. | Se enfrenta el reto de asegurar la integración plena en el aula común.     | EPIC-03                    |
+| US14                 | Detección temprana de dudas estudiantiles | Como docente, deseo saber rápidamente si un estudiante con discapacidad auditiva tiene dudas o dificultades. | Se resalta la necesidad de atención oportuna y adaptada en clases.         | EPIC-03                    |
 
 #### 4.1.2.2. Quality attribute Scenarios
 

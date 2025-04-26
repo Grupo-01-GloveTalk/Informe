@@ -880,6 +880,79 @@ Además, el diseño se orienta a alcanzar los objetivos de negocio planteados en
 | C05                  | Despliegue en Plataformas Cloud        | Se alinea bien con servicios gestionados de mensajería en la nube (ej. SQS, Pub/Sub). | La gestión de un gran volumen de eventos puede generar costos. | Facilita el despliegue independiente de servicios en contenedores o funciones serverless en la nube. | -                                                             |
 
 ### 4.1.5. Quality Attribute Scenario Refinements
+**Scenario Refinement for Scenario 1**
+
+| Scenario(s)                 | QA-P01 (Performance) |
+|------------------------------|----------------------|
+| Business Goals               | Mejorar la capacidad de comunicación de los usuarios, Disminuir el tiempo para lograr comunicación efectiva. |
+| Relevant Quality Attributes  | Performance, Latencia |
+| Stimulus                     | Un usuario realiza una seña utilizando el guante. |
+| Component        | Descripción |
+|------------------|-------------|
+| Stimulus Source  | Usuario (persona con discapacidad auditiva) |
+| Environment      | Durante una conversación en tiempo real en un entorno potencialmente ruidoso o con distracciones. |
+| Artifact (if Known) | Sistema GloveTalk (módulo de captura del guante, módulo de procesamiento/traducción, módulo de salida de audio). |
+| Response         | El sistema detecta, interpreta y traduce la seña a audio, reproduciéndolo instantáneamente. |
+| Response Measure | Tiempo transcurrido desde que finaliza la seña hasta que inicia la reproducción del audio (Latencia en milisegundos, valor objetivo a definir). |
+
+**Questions**:
+- ¿Cuál es la máxima latencia aceptable para una conversación fluida?
+- ¿Cómo afecta la variabilidad de la red inalámbrica entre el guante y el dispositivo de procesamiento a la latencia?
+- ¿El procesamiento en el guante (Edge Computing) puede reducir significativamente la latencia antes de enviar datos a la nube?
+
+**Issues**:
+- Asegurar una comunicación de baja latencia entre el guante y el módulo de procesamiento.
+- Optimizar los modelos de Deep Learning para una inferencia rápida.
+- Minimizar el tiempo de síntesis y reproducción de audio.
+
+**Scenario Refinement for Scenario 2**
+
+| Scenario(s)                 | QA-R02 (Reliability) |
+|------------------------------|----------------------|
+| Business Goals               | Promover la autonomía comunicativa, Facilitar la inclusión efectiva en la sociedad. |
+| Relevant Quality Attributes  | Reliability, Precisión, Robustez |
+| Stimulus                     | Un usuario realiza una seña poco común, con variaciones personales o en un contexto ambiguo. |
+| Component        | Descripción |
+|------------------|-------------|
+| Stimulus Source  | Usuario (persona con discapacidad auditiva/del habla) |
+| Environment      | Uso cotidiano del guante en diversas interacciones y con diferentes interlocutores. |
+| Artifact (if Known) | Motor de traducción (modelo de Deep Learning, lógica de interpretación de contexto). |
+| Response         | El sistema interpreta la seña con la mayor precisión posible. Si la confianza en la traducción es baja, el sistema indica la posible ambigüedad o solicita aclaración al usuario. |
+| Response Measure | Porcentaje de señas correctamente interpretadas sobre el total de señas realizadas. Frecuencia de indicaciones de baja confianza o solicitud de aclaración. |
+
+**Questions**:
+- ¿Cómo se entrenará el modelo para reconocer variaciones en el lenguaje de señas peruana?
+- ¿Se puede incorporar feedback del usuario para refinar el modelo continuamente?
+- ¿Cómo se manejarán las señas que dependen del contexto facial o corporal que el guante no captura?
+
+**Issues**:
+- Desarrollar un modelo de Deep Learning robusto y adaptable a variaciones.
+- Implementar un mecanismo efectivo para manejar ambigüedades y solicitar corrección o aclaración al usuario.
+  
+**Scenario Refinement for Scenario 3**
+
+| Scenario(s)                 | QA-R01 (Reliability) |
+|------------------------------|----------------------|
+| Business Goals               | Asegurar la comunicación en situaciones críticas (emergencias), Proporcionar autonomía sin intérpretes externos. |
+| Relevant Quality Attributes  | Reliability, Disponibilidad, Tolerancia a Fallos |
+| Stimulus                     | La conexión inalámbrica entre el guante y el dispositivo de procesamiento se vuelve intermitente o se pierde temporalmente. |
+| Component        | Descripción |
+|------------------|-------------|
+| Stimulus Source  | Entorno (condiciones de red inalámbrica, interferencias) |
+| Environment      | Usuario utilizando el guante en áreas con cobertura de red inestable o con fuentes de interferencia. |
+| Artifact (if Known) | Módulo de comunicación del guante, módulo de comunicación del dispositivo receptor, lógica de reintento/sincronización. |
+| Response         | El sistema detecta la interrupción, intenta restablecer la conexión automáticamente y minimiza la pérdida de datos o progreso de la traducción durante la interrupción. Notifica al usuario si la conexión no se puede restablecer. |
+| Response Measure | Porcentaje de sesiones de comunicación interrumpidas irreversiblemente. Tiempo que tarda el sistema en detectar y notificar una pérdida de conexión. Cantidad de datos de señas perdidos durante interrupciones breves. |
+
+**Questions**:
+- ¿Qué protocolo de comunicación se utilizará entre el guante y el dispositivo receptor para maximizar la robustez ante interferencias?
+- ¿Se implementará algún tipo de almacenamiento temporal de señas en el guante durante breves pérdidas de conexión?
+- ¿Cómo se diferenciará una pérdida de conexión temporal de un fallo total del dispositivo?
+
+**Issues**:
+- Diseñar un protocolo de comunicación inalámbrica fiable.
+- Implementar mecanismos de detección rápida de fallos y reintento de conexión.
+- Definir estrategias de resiliencia para minimizar la pérdida de datos.
 
 ## 4.2. Strategic-Level Domain-Driven Design
 

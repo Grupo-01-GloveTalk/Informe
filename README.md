@@ -223,14 +223,14 @@ Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecno
     <td>Soy un estudiante de la carrera de Ingeniería de Software, con experiencia en lenguajes de programación como Java, TypeScript y C#. Soy una persona comprometida con lo que me propongo, puntual, responsable y con habilidades para trabajar en equipo.</td>
   </tr>
 <tr>
-    <td rowspan="3"><img src="Assets/.png" alt="Descripción" width="800"></td>
-    <td>Nombre</td>
+    <td rowspan="3"><img src="assets/alvaroprofile.png" alt="Descripción" width="800"></td>
+    <td>Alvaro Esteban Crispin Ccancce (u202020328)</td>
   </tr>
   <tr>
         <td>Ingenieria de Software</td>
   </tr>
     <tr>
-    <td>Descripcion.</td>
+    <td>Soy Alvaro Crispin, tengo 22 años y me encanta ser innovador, buscar nuevas ideas, crear soluciones y asumir retos. Desde pequeño me interesó mucho lo que son las computadoras a nivel hardware y sobre la ciberseguridad. Actualmente me encanta todo lo relacionado a soldar, crear, programar y manipular artefactos electrónicos como chips, sensores, redes, etc.</td>
   </tr>
 <tr>
     <td rowspan="3">Foto</td>

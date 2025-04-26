@@ -203,7 +203,7 @@ Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecno
 
 <table>
   <tr>
-    <td rowspan="3"><img src="Assets/FrankProfile.png" alt="Descripción" width="800"></td>
+    <td rowspan="3"><img src="assets/profile/FrankProfile.jpg" alt="Descripción" width="800"></td>
     <td>Frank Junior Salazar Saldarriaga (u20181h103)</td>
   </tr>
   <tr>

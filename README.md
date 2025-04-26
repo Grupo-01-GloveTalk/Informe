@@ -622,6 +622,12 @@ Las instituciones educativas especializadas constituyen otro segmento objetivo e
 
 ### 2.2.3. Análisis de entrevistas
 
+**Análisis del segmento de personas con discapacidad auditiva y del habla**
+En este segmento, el 100% de los entrevistados mencionaron que enfrentan grandes dificultades en la comunicación debido a la falta de herramientas tecnológicas adecuadas. Aunque utilizan aplicaciones de mensajería como WhatsApp y Facebook, estas no permiten una comunicación instantánea, especialmente en situaciones formales o urgentes. Todos los entrevistados expresaron la necesidad de dispositivos que faciliten la comunicación en tiempo real, lo cual promovería una mayor inclusión social. Además, el 66,7% destacó que, aunque sus familias aprenden lenguaje de señas, la sociedad aún no está preparada para una inclusión total. Todos coinciden en que una tecnología adaptada sería clave para mejorar la comunicación y autonomía de las personas con discapacidad auditiva y del habla.
+
+**Análisis del segmento de representantes de instituciones educativas especializadas**
+Los entrevistados de este segmento coincidieron en que las herramientas visuales y tecnológicas, como aplicaciones y videos, son esenciales para el aprendizaje de los estudiantes con discapacidad auditiva y del habla. Sin embargo, el 80% señaló que las aplicaciones actuales no son lo suficientemente efectivas ni intuitivas. Todos coincidieron en que se necesita una tecnología especializada para mejorar la comunicación de los estudiantes dentro y fuera del aula. También resaltaron la falta de capacitación docente y la dependencia de intérpretes o familiares para la comunicación, lo que limita la autonomía de los estudiantes. En general, se destacó la necesidad de crear dispositivos adaptados que faciliten la inclusión educativa y social.
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas

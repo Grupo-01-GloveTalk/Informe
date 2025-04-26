@@ -233,7 +233,7 @@ Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecno
     <td>Soy Alvaro Crispin, tengo 22 años y me encanta ser innovador, buscar nuevas ideas, crear soluciones y asumir retos. Desde pequeño me interesó mucho lo que son las computadoras a nivel hardware y sobre la ciberseguridad. Actualmente me encanta todo lo relacionado a soldar, crear, programar y manipular artefactos electrónicos como chips, sensores, redes, etc.</td>
   </tr>
 <tr>
-    <td rowspan="3"><img src=ässets/mendezmarco.png" alt = "Descripción"width "800"> </td>
+    <td rowspan="3"><img src="assets/profile/mendezmarco.png" alt = "Descripción"width "800"> </td>
     <td>Marco Aurelio Mendez Rosales (u202018273)</td>
   </tr>
   <tr>

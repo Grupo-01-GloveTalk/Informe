@@ -460,6 +460,8 @@ Debe presentar una interfaz clara, accesible e intuitiva, con respuesta rápida,
 
 #### 1.2.2.4. Lean UX Canvas
 
+![CanvaLeanUx](./assets/LeanUx/Canva.jpg)
+
 ## 1.3. Segmentos objetivo
 
 ---

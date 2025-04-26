@@ -785,7 +785,7 @@ Las instituciones educativas especializadas constituyen otro segmento objetivo e
 | 20     | US20           | Accesibilidad en eventos institucionales  | Como organización, queremos asegurar que nuestros eventos y talleres sean inclusivos para todos los asistentes.                                  | 2            |
 
 ---
-
+23
 # Capítulo IV: Strategic-Level Software Design
 
 ## 4.1. Strategic-Level Attribute-Driven Design
@@ -872,6 +872,12 @@ Además, el diseño se orienta a alcanzar los objetivos de negocio planteados en
 | C04       | Restricción: Uso de Tecnologías Específicas | Como equipo de desarrollo, debemos utilizar las tecnologías y herramientas especificadas en el enunciado del curso (ej. frameworks, BD, etc.). | Low                          | Medium                                        |
 | C08       | Restricción: Uso de Herramientas Específicas para Artefactos | Como equipo, debemos utilizar las herramientas indicadas por el profesor para la elaboración de diagramas y artefactos (ej. UXPressia, LucidChart). | Low                          | Low                                           |
 ### 4.1.4. Architectural Design Decisions
+| Driver ID            | Título de Driver                       | Pattern 1: Event-Driven Architecture (Pro) | Pattern 1: Event-Driven Architecture (Con) | Pattern 2: Microservices Architecture (Pro) | Pattern 3: Command-Query Responsibility Segregation (CQRS) (Pro) |
+|----------------------|----------------------------------------|--------------------------------------------|--------------------------------------------|---------------------------------------------|---------------------------------------------------------------|
+| US01, US06, QA-P01, C03 | Interacción en Tiempo Real / Emergencias | Facilita la baja latencia y respuesta rápida a eventos (gestos). | Puede aumentar la complejidad en el manejo de flujos de negocio complejos. | Permite escalar componentes de forma independiente para manejar picos de carga en la traducción. | -                                                             |
+| C01                  | Uso de Dispositivo IoT Específico      | Natural para procesar eventos generados por el dispositivo (movimientos de sensores). | Requiere una infraestructura de mensajería robusta. | Permite encapsular la lógica específica del dispositivo en un servicio dedicado. | -                                                             |
+| QA-R01, QA-R02       | Fiabilidad / Precisión de Traducción   | Permite implementar reintentos y manejo de errores basado en eventos fallidos. | La depuración puede ser más compleja debido a la naturaleza asíncrona. | Permite aislar fallos en servicios específicos sin afectar todo el sistema. | -                                                             |
+| C05                  | Despliegue en Plataformas Cloud        | Se alinea bien con servicios gestionados de mensajería en la nube (ej. SQS, Pub/Sub). | La gestión de un gran volumen de eventos puede generar costos. | Facilita el despliegue independiente de servicios en contenedores o funciones serverless en la nube. | -                                                             |
 
 ### 4.1.5. Quality Attribute Scenario Refinements
 

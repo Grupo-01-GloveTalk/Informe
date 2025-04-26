@@ -706,6 +706,24 @@ Las instituciones educativas especializadas constituyen otro segmento objetivo e
 
 ## 3.1. To-Be Scenario Mapping
 
+**SEGMENTO CUIDADORES: To-Be Scenario Mapping**
+
+| Phase                  | Doing (Haciendo)                                                                 | Thinking (Pensando)                                                                 | Feeling (Sintiendo)                                                                |
+|-------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **Inicio del proceso**  | Se pone el guante GloveTalk antes de una interacción comunicativa importante.    | "¿Qué tan fluida y sencilla será nuestra conversación esta vez con GloveTalk?"      | Esperanza, preparación para una comunicación más efectiva.                        |
+| **Interacción diaria**  | Utiliza el guante para traducir señas a voz en tiempo real durante conversaciones. | "¡Esto es mucho más rápido y fácil que antes! Podemos entendernos directamente."   | Alivio, facilidad, conexión mejorada.                                              |
+| **Problemas de comunicación** | Si hay una baja confianza en la traducción, el sistema lo indica y puede repetir o reformular la seña. | "¿El guante entendió bien? Voy a repetir la seña para asegurar una traducción precisa." o "¡Genial que me avise si no entiende!" | Confianza en la herramienta, sensación de apoyo, menor ansiedad.                   |
+| **Resultados**          | Logra una comunicación fluida y autónoma con su hermano en diversas situaciones. | "Podemos comunicarnos sin barreras. Mi hermano tiene más independencia y yo ya no soy el único canal." | Satisfacción, empoderamiento (para ambos), mayor inclusión, menos carga emocional. |
+
+**SEGMENTO EDUCADORES: To-Be Scenario Mapping**
+
+| Phase                  | Doing (Haciendo)                                                                 | Thinking (Pensando)                                                                 | Feeling (Sintiendo)                                                                |
+|-------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| **Inicio del proceso**  | Prepara la clase o la sesión de apoyo teniendo GloveTalk listo para usar con los estudiantes. | "¿Cómo puedo integrar GloveTalk para maximizar la participación y comprensión de este estudiante?" | Motivación, preparación para una enseñanza más inclusiva.                        |
+| **Interacción con estudiantes** | Utiliza GloveTalk en tiempo real para comunicarse con estudiantes con discapacidad auditiva durante actividades. | "Ahora la barrera del idioma de señas no impide que este estudiante participe activamente. ¡La comunicación es directa!" | Satisfacción al ver la participación, facilidad en la interacción, entorno de aula más dinámico. |
+| **Evaluación del aprendizaje** | Utiliza los registros de GloveTalk (si aplica) para monitorear la frecuencia y precisión de las señas del estudiante. | "Los datos me ayudan a ver qué señas o frases necesita practicar más mi estudiante y adaptar mi enseñanza." | Eficiencia en la evaluación, enfoque basado en datos, esperanza en el progreso del estudiante. |
+| **Resultados**          | Los estudiantes con discapacidad auditiva participan más activamente y demuestran un progreso comunicativo acelerado. | "Hemos logrado una mayor inclusión y mis estudiantes están ganando autonomía comunicativa gracias a la tecnología." | Logro profesional, satisfacción por el impacto en los estudiantes, validación de métodos inclusivos. |
+
 ## 3.2. User Stories
 | Story ID   | Título                                   | Descripción                                                                                                                                      | Criterios de Aceptación                                                                        | Relacionado con (Epic ID) |
 |:-----------|:-----------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|---------------------------|

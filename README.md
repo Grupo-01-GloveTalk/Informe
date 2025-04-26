@@ -697,10 +697,46 @@ Empleando la metodología de EventStorming con enfoque en la técnica "start-wit
 ## 4.3. Software Architecture
 
 ### 4.3.1. Software Architecture System Landscape Diagram
+![img.png](assets/img0.png)
+Este diagrama ofrece una visión global de la arquitectura de SmartSign, destacando su interacción con sistemas externos esenciales. La plataforma SmartSign, núcleo del sistema, se encarga de convertir el lenguaje de señas en audio en tiempo real. Para su funcionamiento, se integra con dos componentes externos clave:
 
+- Servicio de Email: Encargado del envío automatizado de notificaciones a usuarios y administradores.
+
+- Plataforma Cloud: Almacena y gestiona los modelos de inteligencia artificial y datos de configuración necesarios para el procesamiento de señas.
+Estos sistemas operan de manera independiente pero coordinada, permitiendo que SmartSign ofrezca una experiencia completa a sus usuarios.
 ### 4.3.2. Software Architecture Context Level Diagrams
+![img.png](assets/img1.png)
+Este nivel detalla los componentes técnicos fundamentales que conforman SmartSign y su flujo de trabajo:
+
+- Dispositivo IoT (Guante Inteligente): Captura los movimientos de las manos y los convierte en señales digitales.
+
+- Aplicación Móvil: Interfaz accesible que permite a usuarios y administradores interactuar con el sistema.
+
+- Backend:
+
+    - API Gateway: Funciona como punto único de entrada para todas las solicitudes.
+
+    - Servicios Especializados: Incluyen autenticación, traducción mediante IA, monitoreo de progreso y gestión de notificaciones.
+
+- Bases de Datos: Almacenan información crítica, como perfiles de usuarios y métricas de rendimiento.
+
+Estos elementos trabajan en conjunto para garantizar un proceso fluido desde la captura de señas hasta la generación de respuestas en audio.
 
 ### 4.3.3. Software Architecture Container Level Diagrams
+![img.png](assets/img.png)
+Este diagrama proporciona una visión detallada de la arquitectura interna de SmartSign, desglosando sus componentes clave en contenedores lógicos. Entre ellos destacan:
+
+- Aplicación móvil: Interfaz principal para usuarios finales.
+
+- Backend (API): Gestiona la comunicación entre sistemas.
+
+- Módulo de reconocimiento de señas: Núcleo de inteligencia artificial que procesa los gestos.
+
+- Base de datos: Almacena información crítica del sistema.
+
+- Dispositivo IoT (guante): Hardware especializado para capturar movimientos.
+
+Adicionalmente, muestra cómo interactúan estos componentes con los actores externos (usuarios, profesores y terapeutas), ilustrando el flujo completo de datos desde la captura de señas hasta la generación de respuestas auditivas en tiempo real. Esta representación permite entender claramente la integración entre hardware, software y servicios para lograr la funcionalidad central del sistema.
 
 ### 4.3.4. Software Architecture Deployment Diagrams
 

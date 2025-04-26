@@ -791,6 +791,24 @@ Las instituciones educativas especializadas constituyen otro segmento objetivo e
 ## 4.1. Strategic-Level Attribute-Driven Design
 
 ### 4.1.1. Design Purpose
+El propósito fundamental del proceso de diseño de la arquitectura de software para **GloveTalk** es crear una solución tecnológica que aborde de manera efectiva la problemática central identificada: 
+
+Las significativas barreras de comunicación que enfrentan las personas con discapacidad auditiva y del habla en el Perú, lo que limita su integración social, educativa y laboral.
+
+- **Personas con discapacidad auditiva y del habla**:  
+  Buscamos proporcionarles una herramienta que facilite la comunicación fluida y autónoma con personas que no dominan el lenguaje de señas, mejorando su independencia y participación en diversos contextos diarios como interacciones sociales, trámites y emergencias.
+
+- **Instituciones educativas especializadas**:  
+  El diseño considera la necesidad de contar con una herramienta tecnológica que potencie la enseñanza y terapia del lenguaje de señas, permitiendo a los educadores evaluar el progreso y mejorar la interacción en el aula.
+
+Desde la perspectiva del negocio, el diseño arquitectónico busca materializar la misión de **TechSign**: 
+
+Contribuir a mejorar la comunicación e inclusión social mediante innovaciones tecnológicas basadas en IoT que traduzcan el lenguaje de señas a audio.
+
+Además, el diseño se orienta a alcanzar los objetivos de negocio planteados en el proceso Lean UX, tales como:
+- Mejora en la capacidad de comunicación de los usuarios.
+- Disminución del tiempo para lograr una comunicación efectiva.
+- Incremento en la integración laboral de las personas con discapacidad auditiva.
 
 ### 4.1.2. Attribute-Driven Design Inputs
 

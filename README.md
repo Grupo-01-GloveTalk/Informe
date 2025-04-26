@@ -243,7 +243,7 @@ Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecno
     <td>Soy un estudiante de la carrera de ingeniería de software que le encanta desarrollar y aprender nuevas tecnologías, sobretodo crear soluciones que puedan ayudar a los demás.</td>
   </tr>
 <tr>
-    <td rowspan="3"><img src="assets/profile/Anderson-Macedo" alt = "Descripción"width "800"></td>
+    <td rowspan="3"><img src="assets/profile/Anderson-Macedo.jpg" alt = "Descripción"width "800"></td>
     <td>Anderson Walter Macedo Calsina</td>
   </tr>
   <tr>

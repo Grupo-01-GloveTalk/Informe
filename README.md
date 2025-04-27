@@ -1155,6 +1155,8 @@ Para comprender mejor cómo interactúan los diferentes contextos y componentes 
    - Se sintetiza el audio según las preferencias configuradas
    - Se reproduce el audio a través del altavoz
 
+![Diagrama de flujo de mensajes: Gesto a Voz](./assets/images/cap_4/message_flow_gesture_to_voice.png)
+
 #### Escenario 2: Voz externa que se traduce a representación visual para el usuario
 
 **Actores principales:**

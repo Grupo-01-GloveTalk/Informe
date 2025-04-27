@@ -1866,9 +1866,12 @@ Se definen los repositorios que permiten la persistencia de datos.
 
 
 #### 4.4.2.5. Component Level Diagrams
+![img.png](assets/learning_landscape.png)
 #### 4.4.2.6. Code Level Diagrams
 ##### 4.4.2.6.1. Domain Layer Class Diagrams
+![img.png](assets/class_learning.png)
 ##### 4.4.2.6.2. Database Design Diagram
+![img.png](assets/bd_learning.png)
 
 ### 4.4.3. Bounded Context: Translation
 #### 4.4.3.1. Domain Layer

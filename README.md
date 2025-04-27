@@ -1093,18 +1093,6 @@ Determinamos las capacidades esenciales que el sistema debe ofrecer:
    - Proporcionar opciones de personalización de voz
    - Manejar interrupciones y prioridades de audio
 
-5. **Usage Analytics**  
-   ![Usage Analytics](./assets/images/cap_4/analytics.png)
-   
-   **Descripción:** Este contexto procesa los datos de uso del sistema para proporcionar información sobre patrones de comunicación, vocabulario frecuente y mejoras en la precisión del reconocimiento, ayudando tanto al usuario como al sistema a optimizar la experiencia.
-   
-   **Responsabilidades:**
-   - Recopilar métricas de uso
-   - Analizar patrones de comunicación
-   - Identificar áreas de mejora
-   - Generar informes de precisión y rendimiento
-   - Proporcionar insights para desarrollo futuro
-   - Contribuir al aprendizaje automático del sistema
 
 ### 4.2.3. Domain Message Flows Modeling
 
@@ -1362,50 +1350,6 @@ Opera como un Service Context que proporciona servicios de audio a otros context
 
 ![Audio Output Management Canvas](./assets/images/cap_4/audio_output_canvas.png)
 
-#### 5. Usage Analytics Canvas
-
-**Propósito:**
-Recopilar, procesar y analizar datos sobre el uso del sistema para mejorar su rendimiento, identificar patrones y proporcionar insights para el desarrollo futuro.
-
-**Clasificación Estratégica:**
-- **Dominio:** Generic - Funcionalidad común en sistemas de software.
-- **Modelo de Negocio:** Supporting - Apoya la mejora continua del producto.
-- **Evolución:** Generic - Utiliza técnicas estándar de análisis de datos.
-
-**Roles del Dominio:**
-Funciona como un Analytical Context que procesa datos para generar información útil.
-
-**Comunicación Entrante:**
-- **De todos los contextos:** Datos de uso, errores, rendimiento y métricas.
-- Mensajes clave: UsageEvent, ErrorReport, PerformanceMetric.
-
-**Comunicación Saliente:**
-- **A User Profile & Learning:** Insights para mejora del sistema.
-- **A equipos de desarrollo:** Reportes y análisis para futuras mejoras.
-- Mensajes clave: AnalyticsReport, ImprovementSuggestion, UsagePattern.
-
-**Lenguaje Ubicuo:**
-- **Métrica:** Medida cuantitativa del rendimiento o uso del sistema.
-- **Patrón de Uso:** Comportamiento recurrente identificado en los datos de uso.
-- **Análisis Predictivo:** Uso de datos históricos para predecir comportamientos futuros.
-
-**Decisiones de Negocio:**
-- Los datos deben ser anonimizados antes de cualquier análisis.
-- El análisis debe enfocarse en mejorar la experiencia del usuario.
-- Los insights deben traducirse en acciones concretas de mejora.
-
-**Suposiciones:**
-- Los datos recopilados serán representativos del uso real del sistema.
-- Los patrones identificados serán útiles para mejorar el sistema.
-- Los usuarios consentirán la recopilación anónima de datos de uso.
-
-**Métricas de Verificación:**
-- Cantidad y calidad de insights generados.
-- Mejoras implementadas basadas en análisis de datos.
-- Precisión de las predicciones realizadas.
-
-![Usage Analytics Canvas](./assets/images/cap_4/usage_analytics_canvas.png)
-
 ### 4.2.5. Context Mapping
 
 El Context Mapping define las relaciones entre los diferentes Bounded Contexts identificados en nuestro sistema GloveTalk. Estas relaciones establecen cómo se comunican e interactúan los contextos, asegurando una integración cohesiva pero manteniendo la independencia necesaria.
@@ -1427,10 +1371,6 @@ Después de analizar detenidamente los cinco bounded contexts (Gesture Recogniti
 **Relación 4: Gesture Recognition & Processing ↔ User Profile & Learning Management**
 - **Patrón: Anti-corruption Layer**
 - **Explicación:** El sistema de reconocimiento de gestos implementa una capa anti-corrupción para proteger su dominio de posibles cambios en el formato o estructura de los datos de usuario. Esto permite que el reconocimiento de gestos se mantenga estable incluso si el manejo de perfiles de usuario cambia.
-
-**Relación 5: Usage Analytics ↔ All Other Contexts**
-- **Patrón: Open Host Service / Published Language**
-- **Explicación:** Usage Analytics proporciona un servicio abierto con una interfaz bien definida que todos los demás contextos pueden utilizar para enviar datos de uso. Utiliza un lenguaje publicado que establece claramente el formato y significado de los datos de análisis.
 
 ## 4.3. Software Architecture
 

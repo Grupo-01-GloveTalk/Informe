@@ -609,7 +609,7 @@ Las instituciones educativas especializadas constituyen otro segmento objetivo e
 |-----------------|-----------------|
 | Edad   | 25  |
 | Departamento   | San Martin de Porres, Lima |
-| ![Entrevista GloveTalk Andrea](./assets/interview/Entrevista-GloveTalk-Andrea.png) | La entrevistada es docente y coordinadora en una institucion educativa especializada en dicapacidad auditiva. Ellos en la institucion usan materiales visuales y juegos didacticos y apoyo de interpretes de señas, tambien han probado aplicaciones moviles y siente que ha sido una experiencia postiva, pero con sus limitaciones. Siente que las personas desconocen el lenguajes de señas y genera frustacion y limita su participacion social. Señala que la institucion cuenta con recursos tecnologicos como proyectores y tablets, pero no cuentan con herramientas especializadas para los estudiantes. Siente que una herramienta que mejore la comunicacion con los estudiantes seria de mucho apoyo dentro y fuera del aula para que los estudiantes tengan mayor autonomia. |
+| ![Entrevista GloveTalk Andrea](./assets/interview/Entrevista-GloveTalk-Andrea.png) | La entrevistada es docente y coordinadora en una institucion educativa especializada en dicapacidad auditiva. Ellos en la institucion usan materiales visuales y juegos didacticos y apoyo de interpretes de señas, tambien han probado aplicaciones moviles y siente que ha sido una experiencia postiva, pero con sus limitaciones. Siente que las personas desconocen el lenguajes de señas y genera frustacion y limita su participacion social. Señala que la institucion cuenta con recursos tecnologicos como proyectores y tablets, pero no cuentan con herramientas especializadas para los estudiantes. Siente que una herramienta que mejore la comunicacion con los estudiantes seria de mucho apoyo dentro y fuera del aula para que los estudiantes tengan mayor autonomia. Espera que un dispositivo para mejorar la comunicacion facilite la comunicacion no solo para los educadores, sino para los padres y otras personas cercanas al estudiante. |
 | Duracion de entrevista: 0:00 - 6:51 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c179_upc_edu_pe/EeTJmt03eVdBrhRXjZcq4-ABwScIHxWxS3r3k4sdbvv-Mw?e=z4nFPY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
 
 
@@ -964,55 +964,473 @@ Además, el diseño se orienta a alcanzar los objetivos de negocio planteados en
 
 ### 4.2.1. EventStorming
 
-Empleando la metodología de EventStorming con enfoque en la técnica "start-with-simple", realizamos una sesión colaborativa donde identificamos los siguientes contextos candidatos para nuestro sistema GloveTalk:
+Para el proceso de EventStorming del proyecto GloveTalk, realizamos una sesión colaborativa donde el equipo identificó los eventos clave, flujos de trabajo y contextos candidatos que formarán parte de nuestra solución IoT. Utilizamos la técnica "start-with-simple" para enfocarnos primero en el valor fundamental del sistema.
 
-**Proceso de identificación:**
+Durante esta sesión, identificamos los eventos principales del sistema, desde la captura de gestos por el guante hasta la generación de voz y su retroalimentación. Estos eventos nos permitieron visualizar el flujo completo de la solución.
 
-**Identificación de Valores del Negocio:**  
-   Analizamos los valores clave que nuestro sistema debe proporcionar:
-   - Inclusión efectiva para personas con discapacidad auditiva
-   - Comunicación bidireccional fluida entre personas sordas y oyentes
-   - Autonomía para personas con discapacidad auditiva en diversas situaciones cotidianas
-   - Mejora en oportunidades educativas, sociales y laborales
+**Step 1: Identificación de Eventos Clave**
 
-**Identificación de Funcionalidades Clave:**  
-   Determinamos las capacidades esenciales que el sistema debe ofrecer:
-   - Reconocimiento preciso de gestos en lenguaje de señas
-   - Traducción en tiempo real de señas a voz/texto
-   - Traducción inversa de voz a representación visual para el usuario sordo
-   - Sistema de aprendizaje continuo para mejorar la precisión
+En esta fase inicial, identificamos los eventos principales que ocurren en el sistema GloveTalk:
 
-1. **Gesture Recognition & Processing**  
-   <img src="./assets/images/cap_4/gesture_recognition.png" alt="Gesture Recognition & Processing">  
-   Este contexto es responsable de capturar y procesar los movimientos de las manos y dedos a través de los sensores del guante, interpretando estos datos para identificar los gestos correspondientes en el lenguaje de señas.
+- GestureCaptured: Los sensores del guante capturan un gesto realizado por el usuario
+- GestureRecognized: El sistema reconoce e identifica correctamente un gesto del lenguaje de señas
+- GestureTranslated: El gesto es traducido a texto/frase correspondiente
+- AudioGenerated: El sistema genera audio a partir del texto traducido
+- ProfileCreated: Se crea un nuevo perfil de usuario
+- ProfileUpdated: Se actualiza un perfil de usuario existente
+- LearningDataCollected: Se recopilan datos para mejorar el aprendizaje del sistema
+- GestureAccuracyImproved: El sistema mejora su precisión basado en datos recopilados
 
-2. **Translation Engine**  
-   <img src="./assets/images/cap_4/translation_engine.png" alt="Translation Engine">  
-   
-   Gestiona la conversión de los gestos reconocidos a palabras o frases en lenguaje hablado, incluyendo el procesamiento de contexto y la interpretación semántica para lograr traducciones precisas y naturales.
+![EventStorming Step 1](./assets/images/cap_4/eventstorming_step1.png)
 
-3. **User Profile & Learning Management**  
-   <img src="./assets/images/cap_4/user_profile_management.png" alt="User Profile & Learning Management">  
+**Step 2: Timelines**
 
-   Maneja la información de los usuarios, sus preferencias de idioma, ajustes de voz y datos de aprendizaje personalizado para mejorar la precisión del reconocimiento de gestos específicos de cada usuario.
+Agrupamos los eventos en secuencias lógicas, identificando los happy paths (flujos exitosos) y unhappy paths (flujos con errores):
 
-4. **Audio Output Management**  
-   <img src="./assets/images/cap_4/audio_management.png" alt="Audio Output Management">  
+**Happy Path:**
+- GestureCaptured → GestureRecognized → GestureTranslated → AudioGenerated
+- VoiceInputCaptured → TextGenerated → VisualFeedbackDisplayed
+- LearningDataCollected → GestureAccuracyImproved → ModelUpdated
 
-   Coordina la producción de audio a partir del texto traducido, gestionando aspectos como la entonación, volumen, velocidad y características de la voz sintetizada según las preferencias del usuario.
+**Unhappy Path:**
+- GestureCaptured → GestureNotRecognized → UserNotified
+- AudioGenerationFailed → ErrorLogged → UserNotified
+- SystemCalibrationFailed → ServiceAlerted
 
-5. **Usage Analytics**  
-   <img src="./assets/images/cap_4/analytics.png" alt="Usage Analytics">  
+![EventStorming Step 2](./assets/images/cap_4/eventstorming_step2.png)
 
-   Procesa los datos de uso del sistema para proporcionar información sobre patrones de comunicación, vocabulario frecuente y mejoras en la precisión del reconocimiento, ayudando tanto al usuario como al sistema a optimizar la experiencia.
+**Step 3: Paint Points**
+
+Identificamos los puntos problemáticos donde los usuarios podrían experimentar dificultades:
+
+- Reconocimiento erróneo de gestos complejos
+- Latencia en la traducción de señas a audio
+- Problemas de calibración inicial del guante para diferentes usuarios
+- Dificultades en la adaptación a dialectos regionales del lenguaje de señas
+
+![EventStorming Step 3](./assets/images/cap_4/eventstorming_step3.png)
+
+**Step 4: Pivotal Points**
+
+Señalamos los puntos críticos que marcan momentos decisivos en el flujo del sistema:
+
+- Primera calibración exitosa del guante para un nuevo usuario
+- Reconocimiento del primer conjunto completo de gestos básicos
+- Primera traducción bidireccional completa (seña a voz y voz a representación visual)
+- Actualización significativa de la precisión del modelo de reconocimiento
+
+![EventStorming Step 4](./assets/images/cap_4/eventstorming_step4.png)
 
 ### 4.2.2. Candidate Context Discovery
 
+Para la identificación de contextos candidatos, empleamos la técnica "start-with-value", comenzando por analizar el valor central que nuestra solución debe proporcionar. Este enfoque nos permitió identificar los siguientes contextos candidatos:
+
+**Identificación de Valores del Negocio:**  
+Analizamos los valores clave que nuestro sistema debe proporcionar:
+- Inclusión efectiva para personas con discapacidad auditiva
+- Comunicación bidireccional fluida entre personas sordas y oyentes
+- Autonomía para personas con discapacidad auditiva en diversas situaciones cotidianas
+- Mejora en oportunidades educativas, sociales y laborales
+
+**Identificación de Funcionalidades Clave:**  
+Determinamos las capacidades esenciales que el sistema debe ofrecer:
+- Reconocimiento preciso de gestos en lenguaje de señas
+- Traducción en tiempo real de señas a voz/texto
+- Traducción inversa de voz a representación visual para el usuario sordo
+- Sistema de aprendizaje continuo para mejorar la precisión
+
+**Contextos Candidatos Identificados:**
+
+1. **Gesture Recognition & Processing**  
+   ![Gesture Recognition & Processing](./assets/images/cap_4/gesture_recognition.png)
+   
+   **Descripción:** Este contexto es responsable de capturar y procesar los movimientos de las manos y dedos a través de los sensores del guante, interpretando estos datos para identificar los gestos correspondientes en el lenguaje de señas.
+   
+   **Responsabilidades:**
+   - Gestionar los sensores del guante (acelerómetros, giroscopios, sensores de flexión)
+   - Procesar datos brutos de los sensores
+   - Normalizar y filtrar señales
+   - Aplicar algoritmos de reconocimiento de patrones
+   - Identificar gestos específicos del lenguaje de señas
+   - Proporcionar feedback sobre la precisión del gesto
+
+2. **Translation Engine**  
+   ![Translation Engine](./assets/images/cap_4/translation_engine.png)
+   
+   **Descripción:** Este contexto gestiona la conversión de los gestos reconocidos a palabras o frases en lenguaje hablado, incluyendo el procesamiento de contexto y la interpretación semántica para lograr traducciones precisas y naturales.
+   
+   **Responsabilidades:**
+   - Convertir gestos identificados en texto comprensible
+   - Aplicar análisis contextual para mejorar la precisión
+   - Manejar la gramática y sintaxis del lenguaje objetivo
+   - Optimizar la fluidez de las traducciones
+   - Gestionar diccionarios de lenguaje de señas
+   - Proporcionar traducciones en tiempo real
+
+3. **User Profile & Learning Management**  
+   ![User Profile & Learning Management](./assets/images/cap_4/user_profile_management.png)
+   
+   **Descripción:** Este contexto maneja la información de los usuarios, sus preferencias de idioma, ajustes de voz y datos de aprendizaje personalizado para mejorar la precisión del reconocimiento de gestos específicos de cada usuario.
+   
+   **Responsabilidades:**
+   - Gestionar perfiles de usuario
+   - Almacenar preferencias de comunicación
+   - Registrar historial de traducciones
+   - Recopilar datos para mejora continua
+   - Personalizar la experiencia según el usuario
+   - Facilitar la adaptación a dialectos regionales
+
+4. **Audio Output Management**  
+   ![Audio Output Management](./assets/images/cap_4/audio_management.png)
+   
+   **Descripción:** Este contexto coordina la producción de audio a partir del texto traducido, gestionando aspectos como la entonación, volumen, velocidad y características de la voz sintetizada según las preferencias del usuario.
+   
+   **Responsabilidades:**
+   - Convertir texto traducido en audio
+   - Ajustar características de voz (género, tono, velocidad)
+   - Gestionar la reproducción de audio
+   - Controlar volumen y calidad de sonido
+   - Proporcionar opciones de personalización de voz
+   - Manejar interrupciones y prioridades de audio
+
+5. **Usage Analytics**  
+   ![Usage Analytics](./assets/images/cap_4/analytics.png)
+   
+   **Descripción:** Este contexto procesa los datos de uso del sistema para proporcionar información sobre patrones de comunicación, vocabulario frecuente y mejoras en la precisión del reconocimiento, ayudando tanto al usuario como al sistema a optimizar la experiencia.
+   
+   **Responsabilidades:**
+   - Recopilar métricas de uso
+   - Analizar patrones de comunicación
+   - Identificar áreas de mejora
+   - Generar informes de precisión y rendimiento
+   - Proporcionar insights para desarrollo futuro
+   - Contribuir al aprendizaje automático del sistema
+
 ### 4.2.3. Domain Message Flows Modeling
+
+Para comprender mejor cómo interactúan los diferentes contextos y componentes de nuestro sistema, modelamos los flujos de mensajes del dominio para escenarios clave:
+
+#### Escenario 1: Usuario realiza un gesto que se traduce a voz
+
+**Actores principales:**
+- Usuario con discapacidad auditiva
+- Guante GloveTalk
+- Sistema de reconocimiento
+- Sistema de traducción
+- Sistema de audio
+
+**Flujo de mensajes:**
+
+1. **Usuario realiza un gesto con el guante GloveTalk**
+   - El usuario mueve sus dedos y mano formando un signo del lenguaje de señas
+   - Los sensores del guante capturan estos movimientos como datos brutos
+
+2. **Captura y procesamiento de datos del gesto**
+   - El guante envía los datos de los sensores (acelerómetros, giroscopios, flexión) al sistema de reconocimiento
+   - El sistema preprocesa estos datos para filtrar ruido y normalizarlos
+
+3. **Reconocimiento del gesto**
+   - El sistema de reconocimiento analiza los patrones de movimiento
+   - Compara con su biblioteca de gestos conocidos
+   - Identifica el gesto específico del lenguaje de señas
+
+4. **Traducción del gesto a texto**
+   - El gesto reconocido se envía al motor de traducción
+   - El sistema traduce el gesto al texto correspondiente
+   - Aplica análisis contextual para mejorar la precisión de la traducción
+
+5. **Generación de voz**
+   - El texto traducido se envía al sistema de audio
+   - Se sintetiza el audio según las preferencias configuradas
+   - Se reproduce el audio a través del altavoz
+
+![Diagrama de flujo de mensajes: Gesto a Voz](./assets/images/cap_4/message_flow_gesture_to_voice.png)
+
+#### Escenario 2: Voz externa que se traduce a representación visual para el usuario
+
+**Actores principales:**
+- Persona oyente
+- Sistema de reconocimiento de voz
+- Sistema de traducción
+- Dispositivo de visualización
+- Usuario con discapacidad auditiva
+
+**Flujo de mensajes:**
+
+1. **Captura de voz**
+   - La persona oyente habla
+   - El micrófono del sistema captura la voz
+   - El audio se digitaliza para su procesamiento
+
+2. **Reconocimiento de voz**
+   - El sistema de reconocimiento de voz procesa el audio
+   - Convierte la voz en texto mediante algoritmos de STT (Speech-to-Text)
+
+3. **Procesamiento de texto**
+   - El texto reconocido se normaliza y corrige si es necesario
+   - Se envía al sistema de traducción
+
+4. **Generación de representación visual**
+   - El sistema traduce el texto a una representación visual adecuada para el usuario sordo
+   - Puede incluir texto, imágenes ilustrativas o animaciones de lenguaje de señas
+
+5. **Visualización para el usuario**
+   - La representación visual se muestra en un dispositivo conectado
+   - El usuario con discapacidad auditiva recibe la información visual
+
+![Diagrama de flujo de mensajes: Voz a Representación Visual](./assets/images/cap_4/message_flow_voice_to_visual.png)
 
 ### 4.2.4. Bounded Context Canvases
 
+Para cada contexto acotado identificado, desarrollamos un canvas detallado que define sus características principales:
+
+#### 1. Gesture Recognition & Processing Canvas
+
+**Propósito:**
+El objetivo principal de este contexto es capturar con precisión los movimientos de las manos y dedos a través de los sensores del guante, procesar estos datos brutos y reconocer los gestos correspondientes en el lenguaje de señas.
+
+**Clasificación Estratégica:**
+- **Dominio:** Core - Este contexto representa una capacidad fundamental y diferenciadora de nuestro producto.
+- **Modelo de Negocio:** Diferenciador - La precisión en el reconocimiento de gestos es un factor clave de competitividad.
+- **Evolución:** Custom Build - Requiere desarrollo específico para nuestras necesidades.
+
+**Roles del Dominio:**
+Este contexto actúa como un Execution Context, donde los sensores capturan datos en tiempo real que son procesados por algoritmos especializados.
+
+**Comunicación Entrante:**
+- **Del Usuario:** Movimientos de manos y dedos capturados por los sensores.
+- **De User Profile & Learning:** Calibraciones personalizadas y ajustes de sensibilidad.
+- Mensajes clave: GesturePerformed, CalibrationRequested, SensitivityAdjusted.
+
+**Comunicación Saliente:**
+- **A Translation Engine:** Gestos reconocidos para su traducción.
+- **A User Profile & Learning:** Datos sobre precisión y patrones de gestos.
+- Mensajes clave: GestureRecognized, RecognitionConfidence, CalibrationCompleted.
+
+**Lenguaje Ubicuo:**
+- **Gesto:** Movimiento específico de la mano que representa un símbolo en el lenguaje de señas.
+- **Calibración:** Proceso de ajuste de los sensores para adaptarse a un usuario específico.
+- **Precisión de Reconocimiento:** Nivel de certeza con que el sistema identifica un gesto.
+
+**Decisiones de Negocio:**
+- Los gestos deben ser reconocidos con una precisión mínima del 95%.
+- El tiempo de respuesta para el reconocimiento debe ser inferior a 500ms.
+- El sistema debe adaptarse a variaciones individuales en la ejecución de los gestos.
+
+**Suposiciones:**
+- Los usuarios realizarán un proceso de calibración inicial.
+- Los movimientos naturales del usuario no interferirán significativamente con el reconocimiento.
+- La batería del dispositivo permitirá una operación continua de al menos 8 horas.
+
+**Métricas de Verificación:**
+- Tasa de reconocimiento correcto de gestos.
+- Tiempo promedio de procesamiento por gesto.
+- Número de falsos positivos/negativos.
+
+![Gesture Recognition & Processing Canvas](./assets/images/cap_4/gesture_recognition_canvas.png)
+
+#### 2. Translation Engine Canvas
+
+**Propósito:**
+Convertir los gestos reconocidos en lenguaje natural (texto/voz) y viceversa, asegurando traducciones precisas, contextuales y naturales.
+
+**Clasificación Estratégica:**
+- **Dominio:** Core - La traducción precisa es esencial para el valor del producto.
+- **Modelo de Negocio:** Diferenciador - La calidad de las traducciones distingue nuestro producto.
+- **Evolución:** Custom Build con componentes Generic - Combinamos algoritmos propios con APIs de procesamiento de lenguaje natural.
+
+**Roles del Dominio:**
+Actúa como un Processing Context que transforma datos entre diferentes representaciones lingüísticas.
+
+**Comunicación Entrante:**
+- **De Gesture Recognition:** Gestos identificados que requieren traducción.
+- **De Audio Input:** Voz capturada que requiere traducción a representación visual.
+- Mensajes clave: GestureToTranslate, SpeechToTranslate, ContextInformation.
+
+**Comunicación Saliente:**
+- **A Audio Output:** Texto traducido para ser convertido en voz.
+- **A Visual Representation:** Texto/símbolos para ser mostrados al usuario sordo.
+- Mensajes clave: TranslatedText, TranslationAccuracy, TranslationCompleted.
+
+**Lenguaje Ubicuo:**
+- **Traducción:** Conversión de un gesto en lenguaje de señas a texto o voz.
+- **Traducción Inversa:** Conversión de voz a texto o representación visual.
+- **Contexto Lingüístico:** Información adicional que ayuda a mejorar la precisión de la traducción.
+
+**Decisiones de Negocio:**
+- Las traducciones deben ser gramaticalmente correctas y naturales.
+- El sistema debe aprender de las correcciones del usuario.
+- Se debe mantener el contexto de la conversación para traducciones más precisas.
+
+**Suposiciones:**
+- Los usuarios utilizarán principalmente frases y oraciones comunes.
+- La traducción inversa puede requerir alguna simplificación para representación visual.
+- El sistema puede requerir conexión a internet para traducciones más complejas.
+
+**Métricas de Verificación:**
+- Precisión gramatical de las traducciones.
+- Tiempo de respuesta para traducciones completas.
+- Satisfacción del usuario con la naturalidad de las traducciones.
+
+![Translation Engine Canvas](./assets/images/cap_4/translation_engine_canvas.png)
+
+#### 3. User Profile & Learning Management Canvas
+
+**Propósito:**
+Gestionar la información personal de los usuarios, sus preferencias, configuraciones y datos de aprendizaje para personalizar y mejorar continuamente la experiencia.
+
+**Clasificación Estratégica:**
+- **Dominio:** Supporting - Apoya las funcionalidades core del sistema.
+- **Modelo de Negocio:** Generic - Funcionalidad común en sistemas personalizados.
+- **Evolución:** Generic con elementos Custom - Combinado con desarrollo a medida para necesidades específicas.
+
+**Roles del Dominio:**
+Funciona como un Supporting Context que mejora la experiencia del usuario y el rendimiento del sistema.
+
+**Comunicación Entrante:**
+- **De todos los contextos:** Datos de uso, precisión y retroalimentación.
+- **Del Usuario:** Preferencias y configuraciones personales.
+- Mensajes clave: UserFeedback, UsageData, PreferencesUpdated.
+
+**Comunicación Saliente:**
+- **A todos los contextos:** Configuraciones personalizadas y datos de aprendizaje.
+- Mensajes clave: UserPreferences, LearningData, ModelUpdateRequired.
+
+**Lenguaje Ubicuo:**
+- **Perfil de Usuario:** Conjunto de preferencias y configuraciones específicas de un usuario.
+- **Datos de Aprendizaje:** Información recopilada para mejorar la precisión del sistema.
+- **Personalización:** Adaptación del sistema a las necesidades específicas del usuario.
+
+**Decisiones de Negocio:**
+- Los datos personales deben ser tratados conforme a las normativas de privacidad.
+- El sistema debe mejorar continuamente basándose en los datos de uso.
+- Las preferencias de usuario deben sincronizarse entre dispositivos.
+
+**Suposiciones:**
+- Los usuarios estarán dispuestos a proporcionar retroalimentación para mejorar el sistema.
+- El aprendizaje automático mejorará significativamente la experiencia del usuario a lo largo del tiempo.
+- Las preferencias de usuario serán relativamente estables después de un periodo inicial.
+
+**Métricas de Verificación:**
+- Mejora en la precisión basada en datos de aprendizaje.
+- Nivel de personalización del sistema por usuario.
+- Tasa de retroalimentación proporcionada por los usuarios.
+
+![User Profile & Learning Management Canvas](./assets/images/cap_4/user_profile_canvas.png)
+
+#### 4. Audio Output Management Canvas
+
+**Propósito:**
+Gestionar la generación y reproducción de audio a partir del texto traducido, con control sobre características como volumen, tono, velocidad y género de la voz.
+
+**Clasificación Estratégica:**
+- **Dominio:** Supporting - Complementa la funcionalidad principal de traducción.
+- **Modelo de Negocio:** Generic - Utiliza tecnologías estándar de síntesis de voz.
+- **Evolución:** Generic - Aprovecha API's y servicios existentes de text-to-speech.
+
+**Roles del Dominio:**
+Opera como un Service Context que proporciona servicios de audio a otros contextos.
+
+**Comunicación Entrante:**
+- **De Translation Engine:** Texto traducido que debe convertirse en audio.
+- **De User Profile:** Preferencias de voz y configuraciones de audio.
+- Mensajes clave: TextToSpeech, VoicePreferences, AudioPriorityLevel.
+
+**Comunicación Saliente:**
+- **A Dispositivos de Audio:** Señales de audio para reproducción.
+- Mensajes clave: AudioGenerated, AudioPlaybackStatus, AudioQualityMetrics.
+
+**Lenguaje Ubicuo:**
+- **Síntesis de Voz:** Proceso de convertir texto en habla audible.
+- **Características de Voz:** Parámetros que definen cómo suena la voz generada.
+- **Prioridad de Audio:** Nivel de importancia asignado a un mensaje de audio.
+
+**Decisiones de Negocio:**
+- La calidad del audio debe ser suficiente para una comprensión clara.
+- El sistema debe poder interrumpir mensajes menos importantes con mensajes de alta prioridad.
+- La latencia en la generación de audio debe ser mínima.
+
+**Suposiciones:**
+- Los usuarios preferirán voces naturales sobre voces robóticas.
+- El volumen requerido variará según el entorno del usuario.
+- La personalización de la voz aumentará la satisfacción del usuario.
+
+**Métricas de Verificación:**
+- Tiempo de respuesta para generación de audio.
+- Calidad percibida del audio generado.
+- Nivel de comprensión de la voz generada por personas oyentes.
+
+![Audio Output Management Canvas](./assets/images/cap_4/audio_output_canvas.png)
+
+#### 5. Usage Analytics Canvas
+
+**Propósito:**
+Recopilar, procesar y analizar datos sobre el uso del sistema para mejorar su rendimiento, identificar patrones y proporcionar insights para el desarrollo futuro.
+
+**Clasificación Estratégica:**
+- **Dominio:** Generic - Funcionalidad común en sistemas de software.
+- **Modelo de Negocio:** Supporting - Apoya la mejora continua del producto.
+- **Evolución:** Generic - Utiliza técnicas estándar de análisis de datos.
+
+**Roles del Dominio:**
+Funciona como un Analytical Context que procesa datos para generar información útil.
+
+**Comunicación Entrante:**
+- **De todos los contextos:** Datos de uso, errores, rendimiento y métricas.
+- Mensajes clave: UsageEvent, ErrorReport, PerformanceMetric.
+
+**Comunicación Saliente:**
+- **A User Profile & Learning:** Insights para mejora del sistema.
+- **A equipos de desarrollo:** Reportes y análisis para futuras mejoras.
+- Mensajes clave: AnalyticsReport, ImprovementSuggestion, UsagePattern.
+
+**Lenguaje Ubicuo:**
+- **Métrica:** Medida cuantitativa del rendimiento o uso del sistema.
+- **Patrón de Uso:** Comportamiento recurrente identificado en los datos de uso.
+- **Análisis Predictivo:** Uso de datos históricos para predecir comportamientos futuros.
+
+**Decisiones de Negocio:**
+- Los datos deben ser anonimizados antes de cualquier análisis.
+- El análisis debe enfocarse en mejorar la experiencia del usuario.
+- Los insights deben traducirse en acciones concretas de mejora.
+
+**Suposiciones:**
+- Los datos recopilados serán representativos del uso real del sistema.
+- Los patrones identificados serán útiles para mejorar el sistema.
+- Los usuarios consentirán la recopilación anónima de datos de uso.
+
+**Métricas de Verificación:**
+- Cantidad y calidad de insights generados.
+- Mejoras implementadas basadas en análisis de datos.
+- Precisión de las predicciones realizadas.
+
+![Usage Analytics Canvas](./assets/images/cap_4/usage_analytics_canvas.png)
+
 ### 4.2.5. Context Mapping
+
+El Context Mapping define las relaciones entre los diferentes Bounded Contexts identificados en nuestro sistema GloveTalk. Estas relaciones establecen cómo se comunican e interactúan los contextos, asegurando una integración cohesiva pero manteniendo la independencia necesaria.
+
+Después de analizar detenidamente los cinco bounded contexts (Gesture Recognition & Processing, Translation Engine, User Profile & Learning Management, Audio Output Management y Usage Analytics), hemos establecido las siguientes relaciones entre ellos:
+
+**Relación 1: Gesture Recognition & Processing ↔ Translation Engine**
+- **Patrón: Partnership**
+- **Explicación:** Estos dos contextos tienen una relación de colaboración estrecha, donde el reconocimiento de gestos alimenta directamente al motor de traducción. Ambos equipos trabajan en conjunto para asegurar que la captura de gestos y su traducción sean coherentes y precisas.
+
+**Relación 2: Translation Engine ↔ Audio Output Management**
+- **Patrón: Customer/Supplier**
+- **Explicación:** El Translation Engine actúa como un Supplier que proporciona el texto traducido al Audio Output Management (Customer). Este último depende del primero para obtener el contenido que debe convertir en audio, adaptándose a su formato y protocolos.
+
+**Relación 3: Translation Engine ↔ User Profile & Learning Management**
+- **Patrón: Conformist**
+- **Explicación:** El Translation Engine utiliza los datos de aprendizaje y preferencias del usuario proporcionados por User Profile & Learning Management. El motor de traducción debe conformarse con el modelo de datos proporcionado, ya que no tiene control sobre cómo se estructuran estos datos.
+
+**Relación 4: Gesture Recognition & Processing ↔ User Profile & Learning Management**
+- **Patrón: Anti-corruption Layer**
+- **Explicación:** El sistema de reconocimiento de gestos implementa una capa anti-corrupción para proteger su dominio de posibles cambios en el formato o estructura de los datos de usuario. Esto permite que el reconocimiento de gestos se mantenga estable incluso si el manejo de perfiles de usuario cambia.
+
+**Relación 5: Usage Analytics ↔ All Other Contexts**
+- **Patrón: Open Host Service / Published Language**
+- **Explicación:** Usage Analytics proporciona un servicio abierto con una interfaz bien definida que todos los demás contextos pueden utilizar para enviar datos de uso. Utiliza un lenguaje publicado que establece claramente el formato y significado de los datos de análisis.
 
 ## 4.3. Software Architecture
 

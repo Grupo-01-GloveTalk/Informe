@@ -1417,27 +1417,730 @@ Este diagrama proporciona una visión detallada de la arquitectura interna de Sm
 Adicionalmente, muestra cómo interactúan estos componentes con los actores externos (usuarios, profesores y terapeutas), ilustrando el flujo completo de datos desde la captura de señas hasta la generación de respuestas auditivas en tiempo real. Esta representación permite entender claramente la integración entre hardware, software y servicios para lograr la funcionalidad central del sistema.
 
 ### 4.3.4. Software Architecture Deployment Diagrams
+En esta parte se detallan los diagramas de despliegue, que representan la forma en que las instancias de los sistemas (aplicaciones web, móviles, bases de datos, etc.) se implementarán en hardware físico o en servicios en la nube.
+![img.png](assets/deploymentdiagram.png)
 
 ## 4.4. Tactical-Level Domain-Driven Design
+### 4.4.1. Bounded Context: Authorization
+#### 4.4.1.1. Domain Layer
+Se identificó en la capa del dominio tres entidades/aggregates necesarias para el control de acceso a información confidencial y autenticación de los usuarios: User, Permission y Role.
 
-### 4.4.X. Bounded Context: <Bounded Context Name>
+#### Aggregate User:
 
-#### 4.4.X.1. Domain Layer
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| User | Aggregate/Entity | Define los datos esenciales del usuario dentro de la plataforma | 
 
-#### 4.4.X.2. Interface Layer
+**Atributos de User:**
 
-#### 4.4.X.3. Application Layer
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del usuario dentro de la plataforma.  |
+| name | String | Private | Nombre del usuario |
+| lastName | String | Private | Apellido del usuario |
+| email | String | Private | Correo electrónico del usuario| 
+| password | String | Private | Contraseña del usuario |
+| createdAt | LocalDateTime | Private | Fecha de creación del usuario |
 
-#### 4.4.X.4. Infrastructure Layer
+**Métodos de User:**
 
-#### 4.4.X.5. Component Level Diagrams
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|- |
+| User | Void | Public | Constructor de la clase User.  |
+| authenticateUser | Boolean | Public | Autentica al usuario utilizando su correo y contraseña |
 
-#### 4.4.X.6. Code Level Diagrams
+#### Aggregate Permission:
 
-##### 4.4.X.6.1. Domain Layer Class Diagrams
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Permission | Aggregate/Entity | Define los permisos que puede tener un usuario dentro del sistema. |
 
-##### 4.4.X.6.2. Database Design Diagram
+**Atributos de Permission:**
 
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del permiso asignado.  |
+| permissionName | String | Private | Nombre del permiso a asignar (ej. Ver Historial de Traducciones, Crear Nueva Traducción) |
+
+**Métodos de Permission:**
+
+ Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| Permission | Void | Public | Constructor de la clase Permission.  |
+| definePermission | Void | Public | Define los permisos que se pueden otorgar a los usuarios. |
+
+#### Aggregate Role:
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Role | Aggregate/Entity | Define los roles que los usuarios pueden tener dentro de la aplicación. |
+
+**Atributos de Permission:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del rol asignado.  |
+| roleName | String | Private | Nombre del rol del usuario a asignar (usuario común, administrador, etc.) |
+
+**Métodos de Permission:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| Role | Void | Public | Constructor de la clase Role.  |
+| defineRole | Void | Public | Se define el rol que toma un usuario en el sistema. |
+
+
+#### 4.4.1.2. Interface Layer
+En la capa de interfaces se definen los controladores que se comunicarán con la interfaz de usuario con el objetivo de manejar los permisos y la autenticación del usuario.
+
+**Controller UserController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserController | Controller | Controlador de los métodos CRUD de la clase User. |
+
+**Atributos de UserController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| userService | UserService | Private | Servicio encargado de manejar la lógica de la autenticación.  |
+
+**Métodos de UserController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
+| registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
+| getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
+| updateUser | ResponseEntity | Public | Método para modificar datos de un usuario en específico. |
+| deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
+
+**Controller PermissionController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionController | Controller | Controlador para el manejo de los permisos de usuario dentro de la aplicación. |
+
+**Atributos de PermissionController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| permissionService | PermissionService | Private | Servicio encargado de manejar la lógica del manejo de permisos.  |
+
+**Métodos de PermissionController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
+| removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
+| getAllPermissions | ResponseEntity | Public | Método para obtener todos los permisos válidos en la aplicación. |
+
+**Controller RoleController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleController | Controller | Controlador para el manejo de los roles de usuario dentro de la aplicación. |
+
+**Atributos de RoleController:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| roleService | RoleService | Private | Servicio encargado de manejar la lógica del manejo de roles.  |
+
+**Métodos de RoleController:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignRoleToUser | ResponseEntity | Public | Método para asignar un rol a un usuario en específico.  |
+| removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
+| getAllRoles | ResponseEntity | Public | Método para obtener todos los roles válidos en la aplicación. |
+
+#### 4.4.1.3. Application Layer
+En la capa de aplicación se definirán las clases que manejarán los flujos de procesos de la funcionalidad de Autenticación.
+
+**Service UserService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserService | Service | Servicio para el manejo de la gestión de usuarios |
+
+**Atributos de UserService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| userRepository | UserRepository | Private | Repositorio encargado de las operaciones CRUD de los usuarios.  |
+
+**Métodos de UserService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| authUser | ResponseEntity | Public | Método para autenticar al usuario (inicio de sesión) dentro de la aplicación.  |
+| registerUser | ResponseEntity | Public | Método para la creación de un usuario en la aplicación. |
+| getUser | ResponseEntity | Public | Método para obtener un usuario en específico según su id. |
+| updateUser | User | Public | Método para modificar datos de un usuario en específico. |
+| deleteUser | ResponseEntity | Public | Método para borrar un usuario del registro. |
+
+**Service PermissionService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionService | Service | Servicio para el manejo de los permisos de usuario dentro de la aplicación. |
+
+**Atributos de PermissionService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| permissionRepository | PermissionRepository | Private | Repositorio encargado de las operaciones CRUD de los permisos.  |
+
+**Métodos de PermissionService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignPermissionToUser | ResponseEntity | Public | Método para asignar un permiso a un usuario en específico.  |
+| removePermissionToUser | ResponseEntity | Public | Método para quitarle un permiso a un usuario en específico.  |
+| getAllPermissions | List | Public | Método para obtener todos los permisos válidos en la aplicación. |
+
+
+**Service RoleService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleService | Service | Servicio para el manejo de los roles de usuario dentro de la aplicación. |
+
+**Atributos de RoleService:**
+
+| Nombre | Tipo de dato | Visibilidad |  Propósito |
+|-|-|-|-|
+| roleRepository | RoleRepository | Private | Repositorio encargado de las operaciones CRUD de los roles.  |
+
+**Métodos de RoleService:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| assignRoleToUser | ResponseEntity | Public | Método para asignar un rol a un usuario en específico.  |
+| removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
+| getAllRoles | List | Public | Método para obtener todos los roles válidos en la aplicación. |
+
+#### 4.4.1.4. Infrastructure Layer
+En la capa de infraestructura se manejarán las clases que accedan a servicios externos de la aplicación como la base de datos, con el objetivo de validad las credenciales y permisos del usuario.
+
+**Repository UserRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| UserRepository | Service | Repositorio que maneja la persistencia y recuperación de datos de la enitidad User de la base de datos.|
+
+**Métodos de UserRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findById | Optional | Public | Método para encontrar a un usuario según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un usuario según su Id. |
+| findByEmail | Optional | Public | Método para encontrar a un usuario según su correo  |
+| existsByEmail | Boolean | Public | Método para verificar la existencia de un usuario según su correo.  |
+| save | User | Public | Método para guardar los datos de un nuevo usuario. |
+| deleteById | Void | Public | Método para borrar un usuario según su Id. |
+
+**Repository PermissionRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| PermissionRepository | Repository | Repositorio que maneja la persistencia y recuperación de datos de la enitidad Permission de la base de datos. |
+
+**Métodos de PermissionRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findByPermissionName | Optional | Public | Método para encontrar a un servicio según su nombre.  |
+| existsByPermissionName | Boolean | Public | Método para verificar la existencia de un permiso según su Id. |
+| findById | Optional | Public | Método para encontrar a un servicio según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un permiso según su Id. |
+| save | Permission | Public | Método para guardar los datos de un nuevo permiso. |
+| deleteById | Void | Public | Método para borrar un permiso según su Id. |
+
+
+**Repository RoleRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| RoleRepository | Repository | Repositorio que maneja la persistencia y recuperación de datos de la enitidad Role de la base de datos. |
+
+**Métodos de RoleRepository:**
+
+| Nombre | Tipo de retorno | Visibilidad |  Propósito |
+|-|-|-|-|
+| findByRoleName | Optional | Public | Método para encontrar a un rol según su nombre.  |
+| existsByRoleName | Boolean | Public | Método para verificar la existencia de un rol según su Id. |
+| findById | Optional | Public | Método para encontrar a un rol según su Id.  |
+| existsById | Boolean | Public | Método para verificar la existencia de un rol según su Id. |
+| save | Role | Public | Método para guardar los datos de un nuevo rol. |
+| deleteById | Void | Public | Método para borrar un rol según su Id. |
+
+#### 4.4.1.5. Component Level Diagrams
+![img.png](assets/componentAuth.png)
+#### 4.4.1.6. Code Level Diagrams
+
+##### 4.4.1.6.1. Domain Layer Class Diagrams
+![img.png](assets/authClassDiagram.png)
+##### 4.4.1.6.2. Database Design Diagram
+![img.png](assets/databaseAuth.png)
+
+### 4.4.2. Bounded Context: Learning
+#### 4.4.2.1. Domain Layer
+
+En la capa del dominio del bounded context Learning se ha identificado tres entidades/aggregates: Resource, Teacher y Course.
+
+**Aggregate Resources**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del recurso. |
+| title | String | Private | Título o nombre del recurso educativo. |
+| description | String | Private | Breve descripción del contenido del recurso. |
+| resourceType | String | Private | Tipo de recurso (video, documento, audio, etc.). |
+| url | String | Private | Enlace al contenido del recurso. |
+
+**Métodos de Resource:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Resource | Void | Public | Constructor de la clase Resource. |
+| updateResourceInfo | Void | Public | Permite actualizar los datos del recurso. |
+
+**Aggregate Teacher**
+|Nombre | Tipo | Propósito |
+|-|-|-|
+|Teacher | Aggregate/Entity | Representa a un docente o tutor encargado de impartir cursos de lengua de señas. |
+
+**Atributos de Teacher:**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del docente. |
+| name | String | Private | Nombre completo del docente. |
+| email | String | Private | Correo electrónico del docente. |
+| specialization | String | Private | Área de especialización o experiencia en lengua de señas. |
+
+**Métodos de Teacher:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Teacher | Void | Public | Constructor de la clase Teacher. |
+| updateProfile | Void | Public | Permite actualizar el perfil del docente. |
+
+**Aggregate Course**
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| Course | Aggregate/Entity | Representa un curso o programa de enseñanza de lengua de señas. |
+
+**Atributos de Course:**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del curso. |
+| courseName | String | Private | Nombre del curso. |
+| description | String | Private | Breve resumen del contenido del curso. |
+| teacherId | UUID | Private | ID del docente que dicta el curso. |
+
+**Métodos de Course:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Course | Void | Public | Constructor de la clase Course. |
+| assignTeacher | Void | Public | Asigna un docente responsable al curso. |
+
+#### 4.4.2.2. Interface Layer
+En la capa de interfaces se definen los controladores que se comunicarán con la interfaz de usuario para manejar cursos, docentes y recursos.
+
+**Controller ResourceController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| ResourceController | Controller | Controlador para la gestión de recursos educativos. |
+
+**Métodos de ResourceController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| createResource | ResponseEntity | Public | Crear un nuevo recurso educativo. |
+| getResourceById | ResponseEntity | Public | Consultar un recurso por su ID. |
+| updateResource | ResponseEntity | Public | Actualizar la información de un recurso. |
+| deleteResource | ResponseEntity | Public | Eliminar un recurso existente. |
+
+**Controller TeacherController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| TeacherController | Controller | Controlador para la gestión de docentes. |
+
+**Métodos de TeacherController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| registerTeacher | ResponseEntity | Public | Registrar un nuevo docente. |
+| getTeacherById | ResponseEntity | Public | Consultar un docente por su ID. |
+| updateTeacherProfile | ResponseEntity | Public | Actualizar los datos de un docente. |
+| deleteTeacher | ResponseEntity | Public | Eliminar un docente registrado. |
+
+**Controller CourseController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| CourseController | Controller | Controlador para la gestión de cursos de lengua de señas. |
+
+**Métodos de CourseController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| createCourse | ResponseEntity | Public | Crear un nuevo curso. |
+| getCourseById | ResponseEntity | Public | Consultar un curso por su ID. |
+| assignTeacherToCourse | ResponseEntity | Public | Asignar un docente a un curso. |
+| deleteCourse | ResponseEntity | Public | Eliminar un curso existente. |
+
+#### 4.4.2.3. Application Layer
+
+Se definen los servicios de aplicación que manejan la lógica de negocio.
+
+**Service ResourceService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| ResourceService | Service | Servicio que gestiona los recursos educativos. |
+
+**Service TeacherService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| TeacherService | Service | Servicio que gestiona el registro y administración de docentes. |
+
+**Service CourseService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| CourseService | Service | Servicio que gestiona la creación y organización de cursos. |
+
+
+#### 4.4.2.4. Infrastructure Layer
+Se definen los repositorios que permiten la persistencia de datos.
+
+**Repository ResourceRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| ResourceRepository | Repository | Acceso a los datos de recursos educativos. |
+
+**Repository TeacherRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| TeacherRepository | Repository | Acceso a los datos de docentes. |
+
+**Repository CourseRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| CourseRepository | Repository | Acceso a los datos de cursos. |
+
+
+#### 4.4.2.5. Component Level Diagrams
+#### 4.4.2.6. Code Level Diagrams
+##### 4.4.2.6.1. Domain Layer Class Diagrams
+##### 4.4.2.6.2. Database Design Diagram
+
+### 4.4.3. Bounded Context: Translation
+#### 4.4.3.1. Domain Layer
+##### Aggregate: TranslationRequest
+| Nombre             | Tipo             | Propósito                                                                 |
+|--------------------|------------------|---------------------------------------------------------------------------|
+| TranslationRequest | Aggregate/Entity | Representa una solicitud de traducción de lenduaje de señas a texto/audio |
+
+###### Atributos:
+
+| Nombre              | Tipo de dato                   | Visibilidad  | Propósito                                                 |
+|---------------------|--------------------------------|--------------|-----------------------------------------------------------|
+| id                  | UUID                           | Private      | Identificador único de la solicitud de traducción         |
+| userId              | UUID                           | Private      | Identificador único del usuario que realiza la solicitud  |
+| inputType           | Enum(GESTURE,TEXT)             | Private      | Tipo de entrada de la solicitud (gesto o texto)           |
+| inputData           | String                         | Private      | Datos de entrada(JSON de gestos o texto)                  |
+| outputType          | Enum(TEXT,AUDIO)               | Private      | Tipo de salida de la solicitud (texto o audio)            |
+| status              | Enum(PENDING,COMPLETED,FAILED) | Private      | Estado de la solicitud (pendiente, completada o fallida)  |
+| createdAt           | LocalDateTime                  | Private      | Fecha de creación de la solicitud                         |
+| completedAt         | LocalDateTime                  | Private      | Fecha de finalización de la solicitud                     |
+
+###### Métodos:
+
+| Nombre               | Tipo de retorno   | Visibilidad   | Propósito                                   |
+|----------------------|-------------------|---------------|---------------------------------------------|
+| TranslationRequest   | Void              | Public        | Constructor de la clase TranslationRequest  |
+| startProcessing      | Void              | Public        | Marca el estado a PROCESSING                |
+| completeTranslation  | Void              | Public        | Marca el estado a COMPLETED                 |
+| failTranslation      | Void              | Public        | Marca el estado a FAILED                    |
+
+##### Aggregate: TranslationResulT
+
+| Nombre             | Tipo             | Propósito                                                                 |
+|--------------------|------------------|---------------------------------------------------------------------------|
+| TranslationResult | Aggregate/Entity | Representa el resultado de la traducción de lenduaje de señas a texto/audio |
+
+###### Atributos:
+| Nombre               | Tipo de dato                    | Visibilidad   | Propósito                                                  |
+|----------------------|---------------------------------|---------------|------------------------------------------------------------|
+| id                   | UUID                            | Private       | Identificador único del resultado de la traducción         |
+| requestId            | UUID                            | Private       | Identificador único de la solicitud de traducción          |
+| outputData           | String                          | Private       | Datos traducidos                                           |
+| accuracyScore        | Float                           | Private       | Puntuación de precisión de la traducción (0-1)             |
+| processingTimeMs     | Long                            | Private       | Tiempo de procesamiento de la traducción (en milisegundos) |
+
+##### Value Object: GestureData
+
+| Nombre             | Tipo             | Propósito                                 |
+|--------------------|------------------|-------------------------------------------|
+| GestureData       | Value Object      | Representa los datos de gestos capturados |
+
+###### Atributos:
+
+| Nombre         | Tipo de dato                  | Visibilidad  | Propósito            |
+|----------------|-------------------------------|--------------|----------------------|
+| handPosition   | String                        | Public       | Posición de la mano  |
+| fingerAngles   | List<Float>                   | Public       | Ángulos de los dedos |
+| movementVector | String                        | Public       | Vector de movimiento |
+
+##### Domain Service: TranslationService
+| Nombre             | Tipo           | Propósito                         |
+|--------------------|----------------|-----------------------------------|
+| TranslationService | Domain Service | Coordina el proceso de traducción |
+
+###### Métodos:
+| Nombre                  | Tipo de retorno    | Visibilidad    | Propósito                                   |
+|-------------------------|--------------------|----------------|---------------------------------------------|
+| translateGesture        | TranslationResult  | Public         | Traduce un gesto a texto/audio              |
+| translateTextToGestures | TranslationResult  | Public         | Traduce un texto a representación de gestos |
+| validateGesture         | Boolean            | Public         | Valida si los gestos son reconocibles       |
+
+
+#### 4.4.3.2. Interface Layer
+###### Controller: TranslationController
+| Nombre                | Tipo            | Propósito                                  |
+|-----------------------|-----------------|--------------------------------------------|
+| TranslationController | Controller      | Maneja las solicitudes HTTP de traducción  |
+
+###### Atributos:
+| Nombre                | Tipo de dato          | Visibilidad  | Propósito                                                 |
+|-----------------------|-----------------------|--------------|-----------------------------------------------------------|
+| translationAppService | TranslationAppService | Private      | Servicio encargado de la lógica de traducción             |
+
+###### Métodos:
+| Nombre                   | Tipo de retorno    | Visibilidad     | Propósito                              |
+|--------------------------|--------------------|-----------------|----------------------------------------|
+| translateGesture         | ResponseEntity     | Public          | Endpoint para traducir gestos          |
+| translateText            | ResponseEntity     | Public          | Endpoint para traducir texto a gestos  |
+| getTranslationStatus     | ResponseEntity     | Public          | Obteniene el estado de la traducción   |
+| getTranslationResult     | ResponseEntity     | Public          | Obteniene el historial de traducciones |
+
+#### 4.4.3.3. Application Layer
+###### App Service: TranslationAppService
+
+| Nombre                | Tipo            | Propósito                                 |
+|-----------------------|-----------------|-------------------------------------------|
+| TranslationAppService | App Service     | Maneja la lógica de traducción            |
+
+###### Atributos:
+| Nombre                 | Tipo de dato           | Visibilidad   | Propósito                                                  |
+|------------------------|------------------------|---------------|------------------------------------------------------------|
+| translationRepository  | TranslationRepository  | Private       | Repositorio para acceder a los datos de traducción         |
+| translationService     | TranslationService     | Private       | Servicio de dominio                                        |
+| eventPublisher         | DomeinEventPublisher   | Private       | Publicador de eventos de dominio                           |
+
+###### Métodos:
+| Nombre                    | Tipo de retorno          | Visibilidad      | Propósito                                    |
+|---------------------------|--------------------------|------------------|----------------------------------------------|
+| processGestureTranslation | TranslationResult        | Public           | Procesa la traducción de un gesto            |
+| processTextTranslation    | TranslationResult        | Public           | Procesa la traducción de un texto            |
+| getTranslationStatus      | TranslationRequest       | Public           | Obtiene el estado de la traducción           |
+| getTranslationHistory     | List<TranslationRequest> | Public           | Obtiene el historial de traducciones         |
+
+###### Event Handlers:
+| Nombre                           | Tipo         | Propósito                                     |
+|----------------------------------|--------------|-----------------------------------------------|
+| TranslationCompletedEventHandler | EventHandler | Maneja el evento de traducción completada     |
+| TranslationFailedEventHandler    | EventHandler | Maneja el evento de traducción fallida        |
+
+
+#### 4.4.3.4. Infrastructure Layer
+
+###### Repository: TranslationRepository
+| Nombre                | Tipo            | Propósito                                |
+|-----------------------|-----------------|------------------------------------------|
+| TranslationRepository | Repository      | Persistencia de solicitudes y resultados |
+
+###### Métodos:
+| Nombre                    | Tipo de retorno              | Visibilidad     | Propósito                                    |
+|---------------------------|------------------------------|-----------------|----------------------------------------------|
+| saveRequest               | TranslationRequest           | Public          | Guarda una solicitud de traducción           |
+| findRequestById           | Optional<TranslationRequest> | Public          | Encuentra una solicitud por su ID            |
+| saveResult                | TranslationResult            | Public          | Guarda el resultado de la traducción         |
+| findResulsByUserId        | List<TranslationResult>      | Public          | Encuentra resultados por ID de usuario       |
+| findRecentRequests        | List<TranslationRequest>     | Public          | Encuentra solicitudes recientes              |
+
+###### External Service: AIIntegrationService
+| Nombre                | Tipo            | Propósito                                |
+|-----------------------|-----------------|------------------------------------------|
+| AIIntegrationService  | External Service| Interactúa con el servicio de IA         |
+
+###### Métodos:
+| Nombre                 | Tipo de retorno  | Visibilidad   | Propósito                                     |
+|------------------------|------------------|---------------|-----------------------------------------------|
+| sendForTranslation     | String           | Public        | Envía datos para traducción a IA              |
+| getModelStatus         | String           | Public        | Obtiene el estado del modelo de IA             |
+
+
+#### 4.4.3.5. Component Level Diagrams
+![img.png](assets/ComponentTranslation.png)
+#### 4.4.3.6. Code Level Diagrams
+
+##### 4.4.3.6.1. Domain Layer Class Diagrams
+![img.png](assets/class_translation.png)
+##### 4.4.3.6.2. Database Design Diagram
+![img.png](assets/db_translation.png)
+
+### 4.4.4. Bounded Context: Record
+#### 4.4.4.1. Domain Layer
+En la capa del dominio del bounded context Record se han identificado tres entidades/aggregates principales: **History**, **Search**, y **Visualization**.
+
+**Aggregate History**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| id | UUID | Private | Identificador único del historial de traducciones. |
+| userId | UUID | Private | Identificador del usuario dueño del historial. |
+| translations | List<TranslationRecord> | Private | Lista de traducciones realizadas y almacenadas. |
+
+**Métodos de History:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| History | Void | Public | Constructor de la clase History. |
+| addTranslation | Void | Public | Agrega una nueva traducción al historial. |
+| getTranslations | List | Public | Recupera todas las traducciones almacenadas. |
+
+**Aggregate Search**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| searchId | UUID | Private | Identificador único de la búsqueda realizada. |
+| userId | UUID | Private | Usuario que realiza la búsqueda. |
+| keyword | String | Private | Palabra o gesto buscado. |
+| searchDate | LocalDateTime | Private | Fecha y hora en que se realizó la búsqueda. |
+| success | Boolean | Private | Resultado de la búsqueda (éxito/fallo). |
+
+**Métodos de Search:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Search | Void | Public | Constructor de la clase Search. |
+| performSearch | List<TranslationRecord> | Public | Realiza una búsqueda en el historial del usuario. |
+
+**Aggregate Visualization**
+
+| Nombre | Tipo de dato | Visibilidad | Propósito |
+|-|-|-|-|
+| visualizationId | UUID | Private | Identificador único del gráfico generado. |
+| userId | UUID | Private | Usuario que solicita la visualización. |
+| topGestures | Map<String, Integer> | Private | Gráfico de los gestos más usados. |
+| generationDate | LocalDateTime | Private | Fecha y hora de generación del reporte. |
+
+**Métodos de Visualization:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| Visualization | Void | Public | Constructor de la clase Visualization. |
+| generateReport | Map | Public | Genera un reporte con los gestos más frecuentes. |
+
+#### 4.4.4.2. Interface Layer
+**Controller HistoryController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| HistoryController | Controller | Gestiona el acceso al historial de traducciones del usuario. |
+
+**Métodos de HistoryController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| viewTranslationHistory | ResponseEntity | Public | Mostrar el historial completo de traducciones. |
+| registerTranslation | ResponseEntity | Public | Registrar una nueva traducción en el historial. |
+
+**Controller SearchController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| SearchController | Controller | Gestiona la búsqueda de traducciones anteriores. |
+
+**Métodos de SearchController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| searchInHistory | ResponseEntity | Public | Buscar palabras o gestos en el historial. |
+| searchFailedAttempts | ResponseEntity | Public | Listar búsquedas sin resultados. |
+
+**Controller VisualizationController:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| VisualizationController | Controller | Gestiona la generación de reportes de gestos más usados. |
+
+**Métodos de VisualizationController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Propósito |
+|-|-|-|-|
+| generateUsageReport | ResponseEntity | Public | Mostrar gráficos de gestos más utilizados. |
+
+#### 4.4.4.3. Application Layer
+**Service HistoryService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| HistoryService | Service | Servicio para manejar registros de traducciones. |
+
+**Service SearchService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| SearchService | Service | Servicio para búsquedas y consultas en historiales. |
+
+**Service VisualizationService:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| VisualizationService | Service | Servicio para construir y mostrar reportes estadísticos del historial. |
+
+#### 4.4.4.4. Infrastructure Layer
+**Repository HistoryRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| HistoryRepository | Repository | Persistencia de los historiales de traducción de usuarios. |
+
+**Repository SearchRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| SearchRepository | Repository | Persistencia de las búsquedas realizadas por los usuarios. |
+
+**Repository VisualizationRepository:**
+
+| Nombre | Tipo | Propósito |
+|-|-|-|
+| VisualizationRepository | Repository | Persistencia de los reportes de visualización generados. |
+
+#### 4.4.4.5. Component Level Diagrams
+![img.png](assets/component_record.png)
+#### 4.4.4.6. Code Level Diagrams
+
+##### 4.4.4.6.1. Domain Layer Class Diagrams
+![img.png](assets/class_record.png)
+##### 4.4.4.6.2. Database Design Diagram
+![img.png](assets/db_record.png)
 ---
 
 # Capítulo V: Solution UI/UX Design

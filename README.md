@@ -1069,7 +1069,6 @@ Determinamos las capacidades esenciales que el sistema debe ofrecer:
 **Contextos Candidatos Identificados:**
 
 1. **Gesture Recognition & Processing**  
-   ![Gesture Recognition & Processing](./assets/images/cap_4/gesture_recognition.png)
    
    **Descripción:** Este contexto es responsable de capturar y procesar los movimientos de las manos y dedos a través de los sensores del guante, interpretando estos datos para identificar los gestos correspondientes en el lenguaje de señas.
    
@@ -1082,7 +1081,6 @@ Determinamos las capacidades esenciales que el sistema debe ofrecer:
    - Proporcionar feedback sobre la precisión del gesto
 
 2. **Translation Engine**  
-   ![Translation Engine](./assets/images/cap_4/translation_engine.png)
    
    **Descripción:** Este contexto gestiona la conversión de los gestos reconocidos a palabras o frases en lenguaje hablado, incluyendo el procesamiento de contexto y la interpretación semántica para lograr traducciones precisas y naturales.
    
@@ -1095,7 +1093,6 @@ Determinamos las capacidades esenciales que el sistema debe ofrecer:
    - Proporcionar traducciones en tiempo real
 
 3. **User Profile & Learning Management**  
-   ![User Profile & Learning Management](./assets/images/cap_4/user_profile_management.png)
    
    **Descripción:** Este contexto maneja la información de los usuarios, sus preferencias de idioma, ajustes de voz y datos de aprendizaje personalizado para mejorar la precisión del reconocimiento de gestos específicos de cada usuario.
    
@@ -1108,7 +1105,6 @@ Determinamos las capacidades esenciales que el sistema debe ofrecer:
    - Facilitar la adaptación a dialectos regionales
 
 4. **Audio Output Management**  
-   ![Audio Output Management](./assets/images/cap_4/audio_management.png)
    
    **Descripción:** Este contexto coordina la producción de audio a partir del texto traducido, gestionando aspectos como la entonación, volumen, velocidad y características de la voz sintetizada según las preferencias del usuario.
    
@@ -1158,8 +1154,6 @@ Para comprender mejor cómo interactúan los diferentes contextos y componentes 
    - El texto traducido se envía al sistema de audio
    - Se sintetiza el audio según las preferencias configuradas
    - Se reproduce el audio a través del altavoz
-
-![Diagrama de flujo de mensajes: Gesto a Voz](./assets/images/cap_4/message_flow_gesture_to_voice.png)
 
 #### Escenario 2: Voz externa que se traduce a representación visual para el usuario
 

@@ -1443,9 +1443,9 @@ Adicionalmente, muestra cómo interactúan estos componentes con los actores ext
 En esta parte se detallan los diagramas de despliegue, que representan la forma en que las instancias de los sistemas (aplicaciones web, móviles, bases de datos, etc.) se implementarán en hardware físico o en servicios en la nube.
 ![img.png](assets/deploymentdiagram.png)
 
-## 4.4. Tactical-Level Domain-Driven Design
-### 4.4.1. Bounded Context: Authorization
-#### 4.4.1.1. Domain Layer
+# Capítulo V: Tactical-Level Software Design
+### 5.1. Bounded Context: Authorization
+#### 5.1.1. Domain Layer
 Se identificó en la capa del dominio tres entidades/aggregates necesarias para el control de acceso a información confidencial y autenticación de los usuarios: User, Permission y Role.
 
 #### Aggregate User:
@@ -1513,7 +1513,7 @@ Se identificó en la capa del dominio tres entidades/aggregates necesarias para 
 | defineRole | Void | Public | Se define el rol que toma un usuario en el sistema. |
 
 
-#### 4.4.1.2. Interface Layer
+#### 5.1.2. Interface Layer
 En la capa de interfaces se definen los controladores que se comunicarán con la interfaz de usuario con el objetivo de manejar los permisos y la autenticación del usuario.
 
 **Controller UserController:**
@@ -1578,7 +1578,7 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 | removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
 | getAllRoles | ResponseEntity | Public | Método para obtener todos los roles válidos en la aplicación. |
 
-#### 4.4.1.3. Application Layer
+#### 5.1.3. Application Layer
 En la capa de aplicación se definirán las clases que manejarán los flujos de procesos de la funcionalidad de Autenticación.
 
 **Service UserService:**
@@ -1644,7 +1644,7 @@ En la capa de aplicación se definirán las clases que manejarán los flujos de 
 | removeRoleToUser | ResponseEntity | Public | Método para quitarle un rol a un usuario en específico.  |
 | getAllRoles | List | Public | Método para obtener todos los roles válidos en la aplicación. |
 
-#### 4.4.1.4. Infrastructure Layer
+#### 5.1.4. Infrastructure Layer
 En la capa de infraestructura se manejarán las clases que accedan a servicios externos de la aplicación como la base de datos, con el objetivo de validad las credenciales y permisos del usuario.
 
 **Repository UserRepository:**
@@ -1699,17 +1699,17 @@ En la capa de infraestructura se manejarán las clases que accedan a servicios e
 | save | Role | Public | Método para guardar los datos de un nuevo rol. |
 | deleteById | Void | Public | Método para borrar un rol según su Id. |
 
-#### 4.4.1.5. Component Level Diagrams
+#### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
 ![img.png](assets/componentAuth.png)
-#### 4.4.1.6. Code Level Diagrams
+#### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.4.1.6.1. Domain Layer Class Diagrams
+##### 5.1.6.1. Domain Layer Class Diagrams
 ![img.png](assets/authClassDiagram.png)
-##### 4.4.1.6.2. Database Design Diagram
+##### 5.1.6.2. Database Design Diagram
 ![img.png](assets/databaseAuth.png)
 
-### 4.4.2. Bounded Context: Learning
-#### 4.4.2.1. Domain Layer
+### 5.2. Bounded Context: Learning
+#### 5.2.1. Domain Layer
 
 En la capa del dominio del bounded context Learning se ha identificado tres entidades/aggregates: Resource, Teacher y Course.
 
@@ -1772,7 +1772,7 @@ En la capa del dominio del bounded context Learning se ha identificado tres enti
 | Course | Void | Public | Constructor de la clase Course. |
 | assignTeacher | Void | Public | Asigna un docente responsable al curso. |
 
-#### 4.4.2.2. Interface Layer
+#### 5.2.2. Interface Layer
 En la capa de interfaces se definen los controladores que se comunicarán con la interfaz de usuario para manejar cursos, docentes y recursos.
 
 **Controller ResourceController:**
@@ -1820,7 +1820,7 @@ En la capa de interfaces se definen los controladores que se comunicarán con la
 | assignTeacherToCourse | ResponseEntity | Public | Asignar un docente a un curso. |
 | deleteCourse | ResponseEntity | Public | Eliminar un curso existente. |
 
-#### 4.4.2.3. Application Layer
+#### 5.2.3. Application Layer
 
 Se definen los servicios de aplicación que manejan la lógica de negocio.
 
@@ -1843,7 +1843,7 @@ Se definen los servicios de aplicación que manejan la lógica de negocio.
 | CourseService | Service | Servicio que gestiona la creación y organización de cursos. |
 
 
-#### 4.4.2.4. Infrastructure Layer
+#### 5.2.4. Infrastructure Layer
 Se definen los repositorios que permiten la persistencia de datos.
 
 **Repository ResourceRepository:**
@@ -1865,16 +1865,16 @@ Se definen los repositorios que permiten la persistencia de datos.
 | CourseRepository | Repository | Acceso a los datos de cursos. |
 
 
-#### 4.4.2.5. Component Level Diagrams
+#### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 ![img.png](assets/learning_landscape.png)
-#### 4.4.2.6. Code Level Diagrams
-##### 4.4.2.6.1. Domain Layer Class Diagrams
+#### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 5.2.6.1. DBounded Context Domain Layer Class Diagrams
 ![img.png](assets/class_learning.png)
-##### 4.4.2.6.2. Database Design Diagram
+##### 5.2.6.2. Bounded Context Database Design Diagram
 ![img.png](assets/bd_learning.png)
 
-### 4.4.3. Bounded Context: Translation
-#### 4.4.3.1. Domain Layer
+### 5.3. Bounded Context: Translation
+#### 5.3.1. Domain Layer
 ##### Aggregate: TranslationRequest
 | Nombre             | Tipo             | Propósito                                                                 |
 |--------------------|------------------|---------------------------------------------------------------------------|
@@ -1944,7 +1944,7 @@ Se definen los repositorios que permiten la persistencia de datos.
 | validateGesture         | Boolean            | Public         | Valida si los gestos son reconocibles       |
 
 
-#### 4.4.3.2. Interface Layer
+#### 5.3.2. Interface Layer
 ###### Controller: TranslationController
 | Nombre                | Tipo            | Propósito                                  |
 |-----------------------|-----------------|--------------------------------------------|
@@ -1963,7 +1963,7 @@ Se definen los repositorios que permiten la persistencia de datos.
 | getTranslationStatus     | ResponseEntity     | Public          | Obteniene el estado de la traducción   |
 | getTranslationResult     | ResponseEntity     | Public          | Obteniene el historial de traducciones |
 
-#### 4.4.3.3. Application Layer
+#### 5.3.3. Application Layer
 ###### App Service: TranslationAppService
 
 | Nombre                | Tipo            | Propósito                                 |
@@ -1992,7 +1992,7 @@ Se definen los repositorios que permiten la persistencia de datos.
 | TranslationFailedEventHandler    | EventHandler | Maneja el evento de traducción fallida        |
 
 
-#### 4.4.3.4. Infrastructure Layer
+#### 5.3.4. Infrastructure Layer
 
 ###### Repository: TranslationRepository
 | Nombre                | Tipo            | Propósito                                |
@@ -2020,17 +2020,17 @@ Se definen los repositorios que permiten la persistencia de datos.
 | getModelStatus         | String           | Public        | Obtiene el estado del modelo de IA             |
 
 
-#### 4.4.3.5. Component Level Diagrams
+#### 5.3.5. Component Level Diagrams
 ![img.png](assets/ComponentTranslation.png)
-#### 4.4.3.6. Code Level Diagrams
+#### 5.3.6. Code Level Diagrams
 
-##### 4.4.3.6.1. Domain Layer Class Diagrams
+##### 5.3.6.1. Domain Layer Class Diagrams
 ![img.png](assets/class_translation.png)
-##### 4.4.3.6.2. Database Design Diagram
+##### 5.3.6.2. Database Design Diagram
 ![img.png](assets/db_translation.png)
 
-### 4.4.4. Bounded Context: Record
-#### 4.4.4.1. Domain Layer
+### 5.4. Bounded Context: Record
+#### 5.4.1. Domain Layer
 En la capa del dominio del bounded context Record se han identificado tres entidades/aggregates principales: **History**, **Search**, y **Visualization**.
 
 **Aggregate History**
@@ -2082,7 +2082,7 @@ En la capa del dominio del bounded context Record se han identificado tres entid
 | Visualization | Void | Public | Constructor de la clase Visualization. |
 | generateReport | Map | Public | Genera un reporte con los gestos más frecuentes. |
 
-#### 4.4.4.2. Interface Layer
+#### 5.4.2. Interface Layer
 **Controller HistoryController:**
 
 | Nombre | Tipo | Propósito |
@@ -2121,7 +2121,7 @@ En la capa del dominio del bounded context Record se han identificado tres entid
 |-|-|-|-|
 | generateUsageReport | ResponseEntity | Public | Mostrar gráficos de gestos más utilizados. |
 
-#### 4.4.4.3. Application Layer
+#### 5.4.3. Application Layer
 **Service HistoryService:**
 
 | Nombre | Tipo | Propósito |
@@ -2140,7 +2140,7 @@ En la capa del dominio del bounded context Record se han identificado tres entid
 |-|-|-|
 | VisualizationService | Service | Servicio para construir y mostrar reportes estadísticos del historial. |
 
-#### 4.4.4.4. Infrastructure Layer
+#### 5.4.4. Infrastructure Layer
 **Repository HistoryRepository:**
 
 | Nombre | Tipo | Propósito |
@@ -2159,91 +2159,89 @@ En la capa del dominio del bounded context Record se han identificado tres entid
 |-|-|-|
 | VisualizationRepository | Repository | Persistencia de los reportes de visualización generados. |
 
-#### 4.4.4.5. Component Level Diagrams
+#### 5.4.5. Component Level Diagrams
 ![img.png](assets/component_record.png)
-#### 4.4.4.6. Code Level Diagrams
+#### 5.4.6. Code Level Diagrams
 
-##### 4.4.4.6.1. Domain Layer Class Diagrams
+##### 5.4.6.1. Domain Layer Class Diagrams
 ![img.png](assets/class_record.png)
-##### 4.4.4.6.2. Database Design Diagram
+##### 5.4.6.2. Database Design Diagram
 ![img.png](assets/db_record.png)
 ---
 
-# Capítulo V: Solution UI/UX Design
+# Capítulo VI: Solution UI/UX Design
 
-## 5.1. Style Guidelines
+## 6.1. Style Guidelines
 
-### 5.1.1. General Style Guidelines
+### 6.1.1. General Style Guidelines
 
-### 5.1.2. Web, Mobile and IoT Style Guidelines
+### 6.1.2. Web, Mobile and IoT Style Guidelines
 
-## 5.2. Information Architecture
+## 6.2. Information Architecture
 
-### 5.2.1. Organization Systems
+### 6.2.1. Labeling Systems
 
-### 5.2.2. Labeling Systems
+### 6.2.2. Searching Systems
 
-### 5.2.3. SEO Tags and Meta Tags
+### 6.2.3. SEO Tags and Meta Tags
 
-### 5.2.4. Searching Systems
+### 6.2.4. Navigation Systems
 
-### 5.2.5. Navigation Systems
+## 6.3. Landing Page UI Design
 
-## 5.3. Landing Page UI Design
+### 6.3.1. Landing Page Wireframe
 
-### 5.3.1. Wireframe
+### 6.3.2. Landing Page Mock-up
 
-### 5.3.2. Mock-up
+## 6.4. Applications UX/UI Design
 
-## 5.4. Applications UX/UI Design
+### 6.4.1. Applications Wireframes
 
-### 5.4.1. Wireframes
+### 6.4.2. Applications Wireflow Diagrams
 
-### 5.4.2. Wireflow Diagrams
+### 6.4.3. Applications Mock-ups
 
-### 5.4.3. Mock-ups
+### 6.4.4. Applications User Flow Diagrams
 
-### 5.4.4. User Flow Diagrams
-
-## 5.5. Applications Prototyping
+## 6.5. Applications Prototyping
 
 ---
 
-# Capítulo VI: Product Implementation, Validation & Deployment
+# Capítulo VII: Product Implementation, Validation & Deployment
 
-## 6.1. Software Configuration Management
+## 7.1. Software Configuration Management
 
-### 6.1.1. Development Environment Configuration
+### 7.1.1. Development Environment Configuration
 
-### 6.1.2. Source Code Management
+### 7.1.2. Source Code Management
 
-### 6.1.3. Style Guide & Conventions
+### 7.1.3. Style Guide & Conventions
 
-### 6.1.4. Deployment Configuration
+### 7.1.4. Deployment Configuration
 
-## 6.2. Implementation
+## 7.2. Implementation
 
-### 6.2.X. Sprint n
+### 7.2.X. Sprint n
 
-#### 6.2.X.1. Sprint Planning
+#### 7.2.X.1. Sprint Planning
 
-#### 6.2.X.2. Aspect Leaders and Collaborators
+#### 7.2.X.2. Aspect Leaders and Collaborators
 
-#### 6.2.X.3. Sprint Backlog
+#### 7.2.X.3. Sprint Backlog
 
-#### 6.2.X.4-8. Sprint Review Evidences
+#### 7.2.X.4-8. Sprint Review Evidences
 
-#### 6.2.X.9. Team Collaboration Insights
+#### 7.2.X.9. Team Collaboration Insights
 
-## 6.3. Validation Interviews
+## 7.3. Validation Interviews
 
-### 6.3.1. Diseño
+### 7.3.1. Diseño
 
-### 6.3.2. Registro
+### 7.3.2. Registro
 
-### 6.3.3. Evaluaciones
+### 7.3.3. Evaluaciones
 
-## 6.4. Video About-the-Product
+## 7.4. Video About-the-Product
 
 ---
 

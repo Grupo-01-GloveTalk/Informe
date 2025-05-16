@@ -606,14 +606,14 @@ Las instituciones educativas especializadas constituyen otro segmento objetivo e
 | Edad   | 22  |
 | Departamento   | Breña, Lima |
 | ![Entrevista GloveTalk Isaac](./assets/interview/Entrevista-GloveTalk-Isaac.png) | La entrevista fue realizada a Isaac burgos, un comerciante de 22 años que nos cuenta el cómo es la vida de su hermano, el cual sufre de la discapacidad del habla. Él nos comenta que pasa por muchas dificultades, ya sean en la escuela o incluso en la comunicación diaria; sin embargo, en cuanto al entorno familiar, han logrado sobrellevarlo y han podido establecer una forma de comunicarse un tanto fluida. Isaac nos comenta que tuvo que aprender lenguaje de señas para poder comunicarse con su hermano, pero que lamentablemente la sociedad no está lista para poder fomentar la inclusión totalitaria para este tipo de personas. Nos menciona que un dispositivo inteligente que facilite la vida diaria a las personas con esta discapacidad ayudaría muchísimo a la sociedad, fomentando la inclusión. |
-| Duracion de entrevista: 0:00 - 5:20 | https://youtu.be/oU4ckNnNtoU |
+| Duracion de entrevista: 0:00 - 5:20 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h103_upc_edu_pe/ERqFIKCBy5ZDoDzHma95mSABx9pv1eydKsMxamH9bhL9dQ?e=D5yJUd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 | Nombre de entrevistado  | Yasmin Diaz |
 |-----------------|-----------------|
 | Edad   | 20  |
 | Departamento   | San martin de porres, Lima |
 | ![Entrevista GloveTalk Yasmin](./assets/interview/Entrevista-GloveTalk-Yasmin.png) | La entrevista fue realizada a Yasmin Diaz, quien es una estudiante de la carrera de Publicidad de la UPC. Nos comenta que ella cuenta con su hermano, el cual cuenta con la discapacidad del habla, pero no de nacimiento, sino esto a causa de una enfermedad. Nos comenta que tuvo que aprender el lenguaje de señas; sin embargo, esto al no ser lo más viable, ya que notoda su familia logró aprenderlo de la mejor manera, tuvieron que comenzar a comunicarse via mensaje de texto, haciendo uso de aplicaciones con whatsapp, facebook o instagram. Nos comenta que a pesar de la discapacidad y clara desventaja en la sociedad, su hermano ha logrado conseguir trabajo en un almacen, pudiendo desempeñar sus actividades de la mejor manera. Nos comenta que le encantaría que existiera una tecnología o dispositivo que permita facilitar la comunicación para estar personas, especialmente en citas, ya sean médicas, de trabajo, etc. |
-| Duracion de entrevista: 0:00 - 6:44 | https://youtu.be/WRmBH8R3Po0 |
+| Duracion de entrevista: 0:00 - 6:44 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20181h103_upc_edu_pe/ETCaSVWyWtdHpMvY5TuygwIB3_SI4uLw3sYqiJGzctoptg?e=Q2mKkz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 | Nombre de entrevistado                                                 | Emilio Alexander                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2268,14 +2268,79 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
+<strong>Desktop Web Browser</strong>
+
+<img src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
+
+<br>
 
 ### 6.3.2. Landing Page Mock-up
+
+<strong>Desktop Web Browser</strong>
+
+<img src="./assets/landing-ui/landing_mk.png" alt="Landing Page Wireframe"/>
+
+<br>
+
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-2">Wireframes</a>
 
 ## 6.4. Applications UX/UI Design
 
 ### 6.4.1. Applications Wireframes
 
+<strong>Login Page</strong>
+
+<img src="./assets/web-app-ui/wf_login.png" alt="Wireframe Login"/>
+
+<br>
+
+<strong>Register Page</strong>
+
+<img src="./assets/web-app-ui/wf_register.png" alt="Wireframe Register"/>
+
+<br>
+
+<strong>Perfil Page</strong>
+
+<img src="./assets/web-app-ui/wf_perfil.png" alt="Wireframe Register"/>
+
+<br>
+
+<strong>Register Page</strong>
+
+<img src="./assets/web-app-ui/wf_traducto.png" alt="Wireframe Register"/>
+
+<br>
+
+<strong>Historial Page</strong>
+
+<img src="./assets/web-app-ui/wf_historial.png" alt="Wireframe Dashboard Safe"/>
+
+<br>
+
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51">Wireframes</a>
+
 ### 6.4.2. Applications Wireflow Diagrams
+
+<strong>User Goal: Registrarse o iniciar sesión en la plataforma</strong>
+
+<p>Este flujo permite al usuario crear una cuenta nueva o acceder con una ya existente. El proceso inicia en la pantalla principal donde el usuario puede elegir entre iniciar sesión con credenciales existentes o registrarse como nuevo usuario, completando un formulario con sus datos personales.</p>
+
+<img src="./assets/web-app-ui/wflow_login_and_register.png" alt="Login Wireflow"/>
+
+<strong>User Goal: Acceder a la información de su perfil </strong>
+
+<p>Este flujo permite al usuario ingresar a la sección de "Perfil" desde la barra de navegación de GloveTalk, donde podrá visualizar sus datos personales asociados a su cuenta registrada en la aplicación, incluyendo información de contacto y preferencias de uso.</p>
+
+<img src="./assets/web-app-ui/wflow_informacion_perfil.png" alt="Register Wireflow"/>
+
+<strong>User Goal: Consultar traducciones anteriores realizadas</strong>
+
+<p>Este flujo permite al usuario acceder al historial de traducciones realizadas en la plataforma GloveTalk. El usuario accede a su cuenta y selecciona la opción "Historial", entonces podrá visualizar un listado cronológico de sus sesiones pasadas con detalles de cada traducción.</p>
+
+<img src="./assets/web-app-ui/wflow_consulta_traduccion.png" alt="Register Wireflow"/>
+
+<strong>Enlace a Wireflow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-7962%2C-2632%2C4454%2C2109%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6"> Wireframes</a>
 
 ### 6.4.3. Applications Mock-ups
 

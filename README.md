@@ -2196,7 +2196,7 @@ El nombre GloveTalk combina dos conceptos claves del proyecto: "Glove" (guante),
 **Colors**<br>
 La paleta de colores de GloveTalk fue seleccionada para transmitir confianza, accesibilidad e innovación inclusiva. Se busca un diseño sobrio pero moderno, con colores que aseguren legibilidad y contraste para todos los usuarios.
 
-<img src="./assets/style-guideline/colors.png">
+<img src="./assets/style-guideline/Colors.png">
 
 **Typography**<br>
 Se ha seleccionado la tipografía Poppins por su legibilidad, estilo moderno y accesibilidad. Se utilizan variantes como Regular para cuerpo de texto, Medium para botones o enlaces secundarios y Bold para títulos y encabezados. Esta elección permite una lectura cómoda en distintos dispositivos y asegura jerarquía visual clara.

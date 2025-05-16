@@ -2208,6 +2208,24 @@ El tono de comunicación de GloveTalk es claro, respetuoso y empático. Se manti
 
 ### 6.1.2. Web, Mobile and IoT Style Guidelines
 
+**Web Interface Guidelines**
+
+La interfaz web de GloveTalk ha sido diseñada para brindar una experiencia clara, accesible y profesional, especialmente para usuarios como docentes, cuidadores y personas con discapacidad auditiva o del habla. Se ha optado por una estética de alto contraste sobre fondo blanco, con elementos oscuros que permitan una navegación fluida y sin distracciones. La organización jerárquica de los elementos permite al usuario identificar rápidamente las secciones clave y acceder sin esfuerzo a las funcionalidades principales del sistema.
+
+* **Imágenes**: Se emplean imágenes ilustrativas que refuercen la funcionalidad de cada módulo, como íconos que representan gestos, perfiles de usuario y audio. El logotipo de GloveTalk permanece visible en la barra de navegación izquierda o superior, junto con la imagen de perfil del usuario, para mantener consistencia de marca.
+* **Botones**: Se utilizan botones oscuros (negro o azul oscuro) con texto blanco para asegurar contraste. Los íconos están estandarizados siguiendo convenciones reconocibles: lápiz para editar, tacho para eliminar, más para añadir, y flechas para navegar.
+* **Pop-ups**: Las ventanas emergentes son utilizadas únicamente para acciones críticas como guardar una traducción, borrar historial o cerrar sesión. Estas aparecen con fondo oscuro y texto blanco, e incluyen las opciones “Aceptar”, “Cancelar” y el ícono de cierre (“X”), asegurando una interacción clara y accesible en cualquier resolución de pantalla.
+
+**Mobile Interface Guidelines**
+La versión móvil de GloveTalk mantiene la misma estructura funcional y estilo visual que la versión web, pero adaptada a pantallas más pequeñas y a la interacción táctil. El diseño prioriza la eficiencia de uso y la accesibilidad, con controles grandes y navegación simplificada para permitir que cualquier usuario —incluso con movilidad limitada o poca experiencia digital— pueda utilizarla con facilidad.
+
+* **Imágenes:** Las imágenes e íconos se optimizan en tamaño y resolución para evitar ralentización, garantizando su legibilidad sin sobrecargar visualmente la pantalla.
+* **Botones:** Los botones se redimensionan para facilitar su uso con el dedo, manteniendo un mínimo de 48x48px de área interactiva. El diseño conserva íconos y colores del sistema web para reforzar la consistencia entre plataformas.
+* **Pop-ups:** Se presentan en tamaño adaptado al dispositivo móvil, con fondo semitransparente para no bloquear el contexto. Solo se utilizan en flujos clave como envío de traducciones o cierre de sesión, manteniendo claridad en los textos y acciones disponibles.
+
+**IoT Interface Guidelines**
+En el caso de GloveTalk, el componente IoT corresponde al guante inteligente que capta los gestos del usuario. Este dispositivo está diseñado con la premisa de interacción mínima, dado que su uso se basa en movimientos naturales de la mano. No cuenta con pantalla ni menú, ya que toda la configuración y seguimiento del dispositivo se realiza desde las plataformas web y móvil. El guante incorpora solo un botón físico multifunción, utilizado para encender, apagar o calibrar el dispositivo, pensado para facilitar su operación directa sin depender de conectividad activa, especialmente en contextos educativos o terapéuticos donde se prioriza la autonomía del usuario.
+
 ## 6.2. Information Architecture
 
 ### 6.2.1. Labeling Systems

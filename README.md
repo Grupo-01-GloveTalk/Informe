@@ -2217,6 +2217,7 @@ La interfaz web de GloveTalk ha sido diseñada para brindar una experiencia clar
 * **Pop-ups**: Las ventanas emergentes son utilizadas únicamente para acciones críticas como guardar una traducción, borrar historial o cerrar sesión. Estas aparecen con fondo oscuro y texto blanco, e incluyen las opciones “Aceptar”, “Cancelar” y el ícono de cierre (“X”), asegurando una interacción clara y accesible en cualquier resolución de pantalla.
 
 **Mobile Interface Guidelines**
+
 La versión móvil de GloveTalk mantiene la misma estructura funcional y estilo visual que la versión web, pero adaptada a pantallas más pequeñas y a la interacción táctil. El diseño prioriza la eficiencia de uso y la accesibilidad, con controles grandes y navegación simplificada para permitir que cualquier usuario —incluso con movilidad limitada o poca experiencia digital— pueda utilizarla con facilidad.
 
 * **Imágenes:** Las imágenes e íconos se optimizan en tamaño y resolución para evitar ralentización, garantizando su legibilidad sin sobrecargar visualmente la pantalla.
@@ -2228,13 +2229,37 @@ En el caso de GloveTalk, el componente IoT corresponde al guante inteligente que
 
 ## 6.2. Information Architecture
 
+GloveTalk está diseñado pensando en la simplicidad, el enfoque inclusivo y la facilidad de uso para personas que pueden tener diferentes niveles de experiencia con herramientas digitales. Por ello, se ha priorizado una estructura clara y lógica que permita a los usuarios entender rápidamente qué están visualizando y cómo pueden interactuar con el sistema, sin generar confusión ni sobrecarga cognitiva.
+
 ### 6.2.1. Labeling Systems
+
+GloveTalk emplea un sistema de etiquetado simple, directo y accesible. Cada vista principal tiene un título claro como “Traductor”, “Historial” o “Perfil”. Los mensajes dentro de las secciones son concisos y reflejan el estado del sistema: por ejemplo, “Cargando traducción…” o “Sin traducciones registradas”. Además, los botones están etiquetados con verbos de acción (“Iniciar”, “Cerrar sesión”) para reforzar la comprensión de su propósito. El sistema evita jergas técnicas y utiliza un lenguaje cotidiano y accesible, favoreciendo la autonomía del usuario al interactuar con el sistema.
 
 ### 6.2.2. Searching Systems
 
+El sistema de búsqueda estará principalmente presente en la sección de “Historial”, donde los usuarios podrán buscar registros de traducciones mediante filtros por fecha o tipo de gesto. La interfaz de búsqueda se ubicará en la parte superior de dicha sección e incluirá opciones de autocompletado y filtros laterales. En futuras versiones, también se considera incluir buscadores en módulos de ayuda o configuración avanzada, donde el usuario podrá localizar rápidamente ajustes específicos o términos relacionados con el uso del sistema.
+
 ### 6.2.3. SEO Tags and Meta Tags
 
+Para garantizar una adecuada visibilidad de GloveTalk en motores de búsqueda y tiendas de aplicaciones, se ha definido un conjunto base de etiquetas SEO para la landing page del sitio web, así como elementos ASO (App Store Optimization) para la aplicación móvil:
+
+```html
+	<title>GloveTalk – Traducción de Lengua de Señas</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="GloveTalk es un sistema que convierte el lenguaje de señas en audio en tiempo real, promoviendo la comunicación inclusiva.">
+	<meta name="keywords" content="lenguaje de señas, traducción, discapacidad auditiva, accesibilidad, GloveTalk, IoT">
+	<meta name="author" content="TechSign Team">
+	<meta name="copyright" content="Copyright TechSign Team">
+```
+
+App Title: GloveTalk<br>
+App Keywords: lenguaje de señas, traducción, inclusión, accesibilidad, IoT<br>
+App Subtitle: Comunicación inclusiva en tiempo real<br>
+App Description: Aplicación móvil de GloveTalk que traduce lenguaje de señas peruano a audio, permitiendo a personas con discapacidad auditiva comunicarse de forma autónoma.<br>
+
 ### 6.2.4. Navigation Systems
+
+El sistema de navegación se basa en una barra superior persistente que contiene accesos directos a las secciones principales: “Traductor”, “Historial”, “Perfil” y “Ajustes”. Esta barra permanece visible en todo momento para facilitar la orientación y el acceso rápido a funcionalidades clave. En dispositivos móviles, la barra se adapta mediante un menú desplegable con las mismas opciones, manteniendo la coherencia visual. Adicionalmente, en las secciones que lo requieren, como “Historial”, se incorpora una barra de búsqueda que permite filtrar resultados directamente desde la navegación. Los íconos empleados para navegación (avatar, engranaje, lupa) siguen convenciones universales que permiten una rápida identificación de su función incluso sin texto.
 
 ## 6.3. Landing Page UI Design
 

@@ -2199,7 +2199,7 @@ La paleta de colores de GloveTalk fue seleccionada para transmitir confianza, ac
 <img src="./assets/style-guideline/Colors.png">
 
 **Typography**<br>
-Se ha seleccionado la tipografía Poppins por su legibilidad, estilo moderno y accesibilidad. Se utilizan variantes como Regular para cuerpo de texto, Medium para botones o enlaces secundarios y Bold para títulos y encabezados. Esta elección permite una lectura cómoda en distintos dispositivos y asegura jerarquía visual clara.
+Se ha seleccionado la tipografía Roboto por su excelente legibilidad, estilo neutral y versatilidad en interfaces digitales. Se utilizan variantes como Regular para el cuerpo del texto, Medium para botones o enlaces secundarios, y Bold para títulos y encabezados. Esta elección permite una lectura cómoda en distintos dispositivos, facilita la accesibilidad y asegura una jerarquía visual clara y coherente en todo el sistema.
 
 <img src="./assets/style-guideline/tipografia-roboto.png">
 

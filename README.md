@@ -2173,7 +2173,38 @@ En la capa del dominio del bounded context Record se han identificado tres entid
 
 ## 6.1. Style Guidelines
 
+Esta sección establece las pautas visuales y funcionales necesarias para garantizar la coherencia estética, accesibilidad y comunicativa de todos los productos digitales del ecosistema GloveTalk. Aquí se consolidan los assets, tipografías, colores y principios de diseño que permitirán ofrecer una experiencia consistente y empática, en especial considerando las necesidades de nuestros segmentos objetivo: personas con discapacidad auditiva y del habla, y profesionales de educación y salud.
+
 ### 6.1.1. General Style Guidelines
+
+TechSign es una startup que busca transformar la comunicación inclusiva en el Perú mediante tecnologías IoT y herramientas digitales accesibles. Su principal producto, GloveTalk, es un sistema de traducción de lenguaje de señas a audio en tiempo real, enfocado en empoderar a personas con discapacidad auditiva y del habla, facilitando su inclusión social, educativa y profesional.
+
+La propuesta combina sensores integrados en un guante inteligente, algoritmos de aprendizaje profundo y una interfaz digital intuitiva que permite interpretar y traducir los gestos de la Lengua de Señas Peruana (LSP).
+
+**Misión**<br>
+Desarrollar soluciones tecnológicas inclusivas que eliminen las barreras de comunicación para personas con discapacidad auditiva y del habla, promoviendo su autonomía y participación plena en la sociedad.
+
+**Visión**<br>
+Ser líderes en Latinoamérica en innovación tecnológica aplicada a la inclusión comunicacional, contribuyendo a una sociedad más justa, accesible y empática.
+
+Logotipo del producto:
+
+
+**Brand Name**<br>
+El nombre GloveTalk combina dos conceptos claves del proyecto: "Glove" (guante), el componente físico que capta los gestos; y "Talk" (hablar), la función esencial del sistema. Esta unión refleja la transformación de lenguaje gestual en sonido, promoviendo una comunicación directa entre usuarios con discapacidad auditiva y personas oyentes. Es un nombre claro, memorable y alineado con nuestra propuesta de valor.
+
+**Colors**<br>
+La paleta de colores de GloveTalk fue seleccionada para transmitir confianza, accesibilidad e innovación inclusiva. Se busca un diseño sobrio pero moderno, con colores que aseguren legibilidad y contraste para todos los usuarios.
+
+**Typography**<br>
+Se ha seleccionado la tipografía Poppins por su legibilidad, estilo moderno y accesibilidad. Se utilizan variantes como Regular para cuerpo de texto, Medium para botones o enlaces secundarios y Bold para títulos y encabezados. Esta elección permite una lectura cómoda en distintos dispositivos y asegura jerarquía visual clara.
+
+**Spacing**<br>
+El sistema de espaciado se basa en una unidad de 8 píxeles, aplicada de manera consistente en márgenes, paddings y separación de componentes. Esto permite una estructura ordenada, reduce la carga cognitiva y facilita la navegación, tanto en desktop como en dispositivos móviles.
+
+**Tone and Language**<br>
+El tono de comunicación de GloveTalk es claro, respetuoso y empático. Se mantiene una redacción formal pero cercana, evitando tecnicismos innecesarios para que el sistema sea comprensible por usuarios con distintos niveles de familiaridad tecnológica. Se prioriza un lenguaje accesible, directo y enfocado en la inclusión comunicativa.
+
 
 ### 6.1.2. Web, Mobile and IoT Style Guidelines
 

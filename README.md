@@ -58,8 +58,14 @@
         <tr>
             <td align = "center">TB1</td>
             <td>18/04/2025</td>
-            <td> Grupo 1
+            <td>Grupo 1</td>
             <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1 y 4.2</td>
+        </tr>
+        <tr>
+            <td align = "center">TP</td>
+            <td>17/05/2025</td>
+            <td>Grupo 1</td>
+            <td>Se agregó el contenido del capítulo 5, apartados 5.1, 5.4.1, 5.4.2 y 5.4.3; así como el capítulo 6 completo, incluyendo los apartados 6.1, 6.2, 6.3, 6.4 y 6.5, con sus respectivas guías de estilo, wireframes, wireflows, mockups, user flows y prototipos.</td>
         </tr>
 </table>
 <br>

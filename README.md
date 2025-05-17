@@ -2389,9 +2389,35 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 ---
 
 # Conclusiones y Recomendaciones
-
-# Video About-the-Team
+GloveTalk representa una innovación significativa para la inclusión de personas con discapacidad auditiva en el Perú. Nuestra solución, basada en tecnología IoT y aprendizaje profundo, demuestra el potencial de la tecnología para derribar barreras comunicativas. La arquitectura event-driven y de microservicios proporciona la base necesaria para un sistema confiable con baja latencia, factor crítico para traducciones en tiempo real. El enfoque domain-driven facilitó la estructuración en bounded contexts bien definidos, mientras que el diseño centrado en el usuario garantiza accesibilidad y usabilidad. Las entrevistas de validación confirmaron que nuestra solución responde a necesidades reales, con potencial para mejorar significativamente la inclusión social, educativa y laboral de las personas con discapacidad auditiva en nuestro país.
 
 # Bibliografía
 
+INEI (2017). Censo Nacional de Población y Vivienda 2017. Instituto Nacional de Estadística e Informática del Perú. Recuperado de: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf
+
+Defensoría del Pueblo del Perú (2024). Informe sobre la situación de las personas con discapacidad auditiva y del habla en el Perú. Recuperado de: https://www.defensoria.gob.pe/informes
+
+Evans, E. (2015). Domain-Driven Design: Tackling Complexity in the Heart of Software. Boston: Addison-Wesley.
+
+Vernon, V. (2016). Implementing Domain-Driven Design. Addison-Wesley Professional.
+
+Newman, S. (2021). Building Microservices: Designing Fine-Grained Systems (2nd ed.). O'Reilly Media.
+
+Richardson, C. (2019). Microservices Patterns: With Examples in Java. Manning Publications.
+
+Norman, D. (2013). The Design of Everyday Things: Revised and Expanded Edition. Basic Books.
+
+Krug, S. (2014). Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd ed.). New Riders.
+
+Ministerio de Educación del Perú (2021). Guía de Atención Educativa a Estudiantes con Discapacidad Auditiva. MINEDU.
+
+Organización Mundial de la Salud (2022). Informe mundial sobre la audición. OMS.
+
 # Anexos
+Link de la organización en GitHub: https://github.com/Grupo-01-GloveTalk
+
+Repositorio del informe: https://github.com/Grupo-01-GloveTalk/Informe
+
+Link al deploy de la landing page: https://landing-page-umber-eta-47.vercel.app/
+
+Link al deploy de la aplicación web: https://front-end-lake-beta.vercel.app/

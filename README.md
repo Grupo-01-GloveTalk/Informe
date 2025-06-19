@@ -2324,7 +2324,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <br>
 
-<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51"></a>
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51"/>
 
 ### 6.4.2. Applications Wireflow Diagrams
 
@@ -2338,7 +2338,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <p>Para este flujo, el usuario accede al sistema mediante login o registro y es redirigido a la pantalla principal de traducción. Si el servicio está activo, la traducción inicia correctamente (Happy Path); en caso contrario, se muestra un mensaje de error (Unhappy Path).</p>
 
-<img src="./assets/web-app-ui/wflow-traduccion.png" alt="Traduccion Wireflow"/>
+<img src="./assets/web-app-ui/wflow_traduccion.png" alt="Traduccion Wireflow"/>
 
 <strong>User Goal: Consultar traducciones anteriores realizadas</strong>
 
@@ -2346,7 +2346,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <img src="./assets/web-app-ui/wflow_consulta_traduccion.png" alt="Consulta Wireflow"/>
 
-<strong>Enlace a Wireflow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-7962%2C-2632%2C4454%2C2109%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6"></a>
+<strong>Enlace a Wireflow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-7962%2C-2632%2C4454%2C2109%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6">https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-7962%2C-2632%2C4454%2C2109%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6</a>
 
 ### 6.4.3. Applications Mock-ups
 

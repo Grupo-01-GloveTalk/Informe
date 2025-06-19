@@ -2288,7 +2288,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <br>
 
-<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-2">Wireframes</a>
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-2">https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-2</a>
 
 ## 6.4. Applications UX/UI Design
 
@@ -2324,7 +2324,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <br>
 
-<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51"/>
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51">https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51</a>
 
 ### 6.4.2. Applications Wireflow Diagrams
 
@@ -2368,8 +2368,30 @@ Este mockup muestra la sección de Historial, donde el usuario puede consultar u
 
 <img src="./assets/web-app-ui/mk-Historial.png">
 
+<strong>Enlace a Mockups:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51">https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51</a>
+
 
 ### 6.4.4. Applications User Flow Diagrams
+
+<strong>User Goal: Registrarse o iniciar sesión en la plataforma</strong>
+
+<p>Este flujo permite al usuario crear una cuenta nueva o acceder con una ya existente. El proceso inicia en la pantalla principal donde el usuario puede elegir entre iniciar sesión con credenciales existentes o registrarse como nuevo usuario, completando un formulario con sus datos personales.</p>
+
+<img src="./assets/web-app-ui/uflow-registro.png" alt="Login Userflow"/>
+
+<strong>User Goal: Ingresar al módulo de traducción en vivo </strong>
+
+<p>Para este flujo, el usuario accede al sistema mediante login o registro y es redirigido a la pantalla principal de traducción. Si el servicio está activo, la traducción inicia correctamente (Happy Path); en caso contrario, se muestra un mensaje de error (Unhappy Path).</p>
+
+<img src="./assets/web-app-ui/uflow-traduccion.png" alt="Traduccion Userflow"/>
+
+<strong>User Goal: Consultar traducciones anteriores realizadas</strong>
+
+<p>Este flujo permite al usuario acceder al historial de traducciones realizadas en la plataforma GloveTalk. El usuario accede a su cuenta y selecciona la opción "Historial", entonces podrá visualizar un listado cronológico de sus sesiones pasadas con detalles de cada traducción.</p>
+
+<img src="./assets/web-app-ui/uflow-consulta-traduccion.png" alt="Consulta Userflow"/>
+
+<strong>Enlace a UserFlow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-10338%2C-9264%2C6692%2C4642%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6">https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-10338%2C-9264%2C6692%2C4642%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6</a>
 
 ## 6.5. Applications Prototyping
 

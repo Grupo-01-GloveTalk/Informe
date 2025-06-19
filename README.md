@@ -2294,31 +2294,25 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 ### 6.4.1. Applications Wireframes
 
-<strong>Login Page</strong>
+<strong>Login Page</strong><br/>En el siguiente wireframe se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
 
 <img src="./assets/web-app-ui/wf_login.png" alt="Wireframe Login"/>
 
 <br>
 
-<strong>Register Page</strong>
+<strong>Register Page</strong><br> El siguiente wireframe muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por GloveTalk.
 
 <img src="./assets/web-app-ui/wf_register.png" alt="Wireframe Register"/>
 
 <br>
 
-<strong>Perfil Page</strong>
-
-<img src="./assets/web-app-ui/wf_perfil.png" alt="Wireframe Register"/>
-
-<br>
-
-<strong>Register Page</strong>
+<strong>Home Page</strong><br> El siguiente wireframe representa la pantalla principal del sistema, donde el usuario accede a la funcionalidad de traducción en vivo. Desde aquí, podrá iniciar una sesión de traducción de señas en tiempo real, y visualizar el contenido traducido mediante texto. Esta sección constituye el núcleo funcional de GloveTalk.
 
 <img src="./assets/web-app-ui/wf_traducto.png" alt="Wireframe Register"/>
 
 <br>
 
-<strong>Historial Page</strong>
+<strong>Historial Page</strong><br/>Este wireframe muestra la sección de Historial, donde el usuario puede consultar un registro cronológico de traducciones previas. Se listan la fecha, hora y un botón para ver el resultado de cada sesión. Esta funcionalidad permite al usuario revisar comunicaciones anteriores y llevar un seguimiento de sus interacciones con la plataforma.
 
 <img src="./assets/web-app-ui/wf_historial.png" alt="Wireframe Dashboard Safe"/>
 
@@ -2350,20 +2344,20 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 ### 6.4.3. Applications Mock-ups
 
-**Iniciar sesión**<br> En el siguiente mockup se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
+**Login Page**<br> En el siguiente mockup se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
 
 <img src="./assets/web-app-ui/mk-Login.png">
 
-**Crear cuenta**<br> El siguiente wireframe muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por GloveTalk.
+**Register Page**<br> El siguiente mockup muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por GloveTalk.
 
 <img src="./assets/web-app-ui/mk-Register.png">
 
-**Traducción en vivo**<br> El siguiente mockup representa la pantalla principal del sistema, donde el usuario accede a la funcionalidad de traducción en vivo. Desde aquí, podrá iniciar una sesión de traducción de señas en tiempo real, y visualizar el contenido traducido mediante texto. Esta sección constituye el núcleo funcional de GloveTalk.
+**Home Page**<br> El siguiente mockup representa la pantalla principal del sistema, donde el usuario accede a la funcionalidad de traducción en vivo. Desde aquí, podrá iniciar una sesión de traducción de señas en tiempo real, y visualizar el contenido traducido mediante texto. Esta sección constituye el núcleo funcional de GloveTalk.
 
 <img src="./assets/web-app-ui/mk-Traductor.png">
 
 
-**Historial de traducciones**<br>
+**Historial Page**<br>
 Este mockup muestra la sección de Historial, donde el usuario puede consultar un registro cronológico de traducciones previas. Se listan la fecha, hora y un botón para ver el resultado de cada sesión. Esta funcionalidad permite al usuario revisar comunicaciones anteriores y llevar un seguimiento de sus interacciones con la plataforma.
 
 <img src="./assets/web-app-ui/mk-Historial.png">

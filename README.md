@@ -2274,7 +2274,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
-<strong>Desktop Web Browser</strong>
+<strong>Desktop Web Browser</strong><br>El siguiente wireframe presenta la estructura base de la landing page de GloveTalk, diseñada para comunicar rápidamente la propuesta de valor del sistema. Se muestran las secciones principales como: presentación del producto, servicios, testimonios, planes de suscripción, contacto y descarga de la aplicación. Esta vista prioriza jerarquía visual, orden y claridad en la disposición de elementos clave.
 
 <img src="./assets/landing-ui/landing_wf.png" alt="Landing Page Wireframe"/>
 
@@ -2282,7 +2282,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 ### 6.3.2. Landing Page Mock-up
 
-<strong>Desktop Web Browser</strong>
+<strong>Desktop Web Browser</strong><br>Este mockup representa la versión visual final de la landing page de GloveTalk, con estilo aplicado según la guía de diseño del proyecto. Utiliza una paleta accesible, tipografía legible y una interfaz clara que resalta los beneficios del sistema. Integra imágenes representativas, botones de acción y testimonios para captar el interés de los usuarios desde el primer contacto.
 
 <img src="./assets/landing-ui/landing_mk.png" alt="Landing Page Wireframe"/>
 

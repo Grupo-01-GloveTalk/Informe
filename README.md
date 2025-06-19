@@ -2324,7 +2324,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <br>
 
-<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51">Wireframes</a>
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-51"></a>
 
 ### 6.4.2. Applications Wireflow Diagrams
 
@@ -2332,23 +2332,42 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <p>Este flujo permite al usuario crear una cuenta nueva o acceder con una ya existente. El proceso inicia en la pantalla principal donde el usuario puede elegir entre iniciar sesión con credenciales existentes o registrarse como nuevo usuario, completando un formulario con sus datos personales.</p>
 
-<img src="./assets/web-app-ui/wflow_login_and_register.png" alt="Login Wireflow"/>
+<img src="./assets/web-app-ui/wflow-registro.png" alt="Login Wireflow"/>
 
-<strong>User Goal: Acceder a la información de su perfil </strong>
+<strong>User Goal: Ingresar al módulo de traducción en vivo </strong>
 
-<p>Este flujo permite al usuario ingresar a la sección de "Perfil" desde la barra de navegación de GloveTalk, donde podrá visualizar sus datos personales asociados a su cuenta registrada en la aplicación, incluyendo información de contacto y preferencias de uso.</p>
+<p>Para este flujo, el usuario accede al sistema mediante login o registro y es redirigido a la pantalla principal de traducción. Si el servicio está activo, la traducción inicia correctamente (Happy Path); en caso contrario, se muestra un mensaje de error (Unhappy Path).</p>
 
-<img src="./assets/web-app-ui/wflow_informacion_perfil.png" alt="Register Wireflow"/>
+<img src="./assets/web-app-ui/wflow-traduccion.png" alt="Traduccion Wireflow"/>
 
 <strong>User Goal: Consultar traducciones anteriores realizadas</strong>
 
 <p>Este flujo permite al usuario acceder al historial de traducciones realizadas en la plataforma GloveTalk. El usuario accede a su cuenta y selecciona la opción "Historial", entonces podrá visualizar un listado cronológico de sus sesiones pasadas con detalles de cada traducción.</p>
 
-<img src="./assets/web-app-ui/wflow_consulta_traduccion.png" alt="Register Wireflow"/>
+<img src="./assets/web-app-ui/wflow_consulta_traduccion.png" alt="Consulta Wireflow"/>
 
-<strong>Enlace a Wireflow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-7962%2C-2632%2C4454%2C2109%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6"> Wireframes</a>
+<strong>Enlace a Wireflow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-7962%2C-2632%2C4454%2C2109%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6"></a>
 
 ### 6.4.3. Applications Mock-ups
+
+**Iniciar sesión**<br> En el siguiente mockup se muestra la sección "Iniciar sesión", donde nuestros usuarios podrán ingresar los datos necesarios para acceder a la aplicación, siempre y cuando cuenten con una cuenta previamente creada.
+
+<img src="./assets/web-app-ui/mk-Login.png">
+
+**Crear cuenta**<br> El siguiente wireframe muestra la sección de "Registro de usuario", donde los usuarios podrán proporcionar a la aplicación la información necesaria para crear una cuenta y así empezar a disfrutar de los beneficios ofrecidos por GloveTalk.
+
+<img src="./assets/web-app-ui/mk-Register.png">
+
+**Traducción en vivo**<br> El siguiente mockup representa la pantalla principal del sistema, donde el usuario accede a la funcionalidad de traducción en vivo. Desde aquí, podrá iniciar una sesión de traducción de señas en tiempo real, y visualizar el contenido traducido mediante texto. Esta sección constituye el núcleo funcional de GloveTalk.
+
+<img src="./assets/web-app-ui/mk-Traductor.png">
+
+
+**Historial de traducciones**<br>
+Este mockup muestra la sección de Historial, donde el usuario puede consultar un registro cronológico de traducciones previas. Se listan la fecha, hora y un botón para ver el resultado de cada sesión. Esta funcionalidad permite al usuario revisar comunicaciones anteriores y llevar un seguimiento de sus interacciones con la plataforma.
+
+<img src="./assets/web-app-ui/mk-Historial.png">
+
 
 ### 6.4.4. Applications User Flow Diagrams
 

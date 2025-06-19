@@ -2407,11 +2407,123 @@ El prototipo de nuestra aplicación web fue diseñado con el objetivo de refleja
 
 ### 7.1.1. Development Environment Configuration
 
+**Project Management**  <br>
+Para la organización del proyecto fue necesario establecer un punto de coordinación, distribución clara de tareas y control del avance. Por ello, se eligieron las siguientes herramientas:
+
+- Centro de trabajo colaborativo: GitHub  
+- Coordinación y acuerdos: Google Meet  
+- Control de avances: Revisión de commits y entregas
+
+**Requirements Management**  <br>
+La gestión de requerimientos se realizó mediante reuniones semanales, asignación directa de tareas y seguimiento a través de GitHub. Cada miembro asumió responsabilidades definidas por funcionalidad, manteniendo trazabilidad a través del historial de versiones.
+
+| Herramienta | URL |
+|-------------|-----|
+| GitHub      | [https://github.com](https://github.com) |
+
+**Product UX/UI Design**  <br>
+Se utilizó Figma para el diseño colaborativo de los wireframes, mockups y prototipos, aprovechando sus herramientas para trabajo en equipo y su interfaz intuitiva.
+
+| Herramienta | URL |
+|-------------|-----|
+| Figma       | [https://www.figma.com/](https://www.figma.com/) |
+
+**Software Development**  <br>
+Para el desarrollo se emplearon los siguientes entornos:
+
+- **Frontend:** ReactJS con Vite, desarrollado en WebStorm y Visual Studio Code.  
+- **Backend:** FastAPI con Python y TensorFlow para el modelo de machine learning, implementado principalmente en Rider.
+
+| Herramienta        | URL |
+|--------------------|-----|
+| WebStorm           | [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/) |
+| Visual Studio Code | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
+| Rider              | [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/) |
+| TensorFlow         | [https://www.tensorflow.org/](https://www.tensorflow.org/) |
+| FastAPI            | [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/) |
+
+**Software Testing**  <br>
+Para pruebas de frontend y landing page se usaron herramientas de navegador (Chrome, Edge, Firefox). Para el backend se empleará `pytest`.
+
+| Herramienta         | URL |
+|---------------------|-----|
+| Google Chrome       | [https://www.google.com/chrome/](https://www.google.com/chrome/) |
+| Microsoft Edge      | [https://www.microsoft.com/edge](https://www.microsoft.com/edge) |
+| Mozilla Firefox     | [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/) |
+| Pytest      | [https://docs.pytest.org/](https://docs.pytest.org/) |
+
+**Software Documentation**  <br>
+Se emplearon herramientas accesibles y colaborativas para la documentación del sistema:
+
+| Herramienta | URL |
+|-------------|-----|
+| Markdown    | [https://markdown.es/sintaxis-markdown/](https://markdown.es/sintaxis-markdown/) |
+| Structurizr | [https://structurizr.com/](https://structurizr.com/) |
+| Vertabelo   | [https://www.vertabelo.com/](https://www.vertabelo.com/) |
+
+
+---
+
 ### 7.1.2. Source Code Management
+
+El control de versiones de GloveTalk se realiza a través de GitHub, utilizando una estructura de ramas que permite separar el código en desarrollo del código estable. Se manejaron principalmente dos ramas:
+
+- `main`: contiene la versión estable del proyecto, lista para ser desplegada.
+- `develop`: rama donde se integran nuevas funcionalidades, correcciones y pruebas antes de ser promovidas a producción.
+
+Este flujo de trabajo permitió mantener la estabilidad del proyecto y asegurar que los cambios fueran revisados y probados antes de integrarse a la versión final.
+
+| Módulo                  | Repositorio |
+|-------------------------|-------------|
+| Landing Page            | [https://github.com/TechSign/GloveTalk-Landing](https://github.com/TechSign/GloveTalk-Landing) |
+| Web Application (Front) | [https://github.com/TechSign/GloveTalk-Web](https://github.com/TechSign/GloveTalk-Web) |
+| API Backend             | [https://github.com/TechSign/GloveTalk-Backend](https://github.com/TechSign/GloveTalk-Backend) |
+
+**Convención de commits**  <br>
+Para mantener una trazabilidad clara en el historial de versiones, se aplicó una convención básica en los mensajes de commit:
+
+- `feat:` para nuevas funcionalidades  
+- `fix:` para correcciones de errores  
+- `docs:` para cambios en documentación  
+- `style:` para ajustes de formato, sin cambios en lógica  
+
+---
 
 ### 7.1.3. Style Guide & Conventions
 
+**HTML & CSS**  
+- Declarar `<!DOCTYPE html>`  
+- Usar etiquetas en minúscula (`<body>`, `<a>`, etc.)  
+- Cerrar siempre las etiquetas  
+- Usar atributos `alt`, `lang`, `title`, `meta`, y buenas prácticas SEO  
+- En CSS, emplear propiedades ordenadas, abreviadas, con `;` al final y guiones para clases (`.btn-primary`)
+
+**JavaScript**  
+- CamelCase para variables y funciones  
+- PascalCase para clases  
+- `let` y `const` en lugar de `var`  
+- Punto y coma al final de cada instrucción
+
+**Python (FastAPI)**  
+- snake_case para variables y funciones  
+- PascalCase para clases  
+- Tipado explícito (`: str`, `-> dict`)  
+- Uso de Pydantic para validación  
+- Carpetas separadas: `routes`, `schemas`, `services`, `models`, `core`  
+- JWT para autenticación, CORS y manejo de errores
+
+---
+
 ### 7.1.4. Deployment Configuration
+
+**Frontend (WebApp y Landing Page):** desplegado en **Vercel** 
+
+**Backend (API):** con **Azure** como principal opción.
+
+| Plataforma | URL |
+|------------|-----|
+| Vercel     | [https://vercel.com/](https://vercel.com/) |
+| Azure      | [https://portal.azure.com](https://portal.azure.com) |
 
 ## 7.2. Implementation
 

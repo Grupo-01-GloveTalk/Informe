@@ -2288,7 +2288,7 @@ El sistema de navegación se basa en una barra superior persistente que contiene
 
 <br>
 
-<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-2">https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=1-2</a>
+<strong>Enlace a Figma:</strong><a href="https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=0-1">https://www.figma.com/design/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=0-1</a>
 
 ## 6.4. Applications UX/UI Design
 
@@ -2394,6 +2394,16 @@ Este mockup muestra la sección de Historial, donde el usuario puede consultar u
 <strong>Enlace a UserFlow Diagrams:</strong><a href="https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-10338%2C-9264%2C6692%2C4642%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6">https://lucid.app/lucidchart/7c2d33f7-04ac-43ed-ba61-ea222b17e164/edit?viewport_loc=-10338%2C-9264%2C6692%2C4642%2C0_0&invitationId=inv_a772ce94-1d1a-44c9-bd1f-297170c4ffa6</a>
 
 ## 6.5. Applications Prototyping
+
+El prototipo de nuestra aplicación web fue diseñado con el objetivo de reflejar la propuesta de valor de GloveTalk: ofrecer una solución accesible e inclusiva para la comunicación de personas con discapacidad auditiva o del habla, mediante una plataforma intuitiva y funcional. Para ello, se consideraron los siguientes aspectos:
+
+* Diseño centrado en la accesibilidad
+* Interfaz clara y de fácil navegación
+* Flujos simples para traducción y consulta de historial
+
+<img src="./assets/web-app-ui/prototyping-glovetalk.png" alt="prototyping glovetalk"/>
+
+<strong>Enlace a UserFlow Diagrams:</strong><a href="https://www.figma.com/proto/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=58-286&p=f&t=EnAFNOlaWqd3J9yY-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2">https://www.figma.com/proto/6hW0MvzGUZU2Hjst0tXPN3/GloveTalk---WebApp?node-id=58-286&p=f&t=EnAFNOlaWqd3J9yY-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A2</a>
 
 ---
 

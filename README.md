@@ -2429,10 +2429,10 @@ Se utilizó Figma para el diseño colaborativo de los wireframes, mockups y prot
 | Figma       | [https://www.figma.com/](https://www.figma.com/) |
 
 **Software Development**  <br>
-Para el desarrollo se emplearon los siguientes entornos:
+Para el desarrollo se emplearan los siguientes entornos:
 
 - **Frontend:** ReactJS con Vite, desarrollado en WebStorm y Visual Studio Code.  
-- **Backend:** FastAPI con Python y TensorFlow para el modelo de machine learning, implementado principalmente en Rider.
+- **Backend:** FastAPI con Python y TensorFlow para el modelo de machine learning.
 
 | Herramienta        | URL |
 |--------------------|-----|
@@ -2443,14 +2443,13 @@ Para el desarrollo se emplearon los siguientes entornos:
 | FastAPI            | [https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/) |
 
 **Software Testing**  <br>
-Para pruebas de frontend y landing page se usaron herramientas de navegador (Chrome, Edge, Firefox). Para el backend se empleará `pytest`.
+Para pruebas de frontend y landing page se usaron herramientas de navegador (Chrome, Edge, Firefox).
 
 | Herramienta         | URL |
 |---------------------|-----|
 | Google Chrome       | [https://www.google.com/chrome/](https://www.google.com/chrome/) |
 | Microsoft Edge      | [https://www.microsoft.com/edge](https://www.microsoft.com/edge) |
 | Mozilla Firefox     | [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/) |
-| Pytest      | [https://docs.pytest.org/](https://docs.pytest.org/) |
 
 **Software Documentation**  <br>
 Se emplearon herramientas accesibles y colaborativas para la documentación del sistema:
@@ -2516,14 +2515,46 @@ Para mantener una trazabilidad clara en el historial de versiones, se aplicó un
 
 ### 7.1.4. Deployment Configuration
 
-**Frontend (WebApp y Landing Page):** desplegado en **Vercel** 
+En esta sección abordamos el despliegue de los componentes principales del proyecto GloveTalk: la **Landing Page** y la **Aplicación Web**.
 
-**Backend (API):** con **Azure** como principal opción.
+---
 
-| Plataforma | URL |
-|------------|-----|
-| Vercel     | [https://vercel.com/](https://vercel.com/) |
-| Azure      | [https://portal.azure.com](https://portal.azure.com) |
+#### 1. Landing Page
+
+Para el despliegue de la landing page se utilizó **Vercel**:  
+[https://vercel.com](https://vercel.com)
+
+Una vez iniciada sesión en la plataforma, se seleccionó la opción **"Add New Project"**, conectando Vercel directamente con nuestra cuenta de GitHub. Desde allí se seleccionó el repositorio correspondiente a la landing page de GloveTalk.
+
+<img src="./assets/deployment/vercel-new-project.png"/>
+
+Dado que la landing fue construida principalmente con HTML, CSS y JavaScript, **no fue necesario configurar comandos de build personalizados**. Vercel detectó automáticamente la configuración y procedió a hacer el despliegue.
+
+Luego de unos segundos, el proyecto quedó disponible públicamente con una URL proporcionada por Vercel.
+
+<img src="./assets/deployment/ss_landing.png"/>
+
+---
+
+#### 2. Aplicación Web
+
+El despliegue de la aplicación web (desarrollada con ReactJS y Vite) también se realizó mediante **Vercel**.
+
+Luego de iniciar sesión en [https://vercel.com](https://vercel.com), se seleccionó la opción de crear un nuevo proyecto desde GitHub, eligiendo el repositorio `FrontEnd`.
+
+<img src="./assets/deployment/vercel-new-project.png"/>
+
+En este caso, sí fue necesario configurar los siguientes parámetros para el build:
+
+- **Framework Preset:** Vite  
+- **Build Command:** `npm run build`  
+- **Output Directory:** `dist`
+
+Una vez configurado el entorno, Vercel realizó el proceso de build y generó el despliegue. Al finalizar, se asignó una URL pública que permite acceder a la aplicación web desde cualquier dispositivo.
+
+<img src="./assets/deployment/ss_frontend.png"/>
+
+---
 
 ## 7.2. Implementation
 

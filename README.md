@@ -2654,6 +2654,58 @@ Fase 2: Presentación del Concepto y Reacción Inicial
 | **Timing** |   
 
 ### 7.3.3. Evaluaciones
+### 7.3.3. Evaluaciones según Heurísticas
+
+A continuación, se presenta el proceso de evaluación de la experiencia de usuario para GloveTalk, basado en los hallazgos de las entrevistas de validación y contrastado con heurísticas de usabilidad y diseño.
+
+#### **Escala de Nivel de Severidad**
+
+* **0 - No es un problema:** No afecta la usabilidad en absoluto.
+* **1 - Problema Cosmético:** Problema menor que no necesita ser arreglado a menos que se disponga de tiempo.
+* **2 - Problema de Usabilidad Menor:** Problema de baja prioridad, pero que debería ser solucionado.
+* **3 - Problema de Usabilidad Mayor:** Problema importante, de alta prioridad, que dificulta significativamente el uso.
+* **4 - Problema Crítico:** Problema bloqueante que debe ser solucionado antes del lanzamiento.
+
+
+| Criterio | Descripción |
+| :--- | :--- |
+| **Heurística** | **Relación entre el sistema y el mundo real** |
+| **Evaluación** | El sistema usa conceptos que los usuarios entienden ("Historial", "Perfil"). El mayor problema se encuentra en la complejidad del lenguaje de señas, que el sistema podría simplificar en exceso. |
+| **Evidencia** | * **Positiva:** Maria Elena vio el potencial de usar los datos del historial para crear una metodología de enseñanza, validando que el concepto de "historial" es útil y comprensible en su mundo profesional.<br>* **Negativa/Problema:** Piero Castro fue enfático en que el sistema debe entender el **contexto** de una seña, ya que su significado puede cambiar. Esto representa una brecha entre el sistema y la complejidad del "mundo real" del lenguaje de señas. |
+| **Nivel de Severidad** | **3 - Problema de Usabilidad Mayor** |
+| **Recomendación** | El motor de IA debe ser entrenado para interpretar secuencias y contexto. Una posible solución es que, ante una seña ambigua, el sistema ofrezca 2-3 posibles interpretaciones para que el usuario o su interlocutor seleccionen la correcta. |
+
+| Criterio | Descripción |
+| :--- | :--- |
+| **Heurística** | **Consistencia y estándares** |
+| **Evaluación** | El diseño visual presentado en los mockups es muy consistente. Se utiliza la misma paleta de colores, tipografía y una disposición similar de los elementos en las diferentes pantallas. |
+| **Evidencia** | Las guías de estilo y las maquetas de las diferentes páginas (Login, Registro, Traductor, Historial) muestran un lenguaje de diseño unificado y coherente. |
+| **Nivel de Severidad** | **0 - No es un problema** |
+| **Recomendación** | Mantener esta estricta consistencia visual y de interacción a medida que se desarrollen nuevas funcionalidades. |
+
+| Criterio | Descripción |
+| :--- | :--- |
+| **Heurística** | **Flexibilidad y Eficiencia de Uso** |
+| **Evaluación** | El concepto actual es funcional y simple, pero las entrevistas revelaron una clara necesidad de adaptabilidad para diferentes niveles de habilidad. |
+| **Evidencia** | Maria Elena sugirió explícitamente que la herramienta debe estar **organizada por niveles** (básico, intermedio, etc.) para adaptarse a la edad y capacidad de cada estudiante. |
+| **Nivel de Severidad** | **2 - Problema de Usabilidad Menor** |
+| **Recomendación** | Incluir la funcionalidad de "Niveles de Dificultad" en el backlog para permitir a los profesores y usuarios adaptar el vocabulario y la complejidad que el guante reconoce. |
+
+| Criterio | Descripción |
+| :--- | :--- |
+| **Heurística** | **5. Diseño estético y minimalista** |
+| **Evaluación** | El diseño de la interfaz es limpio, con alto contraste y enfocado en la funcionalidad principal, lo cual es positivo y evita la sobrecarga de información. |
+| **Evidencia** | Las interfaces muestran un diseño que evita la sobrecarga de información. Los profesores valoraron la simplicidad; Piero buscaba algo "sencillo de entender" y Maria Elena algo "de fácil acceso". |
+| **Nivel de Severidad** | **0 - No es un problema** |
+| **Recomendación** | Mantener el enfoque minimalista. Cualquier nueva función debe justificar su presencia en la interfaz principal y no añadir complejidad innecesaria. |
+
+| Criterio | Descripción |
+| :--- | :--- |
+| **Heurística** | **Diseño Inclusivo y Accesible** |
+| **Evaluación** | El propósito del proyecto es inherentemente inclusivo. Sin embargo, surgieron preocupaciones sobre la inclusión en el plano físico y social. |
+| **Evidencia** | * **Positiva:** Aranza y Orlando confirmaron que la herramienta ayudaría con la **inclusión social y la independencia**.<br>* **Negativa/Problema:** Aranza expresó preocupación por la **percepción social** del guante al usarlo en público. Piero señaló que la **comodidad y durabilidad** son cruciales; un guante incómodo o frágil se convierte en una barrera. |
+| **Nivel de Severidad** | **3 - Problema de Usabilidad Mayor** |
+| **Recomendación** | 1. **Diseño del Hardware:** Invertir en un diseño industrial que haga el guante lo más discreto, estético y cómodo posible.<br>2. **Durabilidad:** Utilizar materiales resistentes al uso diario (agua, roces) para que el dispositivo sea fiable. |
 
 ## 7.4. Video About-the-Product
 

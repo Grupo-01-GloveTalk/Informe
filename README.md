@@ -2575,6 +2575,7 @@ Una vez configurado el entorno, Vercel realizó el proceso de build y generó el
 ### 7.3.1. Diseño
 
 Preguntas para el Segmento 1: Cuidadores y Familiares
+
 Fase 1: Introducción y Entendimiento del Contexto Actual
 1. ¿me podrías contar cómo es un día normal en cuanto a la comunicación con tu familiar?
 2. ¿Cuáles son los principales métodos o herramientas que usan para comunicarse entre ustedes? ¿Y para comunicarse con otras personas (amigos, médicos, vendedores)?
@@ -2582,29 +2583,30 @@ Fase 1: Introducción y Entendimiento del Contexto Actual
 4. ¿Puedes contarme sobre alguna experiencia específica, positiva o negativa, que hayan tenido usando la tecnología para intentar facilitar la comunicación?
 5. Desde tu punto de vista, ¿cómo impactan estas barreras de comunicación en la vida social, la independencia o el estado de ánimo de tu familiar?
 6. Si pudieras describir la "solución ideal" para estos desafíos de comunicación, ¿cómo sería? ¿Qué haría?
+   
 Fase 2: Presentación del Concepto y Reacción Inicial
-
-Pequeño texto: Gracias por compartir eso. Ahora me gustaría contarte sobre un concepto en el que estamos trabajando. Imagina un guante inteligente que tu familiar podría usar. Este guante reconoce los gestos del lenguaje de señas y los traduce a voz hablada casi al instante a través de un pequeño altavoz. Además, tendría una aplicación en el celular para ver un historial de las conversaciones.
-
-7. Al escuchar esta idea, ¿cuál es tu primera reacción o pensamiento?
-8. ¿En qué momentos o situaciones específicas del día a día crees que un dispositivo así sería más útil?
-9. ¿Qué preocupaciones o dudas te surgirían sobre el uso de un guante como este? (Por ejemplo, sobre la comodidad, la precisión, la batería, o cómo lo verían otras personas).
-10. ¿Qué tipo de información te gustaría poder ver o gestionar en la aplicación del celular que acompaña al guante?
-11. ¿Crees que esta solución podría realmente ayudar a mejorar la independencia y la inclusión de tu familiar? ¿De qué manera?
+8. Al escuchar esta idea, ¿cuál es tu primera reacción o pensamiento?
+9. ¿En qué momentos o situaciones específicas del día a día crees que un dispositivo así sería más útil?
+10. ¿Qué preocupaciones o dudas te surgirían sobre el uso de un guante como este? (Por ejemplo, sobre la comodidad, la precisión, la batería, o cómo lo verían otras personas).
+11. ¿Qué tipo de información te gustaría poder ver o gestionar en la aplicación del celular que acompaña al guante?
+12. ¿Crees que esta solución podría realmente ayudar a mejorar la independencia y la inclusión de tu familiar? ¿De qué manera?
+    
 Preguntas para el Segmento 2: Educadores y Profesionales
+
 Fase 1: Introducción y Entendimiento del Contexto Profesional
 1. En tu trabajo diario con estudiantes con discapacidad auditiva, ¿cuáles son las herramientas o metodologías de comunicación que encuentras más efectivas?
 2. ¿Cuáles son los mayores desafíos que enfrentas al enseñar o al evaluar el progreso comunicativo de tus estudiantes?
 3. ¿Has utilizado o integrado alguna herramienta tecnológica en tus clases o terapias? ¿Cuál fue el resultado?
 4. ¿Qué tipo de datos o información sobre el desempeño de un estudiante te sería más valioso para personalizar su aprendizaje?
 5. Si pudieras diseñar una herramienta tecnológica de apoyo para tu trabajo, ¿qué tres funciones principales tendría que cumplir para serte realmente útil?
+   
 Fase 2: Presentación del Concepto y Reacción Inicial
-6. Cuál es tu primera impresión sobre este concepto desde tu experiencia profesional?
-7. De qué maneras podrías imaginar la integración de una herramienta así en tus actividades pedagógicas o terapéuticas actuales?
-8. ¿Qué posibles beneficios crees que podría aportar a tus estudiantes?
-9. ¿Qué preocupaciones o desafíos se te ocurren al pensar en implementar esta tecnología en un entorno educativo? (Por ejemplo: la precisión, la distracción que podría generar, la curva de aprendizaje).
-10. La idea de tener un historial con datos y métricas de uso, ¿te parece valiosa? ¿Qué tipo de reportes o análisis te gustaría poder generar a partir de esos datos?
-11. ¿Qué característica o funcionalidad sería absolutamente indispensable para que consideraras adoptar una herramienta como esta en tu trabajo?
+7. Cuál es tu primera impresión sobre este concepto desde tu experiencia profesional?
+8. De qué maneras podrías imaginar la integración de una herramienta así en tus actividades pedagógicas o terapéuticas actuales?
+9. ¿Qué posibles beneficios crees que podría aportar a tus estudiantes?
+10. ¿Qué preocupaciones o desafíos se te ocurren al pensar en implementar esta tecnología en un entorno educativo? (Por ejemplo: la precisión, la distracción que podría generar, la curva de aprendizaje).
+11. La idea de tener un historial con datos y métricas de uso, ¿te parece valiosa? ¿Qué tipo de reportes o análisis te gustaría poder generar a partir de esos datos?
+12. ¿Qué característica o funcionalidad sería absolutamente indispensable para que consideraras adoptar una herramienta como esta en tu trabajo?
 
 ### 7.3.2. Registro
 

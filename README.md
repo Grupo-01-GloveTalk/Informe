@@ -2585,11 +2585,11 @@ Fase 1: Introducción y Entendimiento del Contexto Actual
 6. Si pudieras describir la "solución ideal" para estos desafíos de comunicación, ¿cómo sería? ¿Qué haría?
    
 Fase 2: Presentación del Concepto y Reacción Inicial
-8. Al escuchar esta idea, ¿cuál es tu primera reacción o pensamiento?
-9. ¿En qué momentos o situaciones específicas del día a día crees que un dispositivo así sería más útil?
-10. ¿Qué preocupaciones o dudas te surgirían sobre el uso de un guante como este? (Por ejemplo, sobre la comodidad, la precisión, la batería, o cómo lo verían otras personas).
-11. ¿Qué tipo de información te gustaría poder ver o gestionar en la aplicación del celular que acompaña al guante?
-12. ¿Crees que esta solución podría realmente ayudar a mejorar la independencia y la inclusión de tu familiar? ¿De qué manera?
+1. Al escuchar esta idea, ¿cuál es tu primera reacción o pensamiento?
+2. ¿En qué momentos o situaciones específicas del día a día crees que un dispositivo así sería más útil?
+3. ¿Qué preocupaciones o dudas te surgirían sobre el uso de un guante como este? (Por ejemplo, sobre la comodidad, la precisión, la batería, o cómo lo verían otras personas).
+4. ¿Qué tipo de información te gustaría poder ver o gestionar en la aplicación del celular que acompaña al guante?
+5. ¿Crees que esta solución podría realmente ayudar a mejorar la independencia y la inclusión de tu familiar? ¿De qué manera?
     
 Preguntas para el Segmento 2: Educadores y Profesionales
 
@@ -2601,12 +2601,12 @@ Fase 1: Introducción y Entendimiento del Contexto Profesional
 5. Si pudieras diseñar una herramienta tecnológica de apoyo para tu trabajo, ¿qué tres funciones principales tendría que cumplir para serte realmente útil?
    
 Fase 2: Presentación del Concepto y Reacción Inicial
-7. Cuál es tu primera impresión sobre este concepto desde tu experiencia profesional?
-8. De qué maneras podrías imaginar la integración de una herramienta así en tus actividades pedagógicas o terapéuticas actuales?
-9. ¿Qué posibles beneficios crees que podría aportar a tus estudiantes?
-10. ¿Qué preocupaciones o desafíos se te ocurren al pensar en implementar esta tecnología en un entorno educativo? (Por ejemplo: la precisión, la distracción que podría generar, la curva de aprendizaje).
-11. La idea de tener un historial con datos y métricas de uso, ¿te parece valiosa? ¿Qué tipo de reportes o análisis te gustaría poder generar a partir de esos datos?
-12. ¿Qué característica o funcionalidad sería absolutamente indispensable para que consideraras adoptar una herramienta como esta en tu trabajo?
+1. Cuál es tu primera impresión sobre este concepto desde tu experiencia profesional?
+2. De qué maneras podrías imaginar la integración de una herramienta así en tus actividades pedagógicas o terapéuticas actuales?
+3. ¿Qué posibles beneficios crees que podría aportar a tus estudiantes?
+4. ¿Qué preocupaciones o desafíos se te ocurren al pensar en implementar esta tecnología en un entorno educativo? (Por ejemplo: la precisión, la distracción que podría generar, la curva de aprendizaje).
+5. La idea de tener un historial con datos y métricas de uso, ¿te parece valiosa? ¿Qué tipo de reportes o análisis te gustaría poder generar a partir de esos datos?
+6.  ¿Qué característica o funcionalidad sería absolutamente indispensable para que consideraras adoptar una herramienta como esta en tu trabajo?
 
 ### 7.3.2. Registro
 

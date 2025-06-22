@@ -212,6 +212,10 @@
 |-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | **TB1:** <br> Frank Salazar: <br> Se trabajó con el equipo la estructura del proyecto para poder delegar funciones en el desarrollo del proyecto y mejorar el trabajo en equipo <br> Anderson Macedo <br>En esta entrega se trabajo en equipo, realizando las partes del trabajo de forma colaborativa, tuvimos coordinaciones en reuniones para las actividades realizadas. <br> Joseph Llacchua: <br> En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo.<br> Marco Mendez:<br> Nos apoyamos en la estructura entregada por el proesor para poder desarrollar un trabajo bien elaborado. <br> Alvaro Crispin: <br> Coordiné con el equipo la definición y redacción de las User Stories y del Product Backlog, asegurando una visión compartida de los requerimientos, Propuse y validé la estructura del modelo C4 general, guiando a mis compañeros durante su elaboración. Finalmente, asistí en la creación del Bounded Context de Translation, fomentando la participación activa de todos. <br> **TP:**  <br> Frank Salazar: <br> Para este entregable, tomé la iniciativa de desarrollar una versión funcional del frontend de GloveTalk, lo cual permitió al equipo validar las ideas de diseño planteadas en el Capítulo VI. Además, realicé simulaciones de componentes físicos utilizando Wokwi, adelantando parte de la lógica que se implementará en la fase técnica del proyecto. Esto ayudó a que el equipo tuviera una visión más clara del sistema final y facilitó la toma de decisiones con base en pruebas reales. <br> Anderson Macedo:<br> Para este entregable me encargué de organizar la distribución del capítulo 6 junto con el equipo, asignando tareas específicas a cada integrante. Además, lideré el diseño de los wireframes y wireflows de la aplicación web, asegurando coherencia con los objetivos planteados y facilitando el avance coordinado del trabajo. <br> Joseph Llacchua: <br> Para este entregable, asumí la responsabilidad de elaborar y estructurar la documentación oficial del proyecto, integrando de forma coherente los aportes del equipo en los capítulos correspondientes. Además de ordenar y dar formato al documento, participé en la revisión y consolidación de contenido, asegurando que el entregable cumpla con los requisitos académicos. También brindé apoyo puntual en otros puntos del trabajo, lo que permitió mantener la coordinación general y una presentación uniforme. <br> Marco Mendez:<br> Durante este entregable, me encargué de diseñar los wireframes y mockups de la landing page de GloveTalk, proponiendo una estructura visual clara, jerárquica y alineada con los principios definidos en la guía de estilos. Coordiné con el equipo para asegurarme de que el diseño representara adecuadamente la identidad del proyecto y sirviera como base para su futura implementación. Mi participación permitió visualizar anticipadamente cómo se comunicaría la propuesta de valor del sistema a los usuarios desde la primera interacción. <br> Alvaro Crispin: <br> Para este entregable, colaboré activamente con el equipo liderando la creación de la primera versión funcional de la landing page de GloveTalk, adelantando la etapa de implementación visual respecto al diseño establecido en los wireframes y mockups. Esta iniciativa permitió validar la propuesta visual desde una perspectiva real, facilitando los ajustes necesarios antes de avanzar a siguientes fases. Mi aporte ayudó a alinear el diseño con la experiencia de usuario esperada y fortaleció el trabajo del equipo con resultados visibles. <br> **TB2:** <br> Anderson Macedo: <br> Durante el desarrollo del proyecto GloveTalk, asumí un rol activo en la coordinación del capítulo 7, organizando la información técnica relacionada con el entorno de desarrollo, despliegue y control de versiones. Además, participé en la redacción de la documentación técnica y en la integración de los avances realizados por el equipo, asegurando coherencia en el contenido entregado.    <br> Marco Mendez: <br> Durante el desarrollo del proyecto apoye en el feedback del proyecto, aportando gran información ya que al validar las heuristicas pude ver ciertos puntos de mejora por parte de nuestros usuarios finales                                                                                                                   | **TB1:** <br> Se logró desarrollar la primera parte del proyecto, hablando del documentado, de manera satisfactoria, gracias a la correcta delegación de funciones que se realizó. <br> **TP:** <br> A lo largo del desarrollo del entregable, todos los integrantes del equipo demostraron liderazgo desde sus roles específicos. Algunos miembros asumieron la dirección en el diseño de interfaces, otros adelantaron el desarrollo técnico del sistema (frontend, simulaciones) y otros organizaron la estructura del documento y coordinaron los aportes. Esta diversidad de iniciativas permitió mantener el trabajo enfocado, avanzar de forma paralela y asegurar una integración sólida de todas las partes. <br> **TB2:** <br> Durante el desarrollo del Sprint 1 y la elaboración del Capítulo VII, el equipo demostró liderazgo compartido al asumir roles técnicos específicos como desarrollo frontend, backend, despliegue y documentación. Cada integrante lideró decisiones dentro de su módulo, lo cual permitió avanzar de forma autónoma y coordinada. La división clara de responsabilidades facilitó la entrega de las evidencias de desarrollo, pruebas y configuración dentro de los plazos establecidos. |
 | Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** <br> Frank Salazar: <br> En trabajo con mis compañeros, pudimos establecer funciones, plazos y reuniones a realizar para el desarrollo del proyecto. <br> Anderson Macedo: En este trabajo, nos pusimos la meta de cumplir con la entrega del trabajo, cada uno puso de su parte para avanzar el proyecto y colaboro de forma activa, por mi parte cumpli con la meta de la finalizacion de esta entrega exitosamente. <br> Joseph Llacchua: <br> Durante esta fase, prioricé la creación de un espacio de trabajo en equipo, integrando diversas perspectivas y fortaleciendo la comunicación. Realizamos una revisión conjunta de la literatura existente, analizamos los segmentos objetivos de manera participativa y exploramos metodologías de resolución de problemas en conjunto. <br> Marco Mendez:<br> Se realizo un analisis y supervisión de la documentación realizada, logrando un trabajo en equipo concluso. <br> Alvaro Crispin: <br> Fui responsable de cada artefacto (User Stories, Backlog, C4, Bounded Context), Implementé sprints cortos con entregables parciales y seguimiento del avance. Finalmente, realicé demos internas del Bounded Context de Translation, recogiendo feedback y ajustando el plan de trabajo. <br> **TP:** <br> Frank Salazar: <br> Mi contribución principal fue apoyar al equipo con la construcción del frontend y la simulación de hardware, lo que permitió transformar las ideas del diseño en elementos funcionales. A través de estos avances, ayudé a mantener al grupo enfocado en los objetivos, generando entregables visibles que facilitaron el trabajo colaborativo.  <br> Anderson Macedo: <br> Colaboré activamente con mi equipo en la planificación de tareas y cumplimiento de metas dentro del capítulo 6. Me enfoqué en el diseño funcional de la aplicación web, apoyando en la construcción de los flujos de interacción (wireflows) y la estructura visual (wireframes), lo que permitió al grupo avanzar de forma organizada y mantener un enfoque claro en la experiencia del usuario.<br> Joseph Llacchua: <br> Colaboré activamente en el trabajo conjunto del equipo, gestionando y redactando la documentación del entregable, lo cual fue fundamental para integrar el esfuerzo de todos en un único producto final. Además, ofrecí apoyo en distintos momentos del desarrollo del proyecto, ayudando a revisar los contenidos de diseño y asegurar el cumplimiento de los objetivos establecidos. Mi participación contribuyó a mantener un entorno organizado y cooperativo entre todos los integrantes. <br> Marco Mendez:<br> Aporté al trabajo colaborativo desarrollando los diseños visuales preliminares de la landing page, los cuales fueron utilizados como guía para mantener coherencia estética y funcional en el desarrollo posterior. Me aseguré de incorporar los elementos necesarios para transmitir accesibilidad y claridad en el contenido, facilitando que el equipo tuviera una visión compartida sobre cómo debía estructurarse esta sección del producto. Este trabajo nos permitió avanzar de forma organizada y con objetivos definidos. <br> Alvaro Crispin: <br> Desarrolle la version web de la landing page para apoyar al equipo. Esto permitió tener una versión navegable que nos ayudó a visualizar mejor la estructura, jerarquía de contenido y estilo visual definido. Este avance contribuyó al cumplimiento de los objetivos y permitió que el equipo trabaje con mayor claridad, promoviendo un entorno de colaboración activa y mejora continua. <br> **TB2:** <br> Anderson Macedo: <br> Contribuí directamente al cumplimiento de los objetivos del capítulo, estructurando secciones clave como el  para el Software Deployment. Mi enfoque fue mantener la claridad en las entregas y facilitar el trabajo en conjunto mediante el uso compartido de herramientas como GitHub y Vercel, fortaleciendo así el entorno colaborativo del equipo. <br> Marco Mendez: <br> Contribuí principalmente en el diseño de las entrevistas de validación. Además, realicé el análisis de las mismas para obtener retroalimentación clave de los usuarios, lo que nos permitió validar nuestras heurísticas de usabilidad. | **TB1:** <br> La correcta delegación del proyecto, junto a las reuniones, plazos y funciones permitieron llevar un orden en el desarrollo del proyecto. <br> **TP:** <br>  El equipo logró un entorno de trabajo colaborativo en el que cada miembro aportó desde sus fortalezas, respetando los tiempos y objetivos comunes. La distribución clara de tareas, la comunicación constante y el compromiso con la calidad del entregable fueron claves para cumplir con los capítulos requeridos. La integración de prototipos, simulaciones, documentación y diseño visual se dio de forma ordenada, con una participación equitativa que fortaleció el desarrollo del proyecto. <br> **TB2:** <br> El equipo logró establecer un entorno de trabajo colaborativo y participativo. Se definieron objetivos semanales, se organizó el backlog de Sprint 1 y se distribuyeron tareas considerando las fortalezas de cada miembro. A través de reuniones y acuerdos internos, se cumplió con la planificación y se completaron todas las evidencias solicitadas.                  |
+=======
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.                                | **TB1:** <br> Frank Salazar: <br> Se trabajó con el equipo la estructura del proyecto para poder delegar funciones en el desarrollo del proyecto y mejorar el trabajo en equipo <br> Anderson Macedo <br>En esta entrega se trabajo en equipo, realizando las partes del trabajo de forma colaborativa, tuvimos coordinaciones en reuniones para las actividades realizadas. <br> Joseph Llacchua: <br> En esta entrega, trabajamos en la definición de metas claras, distribuyendo responsabilidades según las habilidades individuales mientras manteníamos un propósito colectivo.<br> Marco Mendez:<br> Nos apoyamos en la estructura entregada por el proesor para poder desarrollar un trabajo bien elaborado. <br> Alvaro Crispin: <br> Coordiné con el equipo la definición y redacción de las User Stories y del Product Backlog, asegurando una visión compartida de los requerimientos, Propuse y validé la estructura del modelo C4 general, guiando a mis compañeros durante su elaboración. Finalmente, asistí en la creación del Bounded Context de Translation, fomentando la participación activa de todos. <br> **TP:**  <br> Frank Salazar: <br> Para este entregable, tomé la iniciativa de desarrollar una versión funcional del frontend de GloveTalk, lo cual permitió al equipo validar las ideas de diseño planteadas en el Capítulo VI. Además, realicé simulaciones de componentes físicos utilizando Wokwi, adelantando parte de la lógica que se implementará en la fase técnica del proyecto. Esto ayudó a que el equipo tuviera una visión más clara del sistema final y facilitó la toma de decisiones con base en pruebas reales. <br> Anderson Macedo:<br> Para este entregable me encargué de organizar la distribución del capítulo 6 junto con el equipo, asignando tareas específicas a cada integrante. Además, lideré el diseño de los wireframes y wireflows de la aplicación web, asegurando coherencia con los objetivos planteados y facilitando el avance coordinado del trabajo. <br> Joseph Llacchua: <br> Para este entregable, asumí la responsabilidad de elaborar y estructurar la documentación oficial del proyecto, integrando de forma coherente los aportes del equipo en los capítulos correspondientes. Además de ordenar y dar formato al documento, participé en la revisión y consolidación de contenido, asegurando que el entregable cumpla con los requisitos académicos. También brindé apoyo puntual en otros puntos del trabajo, lo que permitió mantener la coordinación general y una presentación uniforme. <br> Marco Mendez:<br> Durante este entregable, me encargué de diseñar los wireframes y mockups de la landing page de GloveTalk, proponiendo una estructura visual clara, jerárquica y alineada con los principios definidos en la guía de estilos. Coordiné con el equipo para asegurarme de que el diseño representara adecuadamente la identidad del proyecto y sirviera como base para su futura implementación. Mi participación permitió visualizar anticipadamente cómo se comunicaría la propuesta de valor del sistema a los usuarios desde la primera interacción. <br> Alvaro Crispin: <br> Para este entregable, colaboré activamente con el equipo liderando la creación de la primera versión funcional de la landing page de GloveTalk, adelantando la etapa de implementación visual respecto al diseño establecido en los wireframes y mockups. Esta iniciativa permitió validar la propuesta visual desde una perspectiva real, facilitando los ajustes necesarios antes de avanzar a siguientes fases. Mi aporte ayudó a alinear el diseño con la experiencia de usuario esperada y fortaleció el trabajo del equipo con resultados visibles. <br> **TB2:** <br> Anderson Macedo: <br> Durante el desarrollo del proyecto GloveTalk, asumí un rol activo en la coordinación del capítulo 7, organizando la información técnica relacionada con el entorno de desarrollo, despliegue y control de versiones. Además, participé en la redacción de la documentación técnica y en la integración de los avances realizados por el equipo, asegurando coherencia en el contenido entregado. <br> Joseph Llacchua: <br> Durante el desarrollo del proyecto GloveTalk, asumí un rol activo en la coordinación del capítulo 7, organizando la información técnica relacionada con el entorno de desarrollo, despliegue y control de versiones. Lideré la planificación y documentación del Sprint 1, elaborando el Sprint Planning, el Sprint Backlog y recopilando las evidencias de avance del equipo. Además, gestioné la integración de los aportes de los integrantes, asegurando coherencia y calidad en la documentación técnica. Mi participación fue clave para cumplir los objetivos del sprint y entregar todas las evidencias requeridas en los plazos establecidos.                                                                                                                            | **TB1:** <br> Se logró desarrollar la primera parte del proyecto, hablando del documentado, de manera satisfactoria, gracias a la correcta delegación de funciones que se realizó. <br> **TP:** <br> A lo largo del desarrollo del entregable, todos los integrantes del equipo demostraron liderazgo desde sus roles específicos. Algunos miembros asumieron la dirección en el diseño de interfaces, otros adelantaron el desarrollo técnico del sistema (frontend, simulaciones) y otros organizaron la estructura del documento y coordinaron los aportes. Esta diversidad de iniciativas permitió mantener el trabajo enfocado, avanzar de forma paralela y asegurar una integración sólida de todas las partes. <br> **TB2:** <br> Durante el desarrollo del Sprint 1 y la elaboración del Capítulo VII, el equipo demostró liderazgo compartido al asumir roles técnicos específicos como desarrollo frontend, backend, despliegue y documentación. Cada integrante lideró decisiones dentro de su módulo, lo cual permitió avanzar de forma autónoma y coordinada. La división clara de responsabilidades facilitó la entrega de las evidencias de desarrollo, pruebas y configuración dentro de los plazos establecidos. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1:** <br> Frank Salazar: <br> En trabajo con mis compañeros, pudimos establecer funciones, plazos y reuniones a realizar para el desarrollo del proyecto. <br> Anderson Macedo: En este trabajo, nos pusimos la meta de cumplir con la entrega del trabajo, cada uno puso de su parte para avanzar el proyecto y colaboro de forma activa, por mi parte cumpli con la meta de la finalizacion de esta entrega exitosamente. <br> Joseph Llacchua: <br> Durante esta fase, prioricé la creación de un espacio de trabajo en equipo, integrando diversas perspectivas y fortaleciendo la comunicación. Realizamos una revisión conjunta de la literatura existente, analizamos los segmentos objetivos de manera participativa y exploramos metodologías de resolución de problemas en conjunto. <br> Marco Mendez:<br> Se realizo un analisis y supervisión de la documentación realizada, logrando un trabajo en equipo concluso. <br> Alvaro Crispin: <br> Fui responsable de cada artefacto (User Stories, Backlog, C4, Bounded Context), Implementé sprints cortos con entregables parciales y seguimiento del avance. Finalmente, realicé demos internas del Bounded Context de Translation, recogiendo feedback y ajustando el plan de trabajo. <br> **TP:** <br> Frank Salazar: <br> Mi contribución principal fue apoyar al equipo con la construcción del frontend y la simulación de hardware, lo que permitió transformar las ideas del diseño en elementos funcionales. A través de estos avances, ayudé a mantener al grupo enfocado en los objetivos, generando entregables visibles que facilitaron el trabajo colaborativo.  <br> Anderson Macedo: <br> Colaboré activamente con mi equipo en la planificación de tareas y cumplimiento de metas dentro del capítulo 6. Me enfoqué en el diseño funcional de la aplicación web, apoyando en la construcción de los flujos de interacción (wireflows) y la estructura visual (wireframes), lo que permitió al grupo avanzar de forma organizada y mantener un enfoque claro en la experiencia del usuario.<br> Joseph Llacchua: <br> Colaboré activamente en el trabajo conjunto del equipo, gestionando y redactando la documentación del entregable, lo cual fue fundamental para integrar el esfuerzo de todos en un único producto final. Además, ofrecí apoyo en distintos momentos del desarrollo del proyecto, ayudando a revisar los contenidos de diseño y asegurar el cumplimiento de los objetivos establecidos. Mi participación contribuyó a mantener un entorno organizado y cooperativo entre todos los integrantes. <br> Marco Mendez:<br> Aporté al trabajo colaborativo desarrollando los diseños visuales preliminares de la landing page, los cuales fueron utilizados como guía para mantener coherencia estética y funcional en el desarrollo posterior. Me aseguré de incorporar los elementos necesarios para transmitir accesibilidad y claridad en el contenido, facilitando que el equipo tuviera una visión compartida sobre cómo debía estructurarse esta sección del producto. Este trabajo nos permitió avanzar de forma organizada y con objetivos definidos. <br> Alvaro Crispin: <br> Desarrolle la version web de la landing page para apoyar al equipo. Esto permitió tener una versión navegable que nos ayudó a visualizar mejor la estructura, jerarquía de contenido y estilo visual definido. Este avance contribuyó al cumplimiento de los objetivos y permitió que el equipo trabaje con mayor claridad, promoviendo un entorno de colaboración activa y mejora continua. <br> **TB2:** <br> Anderson Macedo: <br> Contribuí directamente al cumplimiento de los objetivos del capítulo, estructurando secciones clave como el  para el Software Deployment. Mi enfoque fue mantener la claridad en las entregas y facilitar el trabajo en conjunto mediante el uso compartido de herramientas como GitHub y Vercel, fortaleciendo así el entorno colaborativo del equipo.<br> Joseph Llacchua: <br> Promoví un ambiente de trabajo colaborativo y participativo, organizando reuniones virtuales y coordinando la distribución de tareas según las fortalezas de cada miembro. Definí metas semanales claras y gestioné el backlog del Sprint 1, asegurando que todos los integrantes tuvieran claridad sobre sus responsabilidades. Fomenté la comunicación constante y el apoyo mutuo, lo que permitió cumplir con la planificación y alcanzar los objetivos del sprint de manera eficiente y ordenada.  | **TB1:** <br> La correcta delegación del proyecto, junto a las reuniones, plazos y funciones permitieron llevar un orden en el desarrollo del proyecto. <br> **TP:** <br>  El equipo logró un entorno de trabajo colaborativo en el que cada miembro aportó desde sus fortalezas, respetando los tiempos y objetivos comunes. La distribución clara de tareas, la comunicación constante y el compromiso con la calidad del entregable fueron claves para cumplir con los capítulos requeridos. La integración de prototipos, simulaciones, documentación y diseño visual se dio de forma ordenada, con una participación equitativa que fortaleció el desarrollo del proyecto. <br> **TB2:** <br> El equipo logró establecer un entorno de trabajo colaborativo y participativo. Se definieron objetivos semanales, se organizó el backlog de Sprint 1 y se distribuyeron tareas considerando las fortalezas de cada miembro. A través de reuniones y acuerdos internos, se cumplió con la planificación y se completaron todas las evidencias solicitadas.                         |
+>>>>>>> Stashed changes
 
 
 ---
@@ -2557,18 +2561,160 @@ Una vez configurado el entorno, Vercel realizó el proceso de build y generó el
 ---
 
 ## 7.2. Implementation
+## 7.2. Solution Implementation
 
 ### 7.2.X. Sprint n
+### 7.2.1. Sprint 1
 
 #### 7.2.X.1. Sprint Planning
+#### 7.2.1.1. Sprint Planning 1
 
 #### 7.2.X.2. Aspect Leaders and Collaborators
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 1</th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Fecha</td>
+    <td>15/06/2025</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Hora</td>
+    <td>10:00 a.m. (GMT-5)</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Lugar</td>
+    <td>Modalidad remota (WhatsApp y Discord)</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Prepared By</td>
+    <td>Joseph Llacchua</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Attendees</td>
+    <td>
+      Anderson Macedo<br>
+      Joseph Llacchua<br>
+      Marco Méndez<br>
+      Frank Salazar<br>
+      Alvaro Crispin
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 0 Review Summary</td>
+    <td>Este es el primer sprint del proyecto, por lo que no hay retrospectiva previa.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 0 Retrospective Summary</td>
+    <td>No aplica, ya que es el primer sprint.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 1 Goal</td>
+    <td>
+      Configurar el entorno de desarrollo backend (FastAPI), crear la estructura inicial del backend, instalar dependencias clave (TensorFlow), preparar el dataset inicial (CSV con datos de sensores), y desarrollar un simulador básico para pruebas. El objetivo es dejar lista la base técnica para el entrenamiento del modelo y el desarrollo posterior de funcionalidades.
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 1 Velocity</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sum of Story Points</td>
+    <td>20</td>
+  </tr>
+</table>
+
+#### 7.2.1.2. Sprint Backlog 1
+
+| User Story ID | Título | Tarea | Responsable | Estimación (h) | Estado |
+|---------------|--------|-------|-------------|----------------|--------|
+| US01 | Configuración backend | Crear estructura base FastAPI | Anderson | 4 | Por hacer |
+| US01 | Configuración backend | Instalar TensorFlow y dependencias | Anderson | 2 | Por hacer |
+| US02 | Dataset inicial | Procesar datos CSV de sensores | Joseph | 6 | Por hacer |
+| US02 | Dataset inicial | Documentar formato y etiquetas | Joseph | 2 | Por hacer |
+| US03 | Simulador | Desarrollar simulador de datos | Anderson | 4 | Por hacer |
+| US04 | Documentación | Documentar estructura y pasos | Joseph | 2 | Por hacer |
+
+#### 7.2.1.3. Development Evidence for Sprint Review
+
+Durante este sprint se avanzó en la configuración del entorno de desarrollo backend y la instalación de dependencias principales. Se creó la estructura base del proyecto en FastAPI y se subió al repositorio de GitHub.  
+A continuación, se muestra evidencia de la instalación de TensorFlow y FastAPI en el entorno virtual:
+
+<img src="./assets/sprint1/instalacion_tensorflow.png" alt="Instalación TensorFlow"/>
+<img src="./assets/sprint1/instalacion_fastapi.png" alt="Instalación FastAPI"/>
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review
+
+En este primer sprint, la validación se centró en la correcta instalación y funcionamiento de los entornos y dependencias. Se realizaron pruebas básicas de importación de librerías y ejecución de scripts de ejemplo para asegurar que TensorFlow y FastAPI funcionen correctamente en el entorno local.
+
+A continuación, se muestra un ejemplo de prueba en formato Gherkin:
+
+```gherkin
+Feature: Instalación y configuración del entorno backend
+
+  Scenario: Importar librerías principales en entorno virtual
+    Given el entorno virtual está activado
+    When ejecuto el comando "python"
+    And escribo "import fastapi"
+    And escribo "import tensorflow"
+    Then no se produce ningún error de importación
+
+  Scenario: Ejecución de servidor FastAPI
+    Given el entorno virtual está activado
+    When ejecuto el comando "uvicorn main:app --reload"
+    Then el servidor inicia correctamente en localhost
+```
+
+*Nota: En este sprint no se implementaron pruebas unitarias automatizadas, ya que el foco fue la configuración inicial.*
+
+#### 7.2.1.5. Execution Evidence for Sprint Review
+
+Se procesó el dataset inicial en formato CSV, el cual contiene los datos recolectados por los sensores (acelerómetro y giroscopio) del guante.  
+A continuación, se muestra evidencia del archivo de datos abierto en Excel:
+
+<img src="./assets/sprint1/dataset_csv.png" alt="Dataset CSV Sensores"/>
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review
+
+Se documentó la estructura inicial del backend, las dependencias instaladas y el formato del dataset.  
+- Estructura de carpetas del backend (FastAPI)
+- Dependencias principales: `fastapi`, `tensorflow`, `uvicorn`
+- Formato del dataset: columnas para timestamp, aceleración lineal (x, y, z), velocidad angular (x, y, z), orientación (x, y, z, w) y etiqueta del gesto.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este sprint se realizó el despliegue del frontend de GloveTalk en la plataforma Vercel. A continuación, se presenta evidencia del despliegue exitoso, mostrando la aplicación web en funcionamiento y el panel de deployments en GitHub:
+
+- **Vista de la aplicación desplegada (Home/Traductor):**
+
+<img src="./assets/sprint1/deploy_front_home.png" alt="Frontend Traductor Desplegado"/>
+
+- **Vista de la aplicación desplegada (Historial):**
+
+<img src="./assets/sprint1/deploy_front_history.png" alt="Frontend Historial Desplegado"/>
+
+- **Panel de deployments en GitHub y Vercel:**
+
+<img src="./assets/sprint1/deploy_vercel_github.png" alt="Panel de Deployments"/>
 
 #### 7.2.X.3. Sprint Backlog
+La aplicación es accesible públicamente en:  
+[https://front-end-lake-beta.vercel.app/](https://front-end-lake-beta.vercel.app/)
 
 #### 7.2.X.4-8. Sprint Review Evidences
+#### 7.2.1.8. Team Collaboration Insights during Sprint
 
 #### 7.2.X.9. Team Collaboration Insights
+La colaboración del equipo se realizó principalmente por WhatsApp y Discord, donde se coordinaron tareas, se resolvieron dudas técnicas y se compartieron avances.  
+Cada integrante asumió tareas específicas según su especialidad, y se compartieron evidencias de avance mediante capturas de pantalla y commits en GitHub.  
+La comunicación fue fluida y permitió cumplir con los objetivos del sprint en el plazo establecido.
 
 ## 7.3. Validation Interviews
 

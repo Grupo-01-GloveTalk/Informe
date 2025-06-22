@@ -2710,6 +2710,10 @@ La colaboración del equipo se realizó principalmente por WhatsApp y Discord, d
 Cada integrante asumió tareas específicas según su especialidad, y se compartieron evidencias de avance mediante capturas de pantalla y commits en GitHub.  
 La comunicación fue fluida y permitió cumplir con los objetivos del sprint en el plazo establecido.
 
+<img src="./assets/sprint1/colboration.png" alt="Frontend Historial Desplegado"/>
+
+<img src="./assets/sprint1/image.png" alt="Frontend Historial Desplegado"/>
+
 ## 7.3. Validation Interviews
 
 ### 7.3.1. Diseño

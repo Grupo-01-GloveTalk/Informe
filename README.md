@@ -199,6 +199,36 @@
         - [6.3.2. Registro](#632-registro)
         - [6.3.3. Evaluaciones](#633-evaluaciones)
     - [6.4. Video About-the-Product](#64-video-about-the-product)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+    - [7.1. Software Configuration Management](#71-software-configuration-management)
+        - [7.1.1. Development Environment Configuration](#711-development-environment-configuration)
+        - [7.1.2. Source Code Management](#712-source-code-management)
+        - [7.1.3. Style Guide & Conventions](#713-style-guide--conventions)
+        - [7.1.4. Deployment Configuration](#714-deployment-configuration)
+    - [7.2. Solution Implementation](#72-solution-implementation)
+        - [7.2.1. Sprint 1](#721-sprint-1)
+            - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+            - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+            - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+            - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+            - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+            - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+            - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+            - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+        - [7.2.2. Sprint 2](#722-sprint-2)
+            - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
+            - [7.2.2.2. Sprint Backlog 2](#7222-sprint-backlog-2)
+            - [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+            - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+            - [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+            - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+            - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+            - [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
+    - [7.3. Validation Interviews](#73-validation-interviews)
+        - [7.3.1. Diseño](#731-diseño)
+        - [7.3.2. Registro](#732-registro)
+        - [7.3.3. Evaluaciones](#733-evaluaciones)
+    - [7.4. Video About-the-Product](#74-video-about-the-product)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
@@ -2708,6 +2738,24 @@ La comunicación fue fluida y permitió cumplir con los objetivos del sprint en 
 <img src="./assets/sprint1/colboration.png" alt="Frontend Historial Desplegado"/>
 
 <img src="./assets/sprint1/image.png" alt="Frontend Historial Desplegado"/>
+
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+#### 7.2.2.2. Sprint Backlog 2
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint
 
 ## 7.3. Validation Interviews
 

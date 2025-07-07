@@ -276,7 +276,7 @@ Convertirnos en líderes reconocidos en el Perú por nuestras innovaciones tecno
     <td>Soy Frank Salazar, tengo 24 años y tengo una gran devoción por la programación, desde los 8 años me gustó programar, iniciando por algoritmos sencillos, hasta la recreación de videojuegos. Hace unos años decidí centrarme mucho en el desarrollo Backend y frontend, pero también le he agarrado mucho gusto a la data science. Actualmente soy programador en Yape, BCP. Soy asistente desde el año pasado, pero comencé como practicando desde agosto del 2023.</td>
   </tr>
   <tr>
-    <td rowspan="3"><img src="https://media.licdn.com/dms/image/v2/D4E03AQESEoiwSF0wVg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711066191126?e=1750291200&v=beta&t=MjZOYpRFS9wjwe28DYvAkiGW4LOsiI8pupY9ohTLhbM" alt="Descripción" width="800"></td>
+    <td rowspan="3"><img src="https://avatars.githubusercontent.com/u/142326204?s=400&u=3ce638b4b613183323f38c09feee793b8b064ac0&v=4" alt="Descripción" width="800"></td>
     <td>Joseph Ulysses Llacchua Peralta (u202317002) </td>
   </tr>
   <tr>
@@ -2743,9 +2743,106 @@ La comunicación fue fluida y permitió cumplir con los objetivos del sprint en 
 
 #### 7.2.2.1. Sprint Planning 2
 
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th>Sprint 2</th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Fecha</td>
+    <td>06/07/2025</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Hora</td>
+    <td>16:00 p.m. (GMT-5)</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Lugar</td>
+    <td>Modalidad remota (WhatsApp y Discord)</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Prepared By</td>
+    <td>Joseph Llacchua</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Attendees</td>
+    <td>
+      Anderson Macedo<br>
+      Joseph Llacchua<br>
+      Marco Méndez<br>
+      Frank Salazar<br>
+      Alvaro Crispin
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 1 Review Summary</td>
+    <td>
+      Se completó la configuración del backend, la estructura base en FastAPI, la instalación de TensorFlow y la preparación del dataset inicial. Se avanzó en el simulador y la documentación técnica.
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 1 Retrospective Summary</td>
+    <td>
+      El equipo logró cumplir los objetivos técnicos y de integración. Se identificó la necesidad de mayor coordinación para la compra de materiales y la gestión de gastos.
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="2">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 2 Goal</td>
+    <td>
+      Finalizar la construcción física y electrónica del guante inteligente, integrar todos los sensores y el microcontrolador ESP32, y validar la captura de datos en tiempo real. Completar la recolección del dataset definitivo y probar la comunicación con el backend. Documentar el proceso de armado, pruebas y gastos del hardware.
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sprint 2 Velocity</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">Sum of Story Points</td>
+    <td>22</td>
+  </tr>
+</table>
+
 #### 7.2.2.2. Sprint Backlog 2
 
+| User Story ID | Título                        | Tarea                                              | Responsable         | Estimación (h) | Estado     |
+|---------------|-------------------------------|----------------------------------------------------|---------------------|---------------|------------|
+| US05          | Armado del guante final       | Ensamblar guante con sensores y ESP32              | Alvaro, Frank       | 6             | Terminado  |
+| US06          | Validación de hardware        | Probar lectura de sensores y funcionamiento físico  | Frank, Anderson     | 4             | Terminado  |
+| US07          | Dataset definitivo            | Recolectar y documentar dataset final de gestos    | Joseph, Marco       | 4             | Terminado  |
+| US08          | Integración hardware-backend  | Probar envío de datos del guante al backend        | Anderson, Frank     | 3             | Terminado  |
+| US09          | Documentación de armado       | Documentar proceso de armado y pruebas del guante  | Joseph              | 2             | Terminado  |
+| US10          | Gestión de gastos y compras   | Registrar y repartir gastos de materiales          | Alvaro, Joseph      | 2             | Terminado  |
+| US11          | Evidencias fotográficas
+
 #### 7.2.2.3. Development Evidence for Sprint Review
+
+Durante este sprint se finalizó el armado físico y electrónico del guante inteligente, integrando todos los sensores y el microcontrolador ESP32. Se realizaron pruebas de lectura de sensores y captura de datos en tiempo real, validando la funcionalidad del hardware y la comunicación con el backend.
+
+A continuación, se presentan evidencias fotográficas del proceso de desarrollo y pruebas:
+
+- **Montaje del prototipo en protoboard y conexión de sensores:**
+
+<img src="./assets/sprint2/dev_guante_protoboard.jpg" alt="Prototipo armado en protoboard"/>
+
+- **Guante ensamblado y conectado, listo para pruebas funcionales:**
+
+<img src="./assets/sprint2/dev_guante_ensamblado.jpg" alt="Guante ensamblado y conectado"/>
+
+- **Pruebas de lectura de sensores y visualización de datos en el monitor serial:**
+
+<img src="./assets/sprint2/dev_lectura_sensores.jpg" alt="Lectura de sensores en monitor serial"/>
+
+- **Guante colocado en la mano del usuario, conectado y transmitiendo datos:**
+
+<img src="./assets/sprint2/dev_guante_en_uso.jpg" alt="Guante en uso durante pruebas"/>
+
+Estas evidencias demuestran que el equipo logró completar el desarrollo del hardware, la integración de sensores y la validación de la captura de datos, cumpliendo con los objetivos planteados para el sprint.
 
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review
 

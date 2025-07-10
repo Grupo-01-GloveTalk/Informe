@@ -2818,7 +2818,6 @@ La comunicación fue fluida y permitió cumplir con los objetivos del sprint en 
 | US08          | Integración hardware-backend  | Probar envío de datos del guante al backend        | Anderson, Frank     | 3             | Terminado  |
 | US09          | Documentación de armado       | Documentar proceso de armado y pruebas del guante  | Joseph              | 2             | Terminado  |
 | US10          | Gestión de gastos y compras   | Registrar y repartir gastos de materiales          | Alvaro, Joseph      | 2             | Terminado  |
-| US11          | Evidencias fotográficas
 
 #### 7.2.2.3. Development Evidence for Sprint Review
 
@@ -2826,21 +2825,21 @@ Durante este sprint se finalizó el armado físico y electrónico del guante int
 
 A continuación, se presentan evidencias fotográficas del proceso de desarrollo y pruebas:
 
-- **Montaje del prototipo en protoboard y conexión de sensores:**
+- **1. Programación y pruebas del ESP32:**  
+  Se muestra el entorno de desarrollo con el código cargado en el ESP32, así como la salida del monitor serial confirmando la correcta lectura de los sensores.
+  ![Programación ESP32](assets/sprint2/image.png)
 
-<img src="./assets/sprint2/dev_guante_protoboard.jpg" alt="Prototipo armado en protoboard"/>
+- **2. Prueba de lectura de sensores:**  
+  Imagen del ESP32 conectado a la protoboard y sensores, junto a la pantalla mostrando la recepción de datos en tiempo real.
+  ![Lectura de sensores](assets/sprint2/dev_lectura_sensores.png)
 
-- **Guante ensamblado y conectado, listo para pruebas funcionales:**
+- **3. Ensamblaje de protoboards y cableado:**  
+  Vista del armado de las protoboards con los sensores y el cableado necesario para el guante inteligente.
+  ![Ensamblaje protoboards](assets/sprint2/dev_guante_protoboard2.png)
 
-<img src="./assets/sprint2/dev_guante_ensamblado.jpg" alt="Guante ensamblado y conectado"/>
-
-- **Pruebas de lectura de sensores y visualización de datos en el monitor serial:**
-
-<img src="./assets/sprint2/dev_lectura_sensores.jpg" alt="Lectura de sensores en monitor serial"/>
-
-- **Guante colocado en la mano del usuario, conectado y transmitiendo datos:**
-
-<img src="./assets/sprint2/dev_guante_en_uso.jpg" alt="Guante en uso durante pruebas"/>
+- **4. Prueba funcional del guante ensamblado:**  
+  Fotografía del guante ya ensamblado y conectado, siendo probado en una mano, validando la integración física y electrónica.
+  ![Guante ensamblado y prueba](assets/sprint2/dev_guante_protoboard.png)
 
 Estas evidencias demuestran que el equipo logró completar el desarrollo del hardware, la integración de sensores y la validación de la captura de datos, cumpliendo con los objetivos planteados para el sprint.
 

@@ -2856,12 +2856,20 @@ Durante este sprint, se desplegaron exitosamente los principales componentes del
 * **Landing Page**
   Esta página de presentación está alojada en Vercel y representa el punto de entrada informativo del proyecto GloveTalk.<br/>
   [https://landing-page-umber-eta-47.vercel.app/](https://landing-page-umber-eta-47.vercel.app/)
+
+  <img src="./assets/deployment/ss_frontend.png"/>
+  
 * **Backend API REST**
   Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone los endpoints necesarios para las operaciones internas del sistema.<br/>
   [https://front-end-lake-beta.vercel.app/](https://front-end-lake-beta.vercel.app/)
+
+  <img src="./assets/deployment/ss_frontend.png"/>
+  
 * **Web Platform (Frontend)**
   Desarrollada en React, esta interfaz gráfica permite a los usuarios interactuar con el dispositivo IoT.<br/>
   [https://gesture-recognition-api-cdfhb2bmedgmdqck.eastus-01.azurewebsites.net/docs#/](https://gesture-recognition-api-cdfhb2bmedgmdqck.eastus-01.azurewebsites.net/docs#/)
+
+  <img src="./assets/deployment/ss_backend.png"/>
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint
 
@@ -2870,9 +2878,10 @@ Cada miembro del equipo se encargó de responsabilidades específicas de acuerdo
 La comunicación fue constante y efectiva, lo que permitió alcanzar los objetivos del sprint dentro del tiempo previsto.
 
 * **Web Platform (Frontend)**
-
+  <img src="./assets/deployment/commits-frontend.png"/>
+  
 * **Backend API REST**
-
+  <img src="./assets/deployment/commits-backend.png"/>
 
 ## 7.3. Validation Interviews
 
@@ -3065,4 +3074,4 @@ Repositorio del informe: https://github.com/Grupo-01-GloveTalk/Informe
 
 Link al deploy de la landing page: https://landing-page-umber-eta-47.vercel.app/
 
-Link al deploy de la aplicación web: https://front-end-lake-beta.vercel.app/
+Link al  de la aplicación web: https://front-end-lake-beta.vercel.app/

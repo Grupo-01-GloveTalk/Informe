@@ -2879,10 +2879,10 @@ Cada miembro del equipo se encargó de responsabilidades específicas de acuerdo
 La comunicación fue constante y efectiva, lo que permitió alcanzar los objetivos del sprint dentro del tiempo previsto.
 
 * **Web Platform (Frontend)**
-  <img src="./assets/deployment/commits-frontend.png"/>
+<img src="./assets/deployment/commits-frontend.png"/>
 
 * **Backend API REST**
-  <img src="./assets/deployment/commits-backend.png"/>
+<img src="./assets/deployment/commits-backend.png"/>
 
 ## 7.3. Validation Interviews
 

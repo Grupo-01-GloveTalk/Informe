@@ -2865,25 +2865,25 @@ A continuación, se presentan las evidencias de ejecución:
 
 * **1. Acceso a la Documentación Interactiva del Backend API (Swagger UI):**
     * **Descripción:** Esta evidencia demuestra que el Backend API REST, desarrollado con FastAPI, se encuentra operativo y su documentación interactiva (Swagger UI) es accesible. La interfaz muestra claramente el endpoint `/predict`, confirmando que la API está expuesta y lista para recibir datos de los sensores. Esto valida la configuración inicial del backend y la correcta exposición de los servicios principales.
-    * **Imagen:** <img src="./assets/sprint2/img_evidence1"/>
+    * **Imagen:** <img src="./assets/sprint2/img_evidence1.jpeg"/>
 
 * **2. Prueba de Procesamiento de Datos de Sensores mediante el Endpoint `/predict`:**
     * **Descripción:** Esta captura de pantalla evidencia una ejecución exitosa del endpoint `/predict` a través de la interfaz de Swagger UI. Se observa el envío de un `Request body` en formato JSON, simulando datos de sensores del guante. La respuesta con código `200` (`OK`) y el cuerpo de la respuesta (`Response body`) confirman que el backend recibió y procesó los datos correctamente, lo cual es fundamental para verificar la capacidad del sistema de procesar la entrada de datos proveniente del guante inteligente.
-    * **Imagen:** <img src="./assets/sprint2/img_evidence2"/>
+    * **Imagen:** <img src="./assets/sprint2/img_evidence2.jpeg"/>
 
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review
 Durante este sprint, se formalizó la documentación técnica correspondiente al hardware del guante inteligente, la recolección del dataset definitivo y la integración de la captura de datos con el backend. Esto es crucial para la reproducibilidad y el mantenimiento del sistema a futuro.
 
 * **Documentación del Dataset Definitivo de Gestos:**
-    * **Estructura y Contenido:** Se detalla el formato final del dataset utilizado para el entrenamiento del modelo de Deep Learning, incluyendo una descripción de las columnas (ej., timestamp, datos de acelerómetro y giroscopio, valores de sensores de flexión) y la codificación de las etiquetas de los gestos.
+    * **Estructura y Contenido:** Se detalla el formato final del dataset utilizado para el entrenamiento del modelo de Deep Learning, incluyendo una descripción de las columnas ( timestamp, datos de acelerómetro y giroscopio, valores de sensores de flexión) y la codificación de las etiquetas de los gestos.
     * **Metodología de Recolección:** Se describe el proceso seguido para recolectar las muestras de gestos, el número de participantes, repeticiones por gesto y cualquier técnica de normalización aplicada a los datos crudos de los sensores.
 * **Especificaciones de Integración Guante (ESP32) - Backend:**
-    * **Protocolo de Comunicación:** Se especifica el protocolo utilizado (ej., Wi-Fi, Bluetooth) y el método de envío de datos (ej., HTTP POST a un endpoint API, MQTT).
+    * **Protocolo de Comunicación:** Se especifica el protocolo utilizado (Wi-Fi, Bluetooth) y el método de envío de datos (HTTP POST a un endpoint API).
     * **Formato del Payload de Datos:** Se describe la estructura del JSON u otro formato de datos enviado desde el microcontrolador ESP32 del guante al backend de FastAPI, incluyendo los campos para los datos de los sensores y el timestamp.
     * **Endpoint de Recepción en Backend:** Se documenta la URL y el método HTTP del endpoint en FastAPI diseñado para la ingesta de los datos de gestos provenientes del guante.
 * **Documentación del Proceso de Armado y Pruebas del Guante Inteligente:**
-    * **Componentes Electrónicos:** Lista de materiales y especificaciones de los sensores (ej., MPU-6050 para acelerómetro/giroscopio, sensores de flexión) y del microcontrolador (ESP32).
+    * **Componentes Electrónicos:** Lista de materiales y especificaciones de los sensores (MPU-6050 para acelerómetro/giroscopio, sensores de flexión) y del microcontrolador (ESP32).
     * **Diagrama de Conexiones:** Esquema simplificado de las conexiones entre el ESP32 y los sensores.
     * **Funcionalidad del Firmware:** Descripción de las principales funciones del código cargado en el ESP32, como la lectura de sensores, procesamiento básico y transmisión de datos.
     * **Resultados de las Pruebas de Hardware:** Resumen de las pruebas realizadas para validar la lectura correcta de los sensores y la estabilidad de la transmisión de datos del guante.

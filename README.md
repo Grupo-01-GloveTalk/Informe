@@ -3046,6 +3046,8 @@ Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018273_u
 # Conclusiones y Recomendaciones
 GloveTalk representa una innovación significativa para la inclusión de personas con discapacidad auditiva en el Perú. Nuestra solución, basada en tecnología IoT y aprendizaje profundo, demuestra el potencial de la tecnología para derribar barreras comunicativas. La arquitectura event-driven y de microservicios proporciona la base necesaria para un sistema confiable con baja latencia, factor crítico para traducciones en tiempo real. El enfoque domain-driven facilitó la estructuración en bounded contexts bien definidos, mientras que el diseño centrado en el usuario garantiza accesibilidad y usabilidad. Las entrevistas de validación confirmaron que nuestra solución responde a necesidades reales, con potencial para mejorar significativamente la inclusión social, educativa y laboral de las personas con discapacidad auditiva en nuestro país.
 
+Durante la etapa de desarrollo, se logró una integración funcional entre el guante inteligente, equipado con sensores MPU (acelerómetros y giroscopios), y el backend del sistema basado en FastAPI. Esto permitió capturar gestos con alta precisión y validarlos mediante modelos de aprendizaje profundo implementados con TensorFlow. El despliegue del frontend en Vercel facilitó las pruebas en entorno real, y la arquitectura modular demostró ser efectiva para coordinar flujos entre dispositivos IoT y servicios web, consolidando así la viabilidad técnica y escalabilidad futura del sistema.
+
 # Bibliografía
 
 INEI (2017). Censo Nacional de Población y Vivienda 2017. Instituto Nacional de Estadística e Informática del Perú. Recuperado de: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf
@@ -3075,4 +3077,6 @@ Repositorio del informe: https://github.com/Grupo-01-GloveTalk/Informe
 
 Link al deploy de la landing page: https://landing-page-umber-eta-47.vercel.app/
 
-Link al  de la aplicación web: https://front-end-lake-beta.vercel.app/
+Link de la aplicación web: https://front-end-lake-beta.vercel.app/
+
+Link del Backend API Rest: https://gesture-recognition-api-cdfhb2bmedgmdqck.eastus-01.azurewebsites.net/docs#/

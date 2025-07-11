@@ -2851,7 +2851,28 @@ Estas evidencias demuestran que el equipo logró completar el desarrollo del har
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review
 
+Durante este sprint, se desplegaron exitosamente los principales componentes del proyecto:
+
+* **Landing Page**
+  Esta página de presentación está alojada en Vercel y representa el punto de entrada informativo del proyecto GloveTalk.<br/>
+  [https://landing-page-umber-eta-47.vercel.app/](https://landing-page-umber-eta-47.vercel.app/)
+* **Backend API REST**
+  Desplegado en Azure App Services, es el núcleo de datos de la plataforma. Expone los endpoints necesarios para las operaciones internas del sistema.<br/>
+  [https://front-end-lake-beta.vercel.app/](https://front-end-lake-beta.vercel.app/)
+* **Web Platform (Frontend)**
+  Desarrollada en React, esta interfaz gráfica permite a los usuarios interactuar con el dispositivo IoT.<br/>
+  [https://gesture-recognition-api-cdfhb2bmedgmdqck.eastus-01.azurewebsites.net/docs#/](https://gesture-recognition-api-cdfhb2bmedgmdqck.eastus-01.azurewebsites.net/docs#/)
+
 #### 7.2.2.8. Team Collaboration Insights during Sprint
+
+La coordinación del equipo se llevó a cabo principalmente a través de WhatsApp y Discord, canales en los que se asignaron tareas, se aclararon dudas técnicas y se informaron los progresos.
+Cada miembro del equipo se encargó de responsabilidades específicas de acuerdo con su área de experiencia, y se documentaron los avances mediante capturas de pantalla y registros de commits en GitHub.
+La comunicación fue constante y efectiva, lo que permitió alcanzar los objetivos del sprint dentro del tiempo previsto.
+
+* **Web Platform (Frontend)**
+
+* **Backend API REST**
+
 
 ## 7.3. Validation Interviews
 
